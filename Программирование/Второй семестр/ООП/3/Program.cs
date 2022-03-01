@@ -15,11 +15,12 @@ namespace oop_3
             o.AddItem();
             q.AddItem();
 
-            Console.WriteLine(o.GetItem() +"\n");
+            Console.WriteLine(o.GetItem() + "\n");
             Console.WriteLine(q.GetItem() + "\n");
 
             Console.WriteLine(o.GetOverCost() + "\n");
-            Console.WriteLine(((ProductEnt) q).GetItem());
+            Console.WriteLine(((ProductEnt) q).GetItem());           
+
         }
     }
 }

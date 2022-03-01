@@ -8,21 +8,16 @@ namespace oop_3
         protected static int counter = 0;
         protected int productId;
         protected int productCost = 0;
-     
-        protected ProductEnt()
-        {
-            productId = counter++;
-        }
+
+        protected ProductEnt() { productId = counter++; }
 
         public abstract void AddItem();
-
-        public string GetItem()
+        public virtual string GetItem()
         {
             return $"ID: {productId}\nНаименование: {productName}\n" +
                 $"Стоимость: {productCost}\n";
         }
-
-        public int GetOverCost()
+        public virtual int GetOverCost()
         {
             int con = 0;
             foreach (ProductEnt obj in basket)
@@ -33,13 +28,4 @@ namespace oop_3
         }
     }
 }
-//protected ProductEnt(string productName, int productId, int productCost)
-//{
-//    this.productName = productName;
-//    this.productId = productId;
-//    this.productCost = productCost;
-//}
-//public void AddItem ()
-//{
-//    basket.Add(new ProductEnt(productName, productId, productCost));
-//}
+

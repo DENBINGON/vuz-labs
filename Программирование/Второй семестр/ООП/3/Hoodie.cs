@@ -17,7 +17,7 @@ namespace oop_3
             hoodieSize = size;
         }
 
-        public new string GetItem()
+        public override string GetItem()
         {
             return $"ID: {productId}\nНаименование: {productName}\n" +
                 $"Размер: {hoodieSize}\nПол: {hoodieGender}\n" +
