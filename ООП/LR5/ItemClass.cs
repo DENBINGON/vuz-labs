@@ -7,9 +7,18 @@ public class Item
     //Цена
     protected int itemCost;
 
-    protected Item(int itemCost, int itemWeight)
+    protected string itemName;
+
+    public string GetName() => itemName;
+    public string GetCost() => itemCost.ToString();
+    public string GetWeight() => itemWeight.ToString();
+
+
+
+    protected Item(int itemCost, int itemWeight, string itemName)
     {
         this.itemCost = itemCost;
         this.itemWeight = itemWeight;
+        this.itemName = itemName;
     }
 }

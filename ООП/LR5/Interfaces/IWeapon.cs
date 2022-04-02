@@ -2,5 +2,5 @@ namespace LR5;
 
 public interface IWeapon
 {
-    int GetDamage();
+    string GetDamage();
 }
