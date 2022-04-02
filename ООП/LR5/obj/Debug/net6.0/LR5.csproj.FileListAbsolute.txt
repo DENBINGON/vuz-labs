@@ -1,0 +1,15 @@
+/Users/denbingon/Desktop/Project's/ООП/LR5/bin/Debug/net6.0/LR5
+/Users/denbingon/Desktop/Project's/ООП/LR5/bin/Debug/net6.0/LR5.deps.json
+/Users/denbingon/Desktop/Project's/ООП/LR5/bin/Debug/net6.0/LR5.runtimeconfig.json
+/Users/denbingon/Desktop/Project's/ООП/LR5/bin/Debug/net6.0/LR5.dll
+/Users/denbingon/Desktop/Project's/ООП/LR5/bin/Debug/net6.0/LR5.pdb
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.csproj.AssemblyReference.cache
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.AssemblyInfoInputs.cache
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.AssemblyInfo.cs
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.csproj.CoreCompileInputs.cache
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.dll
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/refint/LR5.dll
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.pdb
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/LR5.genruntimeconfig.cache
+/Users/denbingon/Desktop/Project's/ООП/LR5/obj/Debug/net6.0/ref/LR5.dll

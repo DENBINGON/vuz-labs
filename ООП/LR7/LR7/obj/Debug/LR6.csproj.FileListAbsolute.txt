@@ -1,0 +1,12 @@
+C:\Users\denbingon\source\repos\LR6\LR6\bin\Debug\LR6.exe.config
+C:\Users\denbingon\source\repos\LR6\LR6\bin\Debug\LR6.exe
+C:\Users\denbingon\source\repos\LR6\LR6\bin\Debug\LR6.pdb
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.csproj.AssemblyReference.cache
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.csproj.SuggestedBindingRedirects.cache
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.Form1.resources
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.Properties.Resources.resources
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.csproj.GenerateResource.cache
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.csproj.CoreCompileInputs.cache
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.exe
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.pdb
+C:\Users\denbingon\source\repos\LR6\LR6\obj\Debug\LR6.Form2.resources

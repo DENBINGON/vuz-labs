@@ -1,0 +1,12 @@
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR7.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR7.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR6.Form1.resources
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR6.Form2.resources
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR6.Properties.Resources.resources
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR7.csproj.GenerateResource.cache
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR7.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR6.exe
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\obj\Debug\LR6.pdb
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\bin\Debug\LR6.exe.config
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\bin\Debug\LR6.exe
+\\Mac\Home\Documents\Лаболаторные\ООП\LR7\LR7\bin\Debug\LR6.pdb
