@@ -7,73 +7,30 @@ namespace d1
     {
         public static void Main(string[] args)
         {
-            List<Student> studentsList = new List<Student>();
-            while (true)
+            //Распределенные
+            List<Tuple<string, int>> tuples = new List<Tuple<string, int>>();
+
+            //Числа пересчета 
+            int E = 13; //Билетов
+            int K = 1; //Учащихся
+            
+            //Кольцевые списки
+            CircledList students = new CircledList(new string[] { "Петров","Иванов", "Смирнов"}); //Учащиеся 
+            CircledList tickets = new CircledList(new object[] {1, 2, 3, 4, 5, 6, 7, 8}); //Билеты
+
+            //Мешаем и объединяем кортежем
+            for (int i = 0, j = 0; i<students.Count() * K ; i+=K, j+=E)
             {
-                Console.Write("1. Добавить студента\n2. Показать двоечников\n->");
-                int q = Convert.ToInt32(Console.ReadLine());
-                Console.Clear();
-                if (q == 1 || q == 2)
-                {
-                    if (q == 1)
-                    {
-                        Console.Write("Имя: ");
-                        string name = Console.ReadLine();
-                        Console.Write("\nГруппа: ");
-                        string group = Console.ReadLine();
-                        Console.Write("Оценки: \n");
-                        int[] arr = new int[5];
-                        for (int i = 0; i < 5; i++)
-                        {
-                            Console.Write("\n" + i.ToString() + ". -> ");
-                            arr[i] = Convert.ToInt32(Console.ReadLine());
-                        }
-                        studentsList.Add(new Student(name, group, arr));
-                        studentsList.Sort();
-                        Console.Clear();
-                    }
-                    else
-                    {
-                        Console.WriteLine("Двоечники:\n");
-                        int i = 0;
-                        foreach (Student student in studentsList)
-                        {
-                            if (student.GetD()) Console.WriteLine(i++.ToString() +". " +student.GetName()+"\n");
-                        }
-
-                        Console.ReadLine();
-                        Console.Clear();
-                    }
-                }
-                else continue;
+                tuples.Add(new Tuple<string, int>((string) students[i],(int) tickets[j]));
             }
-        }
-    }
-
-    class Student
-    {
-        private string name;
-        private string group;
-        private int[] usp;
-
-        public bool GetD()
-        {
-            for (int i = 0; i < 5; i++)
-                if (usp[i] == 2)
-                    return true;
-            return false;
-        }
-
-        public string GetName()
-        {
-            return name;
-        }
-        
-        public Student (string name , string group, int[] usp)
-        {
-            this.group = group;
-            this.name = name;
-            this.usp = usp;
+            //Наводим красоту
+            tuples.Sort();
+            
+            //Выводим результат
+            foreach (var person in tuples)
+            {
+                Console.WriteLine(person);
+            }
         }
     }
 }
