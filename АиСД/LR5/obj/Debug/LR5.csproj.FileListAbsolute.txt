@@ -1,0 +1,6 @@
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR5/bin/Debug/LR5.exe
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR5/bin/Debug/LR5.pdb
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR5/obj/Debug/LR5.csproj.AssemblyReference.cache
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR5/obj/Debug/LR5.csproj.CoreCompileInputs.cache
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR5/obj/Debug/LR5.exe
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR5/obj/Debug/LR5.pdb

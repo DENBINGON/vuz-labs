@@ -4,3 +4,9 @@
 /Users/denbingon/Documents/Лаболаторные/АиСД/LR3/d1/obj/Debug/d1.csproj.CoreCompileInputs.cache
 /Users/denbingon/Documents/Лаболаторные/АиСД/LR3/d1/obj/Debug/d1.exe
 /Users/denbingon/Documents/Лаболаторные/АиСД/LR3/d1/obj/Debug/d1.pdb
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR3/d2/bin/Debug/d1.exe
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR3/d2/bin/Debug/d1.pdb
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR3/d2/obj/Debug/d1.csproj.AssemblyReference.cache
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR3/d2/obj/Debug/d1.csproj.CoreCompileInputs.cache
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR3/d2/obj/Debug/d1.exe
+/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR3/d2/obj/Debug/d1.pdb

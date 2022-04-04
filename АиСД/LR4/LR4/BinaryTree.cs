@@ -7,7 +7,7 @@ namespace LR4
     {
         public BinaryNode left { get; set; }
         public BinaryNode right { get; set; }
-        
+
         public int value;
 
         public BinaryNode(int value)
@@ -26,16 +26,16 @@ namespace LR4
         {
             root = new BinaryNode(value);
         }
-        
+
         public void Add(int value) => Add_(value, root);
-        
+
         public bool Find(int value) => Find_(value, root);
 
         public void AddIfNotExist(int value)
         {
             if (!Find(value)) Add(value);
         }
-        
+
         private void Add_(int value, BinaryNode node)
         {
             if (value > node.value)
@@ -48,7 +48,7 @@ namespace LR4
                 {
                     Add_(value, node.right);
                 }
-            } 
+            }
             else if (value < node.value)
             {
                 if (node.left == null)
@@ -61,7 +61,7 @@ namespace LR4
                 }
             }
         }
-        
+
         private bool Find_(int value, BinaryNode node)
         {
             if (node.value == value) return true;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/denbingon/Documents/Лаболаторные/АиСД/LR2/piyanitsa/piyanitsa.csproj": {}
+    "/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR2/piyanitsa/piyanitsa.csproj": {}
   },
   "projects": {
-    "/Users/denbingon/Documents/Лаболаторные/АиСД/LR2/piyanitsa/piyanitsa.csproj": {
+    "/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR2/piyanitsa/piyanitsa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/denbingon/Documents/Лаболаторные/АиСД/LR2/piyanitsa/piyanitsa.csproj",
+        "projectUniqueName": "/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR2/piyanitsa/piyanitsa.csproj",
         "projectName": "piyanitsa",
-        "projectPath": "/Users/denbingon/Documents/Лаболаторные/АиСД/LR2/piyanitsa/piyanitsa.csproj",
+        "projectPath": "/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR2/piyanitsa/piyanitsa.csproj",
         "packagesPath": "/Users/denbingon/.nuget/packages/",
-        "outputPath": "/Users/denbingon/Documents/Лаболаторные/АиСД/LR2/piyanitsa/obj/",
+        "outputPath": "/Users/denbingon/Documents/GitHub/vuzLabs/АиСД/LR2/piyanitsa/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/denbingon/.nuget/NuGet/NuGet.Config"

@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca4d3a3b-1651-4d8d-a26e-721bc0ff24d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/d1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/d1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/d1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/d1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/d1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/d1.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/d1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/d1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/d1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/d1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/d1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/d1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/d1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/d1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/BinaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/BinaryTree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/bin/Debug/LR4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/bin/Debug/LR4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/bin/Debug/LR4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/bin/Debug/LR4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR4/LR4/obj/Debug/LR4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR5/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5/obj/Debug/LR5.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR5/obj/Debug/LR5.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648993476046</updated>
       <workItem from="1648993478743" duration="2203000" />
+      <workItem from="1649033363043" duration="379000" />
     </task>
     <servers />
   </component>
@@ -69,7 +80,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

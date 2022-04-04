@@ -1,7 +1,4 @@
-﻿using System.Reflection;
-
-namespace LR2;
-
+﻿namespace LR2;
 class  LR2
 {
     static void Main(string[] args)
@@ -14,7 +11,7 @@ class  LR2
             deckFirst.Enqueue(deck.Dequeue());
             deckSecond.Enqueue(deck.Dequeue());
         }
-
+        int con = 0;
         while (true)
         {
             int firstCard = deckFirst.Dequeue();
@@ -29,8 +26,12 @@ class  LR2
                 deckSecond.Enqueue(secondCard);
                 deckSecond.Enqueue(firstCard);
             }
+            con++;
+            Console.WriteLine($"Первый: {deckFirst.Count} Второй: {deckSecond.Count}");
             if (deckFirst.Count == 0 || deckSecond.Count == 0) break;
         }
-        Console.WriteLine(deckFirst.Count.ToString() +" " + deckSecond.Count.ToString());
+        Console.WriteLine(deckFirst.Count > deckSecond.Count ? "Первый" : "Второй");
+        Console.WriteLine($"За {con} ходов");
     }
 }
+
