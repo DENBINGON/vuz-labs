@@ -5,9 +5,9 @@ namespace CourseworkASD
     public class WordGenerator
     {
         private readonly int _wordLenght;
-        private readonly string _chars = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя1234567890 ";
+        private readonly string _chars = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя1234567890";
         private readonly string _upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-        private readonly string _symbolChars = "!№;%:?*()#$@^&`/|~,.'\"";
+        private readonly string _symbolChars = "!№;%:?*()#$@^&`/ |~,.'\"";
         //private Dictionary<string, int> dictionaryChars = new Dictionary<string, int>();
         private readonly Dictionary<int, string> _dictionaryInt = new Dictionary<int, string>();
         private void GenerateDictionary()

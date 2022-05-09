@@ -67,7 +67,16 @@ namespace CourseworkASD
             this.dataGridViewWords = new System.Windows.Forms.DataGridView();
             this.Значение = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPageCharts = new System.Windows.Forms.TabPage();
+            this.materialCardHandleSearch = new MaterialSkin.Controls.MaterialCard();
+            this.materialTextBoxHandleQuestion = new MaterialSkin.Controls.MaterialTextBox2();
+            this.materialComboBoxHandleSeach = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialTextBoxHandleFindWord = new MaterialSkin.Controls.MaterialTextBox2();
+            this.materialTextBoxHandleTime = new MaterialSkin.Controls.MaterialTextBox2();
+            this.materialTextBoxHandleIterCount = new MaterialSkin.Controls.MaterialTextBox2();
+            this.materialButtonHandleSearch = new MaterialSkin.Controls.MaterialButton();
             this.materialCardLinealSearch = new MaterialSkin.Controls.MaterialCard();
+            this.materialCheckboxLinealCount = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckboxLinealTime = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialTextBoxLinealTotalTime = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBoxLinealMaxTime = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBoxLinealMinTime = new MaterialSkin.Controls.MaterialTextBox2();
@@ -75,6 +84,8 @@ namespace CourseworkASD
             this.materialButtonLinealRefresh = new MaterialSkin.Controls.MaterialButton();
             this.chartLineal = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.materialCardBinarySearch = new MaterialSkin.Controls.MaterialCard();
+            this.materialCheckboxBinaryCount = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckboxBinaryTime = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialTextBoxBinaryTotalTime = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBoxBinaryMaxTime = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBoxBinaryMinTime = new MaterialSkin.Controls.MaterialTextBox2();
@@ -83,7 +94,11 @@ namespace CourseworkASD
             this.chartBinary = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.materialComboBoxSelect = new MaterialSkin.Controls.MaterialComboBox();
             this.materialCheckboxRefresh = new MaterialSkin.Controls.MaterialCheckbox();
-            this.tabPageSettings = new System.Windows.Forms.TabPage();
+            this.tabPageSpec = new System.Windows.Forms.TabPage();
+            this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabelSaveXlsx = new MaterialSkin.Controls.MaterialLabel();
+            this.materialButtonSaveXlsx = new MaterialSkin.Controls.MaterialButton();
+            this.materialComboBoxSelectChartToXlsx = new MaterialSkin.Controls.MaterialComboBox();
             this.materialCardSave = new MaterialSkin.Controls.MaterialCard();
             this.materialButtonSave = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
@@ -103,11 +118,13 @@ namespace CourseworkASD
             this.materialCardAuto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewWords)).BeginInit();
             this.tabPageCharts.SuspendLayout();
+            this.materialCardHandleSearch.SuspendLayout();
             this.materialCardLinealSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartLineal)).BeginInit();
             this.materialCardBinarySearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartBinary)).BeginInit();
-            this.tabPageSettings.SuspendLayout();
+            this.tabPageSpec.SuspendLayout();
+            this.materialCard1.SuspendLayout();
             this.materialCardSave.SuspendLayout();
             this.tabPageInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfoLogo)).BeginInit();
@@ -117,7 +134,7 @@ namespace CourseworkASD
             // 
             this.materialTabControlMainWindow.Controls.Add(this.tabPageDevelop);
             this.materialTabControlMainWindow.Controls.Add(this.tabPageCharts);
-            this.materialTabControlMainWindow.Controls.Add(this.tabPageSettings);
+            this.materialTabControlMainWindow.Controls.Add(this.tabPageSpec);
             this.materialTabControlMainWindow.Controls.Add(this.tabPageInfo);
             this.materialTabControlMainWindow.Depth = 0;
             this.materialTabControlMainWindow.ImageList = this.imageListMenu;
@@ -145,7 +162,7 @@ namespace CourseworkASD
             this.tabPageDevelop.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageDevelop.Size = new System.Drawing.Size(790, 340);
             this.tabPageDevelop.TabIndex = 0;
-            this.tabPageDevelop.Text = "Разработка";
+            this.tabPageDevelop.Text = "Исходые данные";
             // 
             // materialCardHandle
             // 
@@ -185,7 +202,7 @@ namespace CourseworkASD
             this.materialButtonDel.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButtonDel.UseAccentColor = false;
             this.materialButtonDel.UseVisualStyleBackColor = true;
-            this.materialButtonDel.Click += new System.EventHandler(this.materialButton1_Click);
+            this.materialButtonDel.Click += new System.EventHandler(this.materialButtonDel_Click);
             // 
             // materialLabelDel
             // 
@@ -475,6 +492,7 @@ namespace CourseworkASD
             // tabPageCharts
             // 
             this.tabPageCharts.BackColor = System.Drawing.Color.White;
+            this.tabPageCharts.Controls.Add(this.materialCardHandleSearch);
             this.tabPageCharts.Controls.Add(this.materialCardLinealSearch);
             this.tabPageCharts.Controls.Add(this.materialCardBinarySearch);
             this.tabPageCharts.Controls.Add(this.materialComboBoxSelect);
@@ -487,9 +505,195 @@ namespace CourseworkASD
             this.tabPageCharts.TabIndex = 1;
             this.tabPageCharts.Text = "Статистика";
             // 
+            // materialCardHandleSearch
+            // 
+            this.materialCardHandleSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCardHandleSearch.Controls.Add(this.materialTextBoxHandleQuestion);
+            this.materialCardHandleSearch.Controls.Add(this.materialComboBoxHandleSeach);
+            this.materialCardHandleSearch.Controls.Add(this.materialTextBoxHandleFindWord);
+            this.materialCardHandleSearch.Controls.Add(this.materialTextBoxHandleTime);
+            this.materialCardHandleSearch.Controls.Add(this.materialTextBoxHandleIterCount);
+            this.materialCardHandleSearch.Controls.Add(this.materialButtonHandleSearch);
+            this.materialCardHandleSearch.Depth = 0;
+            this.materialCardHandleSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCardHandleSearch.Location = new System.Drawing.Point(69, 48);
+            this.materialCardHandleSearch.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCardHandleSearch.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCardHandleSearch.Name = "materialCardHandleSearch";
+            this.materialCardHandleSearch.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCardHandleSearch.Size = new System.Drawing.Size(750, 330);
+            this.materialCardHandleSearch.TabIndex = 9;
+            this.materialCardHandleSearch.Visible = false;
+            // 
+            // materialTextBoxHandleQuestion
+            // 
+            this.materialTextBoxHandleQuestion.AnimateReadOnly = true;
+            this.materialTextBoxHandleQuestion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.materialTextBoxHandleQuestion.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialTextBoxHandleQuestion.Depth = 0;
+            this.materialTextBoxHandleQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBoxHandleQuestion.HideSelection = true;
+            this.materialTextBoxHandleQuestion.Hint = "Найден?";
+            this.materialTextBoxHandleQuestion.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialTextBoxHandleQuestion.LeadingIcon = null;
+            this.materialTextBoxHandleQuestion.Location = new System.Drawing.Point(302, 81);
+            this.materialTextBoxHandleQuestion.MaxLength = 32767;
+            this.materialTextBoxHandleQuestion.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBoxHandleQuestion.Name = "materialTextBoxHandleQuestion";
+            this.materialTextBoxHandleQuestion.PasswordChar = '\0';
+            this.materialTextBoxHandleQuestion.PrefixSuffixText = null;
+            this.materialTextBoxHandleQuestion.ReadOnly = true;
+            this.materialTextBoxHandleQuestion.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialTextBoxHandleQuestion.SelectedText = "";
+            this.materialTextBoxHandleQuestion.SelectionLength = 0;
+            this.materialTextBoxHandleQuestion.SelectionStart = 0;
+            this.materialTextBoxHandleQuestion.ShortcutsEnabled = true;
+            this.materialTextBoxHandleQuestion.Size = new System.Drawing.Size(120, 48);
+            this.materialTextBoxHandleQuestion.TabIndex = 9;
+            this.materialTextBoxHandleQuestion.TabStop = false;
+            this.materialTextBoxHandleQuestion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.materialTextBoxHandleQuestion.TrailingIcon = null;
+            this.materialTextBoxHandleQuestion.UseSystemPasswordChar = false;
+            // 
+            // materialComboBoxHandleSeach
+            // 
+            this.materialComboBoxHandleSeach.AutoResize = false;
+            this.materialComboBoxHandleSeach.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBoxHandleSeach.Depth = 0;
+            this.materialComboBoxHandleSeach.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBoxHandleSeach.DropDownHeight = 174;
+            this.materialComboBoxHandleSeach.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBoxHandleSeach.DropDownWidth = 121;
+            this.materialComboBoxHandleSeach.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBoxHandleSeach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBoxHandleSeach.FormattingEnabled = true;
+            this.materialComboBoxHandleSeach.Hint = "Выберите";
+            this.materialComboBoxHandleSeach.IntegralHeight = false;
+            this.materialComboBoxHandleSeach.ItemHeight = 43;
+            this.materialComboBoxHandleSeach.Items.AddRange(new object[] { "Линейный поиск", "Бинарный поиск" });
+            this.materialComboBoxHandleSeach.Location = new System.Drawing.Point(12, 48);
+            this.materialComboBoxHandleSeach.MaxDropDownItems = 4;
+            this.materialComboBoxHandleSeach.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBoxHandleSeach.Name = "materialComboBoxHandleSeach";
+            this.materialComboBoxHandleSeach.Size = new System.Drawing.Size(238, 49);
+            this.materialComboBoxHandleSeach.StartIndex = 0;
+            this.materialComboBoxHandleSeach.TabIndex = 8;
+            // 
+            // materialTextBoxHandleFindWord
+            // 
+            this.materialTextBoxHandleFindWord.AnimateReadOnly = false;
+            this.materialTextBoxHandleFindWord.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.materialTextBoxHandleFindWord.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialTextBoxHandleFindWord.Depth = 0;
+            this.materialTextBoxHandleFindWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBoxHandleFindWord.HideSelection = true;
+            this.materialTextBoxHandleFindWord.Hint = "Введите значение";
+            this.materialTextBoxHandleFindWord.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialTextBoxHandleFindWord.LeadingIcon = null;
+            this.materialTextBoxHandleFindWord.Location = new System.Drawing.Point(12, 115);
+            this.materialTextBoxHandleFindWord.MaxLength = 32767;
+            this.materialTextBoxHandleFindWord.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBoxHandleFindWord.Name = "materialTextBoxHandleFindWord";
+            this.materialTextBoxHandleFindWord.PasswordChar = '\0';
+            this.materialTextBoxHandleFindWord.PrefixSuffixText = null;
+            this.materialTextBoxHandleFindWord.ReadOnly = false;
+            this.materialTextBoxHandleFindWord.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialTextBoxHandleFindWord.SelectedText = "";
+            this.materialTextBoxHandleFindWord.SelectionLength = 0;
+            this.materialTextBoxHandleFindWord.SelectionStart = 0;
+            this.materialTextBoxHandleFindWord.ShortcutsEnabled = true;
+            this.materialTextBoxHandleFindWord.Size = new System.Drawing.Size(238, 48);
+            this.materialTextBoxHandleFindWord.TabIndex = 7;
+            this.materialTextBoxHandleFindWord.TabStop = false;
+            this.materialTextBoxHandleFindWord.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.materialTextBoxHandleFindWord.TrailingIcon = null;
+            this.materialTextBoxHandleFindWord.UseSystemPasswordChar = false;
+            // 
+            // materialTextBoxHandleTime
+            // 
+            this.materialTextBoxHandleTime.AnimateReadOnly = true;
+            this.materialTextBoxHandleTime.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.materialTextBoxHandleTime.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialTextBoxHandleTime.Depth = 0;
+            this.materialTextBoxHandleTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBoxHandleTime.HideSelection = true;
+            this.materialTextBoxHandleTime.Hint = "Время";
+            this.materialTextBoxHandleTime.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialTextBoxHandleTime.LeadingIcon = null;
+            this.materialTextBoxHandleTime.Location = new System.Drawing.Point(475, 115);
+            this.materialTextBoxHandleTime.MaxLength = 32767;
+            this.materialTextBoxHandleTime.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBoxHandleTime.Name = "materialTextBoxHandleTime";
+            this.materialTextBoxHandleTime.PasswordChar = '\0';
+            this.materialTextBoxHandleTime.PrefixSuffixText = null;
+            this.materialTextBoxHandleTime.ReadOnly = true;
+            this.materialTextBoxHandleTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialTextBoxHandleTime.SelectedText = "";
+            this.materialTextBoxHandleTime.SelectionLength = 0;
+            this.materialTextBoxHandleTime.SelectionStart = 0;
+            this.materialTextBoxHandleTime.ShortcutsEnabled = true;
+            this.materialTextBoxHandleTime.Size = new System.Drawing.Size(238, 48);
+            this.materialTextBoxHandleTime.TabIndex = 6;
+            this.materialTextBoxHandleTime.TabStop = false;
+            this.materialTextBoxHandleTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.materialTextBoxHandleTime.TrailingIcon = null;
+            this.materialTextBoxHandleTime.UseSystemPasswordChar = false;
+            // 
+            // materialTextBoxHandleIterCount
+            // 
+            this.materialTextBoxHandleIterCount.AnimateReadOnly = true;
+            this.materialTextBoxHandleIterCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.materialTextBoxHandleIterCount.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialTextBoxHandleIterCount.Depth = 0;
+            this.materialTextBoxHandleIterCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBoxHandleIterCount.HideSelection = true;
+            this.materialTextBoxHandleIterCount.Hint = "Количество итераций";
+            this.materialTextBoxHandleIterCount.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialTextBoxHandleIterCount.LeadingIcon = null;
+            this.materialTextBoxHandleIterCount.Location = new System.Drawing.Point(475, 48);
+            this.materialTextBoxHandleIterCount.MaxLength = 32767;
+            this.materialTextBoxHandleIterCount.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBoxHandleIterCount.Name = "materialTextBoxHandleIterCount";
+            this.materialTextBoxHandleIterCount.PasswordChar = '\0';
+            this.materialTextBoxHandleIterCount.PrefixSuffixText = null;
+            this.materialTextBoxHandleIterCount.ReadOnly = true;
+            this.materialTextBoxHandleIterCount.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialTextBoxHandleIterCount.SelectedText = "";
+            this.materialTextBoxHandleIterCount.SelectionLength = 0;
+            this.materialTextBoxHandleIterCount.SelectionStart = 0;
+            this.materialTextBoxHandleIterCount.ShortcutsEnabled = true;
+            this.materialTextBoxHandleIterCount.Size = new System.Drawing.Size(238, 48);
+            this.materialTextBoxHandleIterCount.TabIndex = 2;
+            this.materialTextBoxHandleIterCount.TabStop = false;
+            this.materialTextBoxHandleIterCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.materialTextBoxHandleIterCount.TrailingIcon = null;
+            this.materialTextBoxHandleIterCount.UseSystemPasswordChar = false;
+            // 
+            // materialButtonHandleSearch
+            // 
+            this.materialButtonHandleSearch.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButtonHandleSearch.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButtonHandleSearch.Depth = 0;
+            this.materialButtonHandleSearch.HighEmphasis = true;
+            this.materialButtonHandleSearch.Icon = null;
+            this.materialButtonHandleSearch.Location = new System.Drawing.Point(325, 228);
+            this.materialButtonHandleSearch.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButtonHandleSearch.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButtonHandleSearch.Name = "materialButtonHandleSearch";
+            this.materialButtonHandleSearch.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButtonHandleSearch.Size = new System.Drawing.Size(71, 36);
+            this.materialButtonHandleSearch.TabIndex = 1;
+            this.materialButtonHandleSearch.Text = "Найти";
+            this.materialButtonHandleSearch.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButtonHandleSearch.UseAccentColor = false;
+            this.materialButtonHandleSearch.UseVisualStyleBackColor = true;
+            this.materialButtonHandleSearch.Click += new System.EventHandler(this.materialButtonHandleSearch_Click);
+            // 
             // materialCardLinealSearch
             // 
             this.materialCardLinealSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCardLinealSearch.Controls.Add(this.materialCheckboxLinealCount);
+            this.materialCardLinealSearch.Controls.Add(this.materialCheckboxLinealTime);
             this.materialCardLinealSearch.Controls.Add(this.materialTextBoxLinealTotalTime);
             this.materialCardLinealSearch.Controls.Add(this.materialTextBoxLinealMaxTime);
             this.materialCardLinealSearch.Controls.Add(this.materialTextBoxLinealMinTime);
@@ -505,6 +709,42 @@ namespace CourseworkASD
             this.materialCardLinealSearch.Padding = new System.Windows.Forms.Padding(14);
             this.materialCardLinealSearch.Size = new System.Drawing.Size(750, 330);
             this.materialCardLinealSearch.TabIndex = 2;
+            // 
+            // materialCheckboxLinealCount
+            // 
+            this.materialCheckboxLinealCount.Checked = true;
+            this.materialCheckboxLinealCount.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialCheckboxLinealCount.Depth = 0;
+            this.materialCheckboxLinealCount.Location = new System.Drawing.Point(567, 238);
+            this.materialCheckboxLinealCount.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckboxLinealCount.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckboxLinealCount.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckboxLinealCount.Name = "materialCheckboxLinealCount";
+            this.materialCheckboxLinealCount.ReadOnly = false;
+            this.materialCheckboxLinealCount.Ripple = true;
+            this.materialCheckboxLinealCount.Size = new System.Drawing.Size(146, 37);
+            this.materialCheckboxLinealCount.TabIndex = 8;
+            this.materialCheckboxLinealCount.Text = "Количество";
+            this.materialCheckboxLinealCount.UseVisualStyleBackColor = true;
+            this.materialCheckboxLinealCount.CheckedChanged += new System.EventHandler(this.materialCheckboxLinealCount_CheckedChanged);
+            // 
+            // materialCheckboxLinealTime
+            // 
+            this.materialCheckboxLinealTime.Checked = true;
+            this.materialCheckboxLinealTime.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialCheckboxLinealTime.Depth = 0;
+            this.materialCheckboxLinealTime.Location = new System.Drawing.Point(463, 238);
+            this.materialCheckboxLinealTime.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckboxLinealTime.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckboxLinealTime.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckboxLinealTime.Name = "materialCheckboxLinealTime";
+            this.materialCheckboxLinealTime.ReadOnly = false;
+            this.materialCheckboxLinealTime.Ripple = true;
+            this.materialCheckboxLinealTime.Size = new System.Drawing.Size(104, 37);
+            this.materialCheckboxLinealTime.TabIndex = 7;
+            this.materialCheckboxLinealTime.Text = "Время";
+            this.materialCheckboxLinealTime.UseVisualStyleBackColor = true;
+            this.materialCheckboxLinealTime.CheckedChanged += new System.EventHandler(this.materialCheckboxLinealTime_CheckedChanged);
             // 
             // materialTextBoxLinealTotalTime
             // 
@@ -684,6 +924,8 @@ namespace CourseworkASD
             // materialCardBinarySearch
             // 
             this.materialCardBinarySearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCardBinarySearch.Controls.Add(this.materialCheckboxBinaryCount);
+            this.materialCardBinarySearch.Controls.Add(this.materialCheckboxBinaryTime);
             this.materialCardBinarySearch.Controls.Add(this.materialTextBoxBinaryTotalTime);
             this.materialCardBinarySearch.Controls.Add(this.materialTextBoxBinaryMaxTime);
             this.materialCardBinarySearch.Controls.Add(this.materialTextBoxBinaryMinTime);
@@ -700,6 +942,42 @@ namespace CourseworkASD
             this.materialCardBinarySearch.Size = new System.Drawing.Size(750, 330);
             this.materialCardBinarySearch.TabIndex = 7;
             this.materialCardBinarySearch.Visible = false;
+            // 
+            // materialCheckboxBinaryCount
+            // 
+            this.materialCheckboxBinaryCount.Checked = true;
+            this.materialCheckboxBinaryCount.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialCheckboxBinaryCount.Depth = 0;
+            this.materialCheckboxBinaryCount.Location = new System.Drawing.Point(567, 238);
+            this.materialCheckboxBinaryCount.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckboxBinaryCount.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckboxBinaryCount.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckboxBinaryCount.Name = "materialCheckboxBinaryCount";
+            this.materialCheckboxBinaryCount.ReadOnly = false;
+            this.materialCheckboxBinaryCount.Ripple = true;
+            this.materialCheckboxBinaryCount.Size = new System.Drawing.Size(146, 37);
+            this.materialCheckboxBinaryCount.TabIndex = 11;
+            this.materialCheckboxBinaryCount.Text = "Количество";
+            this.materialCheckboxBinaryCount.UseVisualStyleBackColor = true;
+            this.materialCheckboxBinaryCount.CheckedChanged += new System.EventHandler(this.materialCheckboxBinaryCount_CheckedChanged);
+            // 
+            // materialCheckboxBinaryTime
+            // 
+            this.materialCheckboxBinaryTime.Checked = true;
+            this.materialCheckboxBinaryTime.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialCheckboxBinaryTime.Depth = 0;
+            this.materialCheckboxBinaryTime.Location = new System.Drawing.Point(463, 238);
+            this.materialCheckboxBinaryTime.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckboxBinaryTime.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckboxBinaryTime.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckboxBinaryTime.Name = "materialCheckboxBinaryTime";
+            this.materialCheckboxBinaryTime.ReadOnly = false;
+            this.materialCheckboxBinaryTime.Ripple = true;
+            this.materialCheckboxBinaryTime.Size = new System.Drawing.Size(104, 37);
+            this.materialCheckboxBinaryTime.TabIndex = 10;
+            this.materialCheckboxBinaryTime.Text = "Время";
+            this.materialCheckboxBinaryTime.UseVisualStyleBackColor = true;
+            this.materialCheckboxBinaryTime.CheckedChanged += new System.EventHandler(this.materialCheckboxBinaryTime_CheckedChanged);
             // 
             // materialTextBoxBinaryTotalTime
             // 
@@ -891,7 +1169,7 @@ namespace CourseworkASD
             this.materialComboBoxSelect.Hint = "Выберите";
             this.materialComboBoxSelect.IntegralHeight = false;
             this.materialComboBoxSelect.ItemHeight = 29;
-            this.materialComboBoxSelect.Items.AddRange(new object[] { "Линейный поиск", "Бинарный поиск" });
+            this.materialComboBoxSelect.Items.AddRange(new object[] { "Линейный поиск", "Бинарный поиск", "Единичный поиск" });
             this.materialComboBoxSelect.Location = new System.Drawing.Point(69, 6);
             this.materialComboBoxSelect.MaxDropDownItems = 4;
             this.materialComboBoxSelect.MouseState = MaterialSkin.MouseState.OUT;
@@ -916,20 +1194,93 @@ namespace CourseworkASD
             this.materialCheckboxRefresh.TabIndex = 1;
             this.materialCheckboxRefresh.Text = "Обновлять расчеты при выборе";
             this.materialCheckboxRefresh.UseVisualStyleBackColor = true;
-            this.materialCheckboxRefresh.CheckedChanged += new System.EventHandler(this.materialCheckboxRefresh_CheckedChanged);
             // 
-            // tabPageSettings
+            // tabPageSpec
             // 
-            this.tabPageSettings.BackColor = System.Drawing.Color.White;
-            this.tabPageSettings.Controls.Add(this.materialCardSave);
-            this.tabPageSettings.Controls.Add(this.materialSwitchTheme);
-            this.tabPageSettings.ImageKey = "cog-outline.png";
-            this.tabPageSettings.Location = new System.Drawing.Point(4, 39);
-            this.tabPageSettings.Name = "tabPageSettings";
-            this.tabPageSettings.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSettings.Size = new System.Drawing.Size(790, 340);
-            this.tabPageSettings.TabIndex = 2;
-            this.tabPageSettings.Text = "Настройки";
+            this.tabPageSpec.BackColor = System.Drawing.Color.White;
+            this.tabPageSpec.Controls.Add(this.materialCard1);
+            this.tabPageSpec.Controls.Add(this.materialCardSave);
+            this.tabPageSpec.Controls.Add(this.materialSwitchTheme);
+            this.tabPageSpec.ImageKey = "cog-outline.png";
+            this.tabPageSpec.Location = new System.Drawing.Point(4, 39);
+            this.tabPageSpec.Name = "tabPageSpec";
+            this.tabPageSpec.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageSpec.Size = new System.Drawing.Size(790, 340);
+            this.tabPageSpec.TabIndex = 2;
+            this.tabPageSpec.Text = "Возможности";
+            // 
+            // materialCard1
+            // 
+            this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard1.Controls.Add(this.materialLabelSaveXlsx);
+            this.materialCard1.Controls.Add(this.materialButtonSaveXlsx);
+            this.materialCard1.Controls.Add(this.materialComboBoxSelectChartToXlsx);
+            this.materialCard1.Depth = 0;
+            this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard1.Location = new System.Drawing.Point(279, 197);
+            this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard1.Name = "materialCard1";
+            this.materialCard1.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard1.Size = new System.Drawing.Size(510, 181);
+            this.materialCard1.TabIndex = 5;
+            // 
+            // materialLabelSaveXlsx
+            // 
+            this.materialLabelSaveXlsx.Depth = 0;
+            this.materialLabelSaveXlsx.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabelSaveXlsx.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.materialLabelSaveXlsx.Location = new System.Drawing.Point(59, 14);
+            this.materialLabelSaveXlsx.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabelSaveXlsx.Name = "materialLabelSaveXlsx";
+            this.materialLabelSaveXlsx.Size = new System.Drawing.Size(384, 40);
+            this.materialLabelSaveXlsx.TabIndex = 3;
+            this.materialLabelSaveXlsx.Text = "Выгрузить результаты в XLSX";
+            this.materialLabelSaveXlsx.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // materialButtonSaveXlsx
+            // 
+            this.materialButtonSaveXlsx.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButtonSaveXlsx.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButtonSaveXlsx.Depth = 0;
+            this.materialButtonSaveXlsx.HighEmphasis = true;
+            this.materialButtonSaveXlsx.Icon = null;
+            this.materialButtonSaveXlsx.Location = new System.Drawing.Point(340, 78);
+            this.materialButtonSaveXlsx.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButtonSaveXlsx.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButtonSaveXlsx.Name = "materialButtonSaveXlsx";
+            this.materialButtonSaveXlsx.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButtonSaveXlsx.Size = new System.Drawing.Size(109, 36);
+            this.materialButtonSaveXlsx.TabIndex = 4;
+            this.materialButtonSaveXlsx.Text = "Сохранить";
+            this.materialButtonSaveXlsx.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButtonSaveXlsx.UseAccentColor = false;
+            this.materialButtonSaveXlsx.UseVisualStyleBackColor = true;
+            this.materialButtonSaveXlsx.Click += new System.EventHandler(this.materialButtonSaveXlsx_Click);
+            // 
+            // materialComboBoxSelectChartToXlsx
+            // 
+            this.materialComboBoxSelectChartToXlsx.AutoResize = false;
+            this.materialComboBoxSelectChartToXlsx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBoxSelectChartToXlsx.Depth = 0;
+            this.materialComboBoxSelectChartToXlsx.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBoxSelectChartToXlsx.DropDownHeight = 174;
+            this.materialComboBoxSelectChartToXlsx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBoxSelectChartToXlsx.DropDownWidth = 121;
+            this.materialComboBoxSelectChartToXlsx.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBoxSelectChartToXlsx.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBoxSelectChartToXlsx.FormattingEnabled = true;
+            this.materialComboBoxSelectChartToXlsx.Hint = "Выберите график";
+            this.materialComboBoxSelectChartToXlsx.IntegralHeight = false;
+            this.materialComboBoxSelectChartToXlsx.ItemHeight = 43;
+            this.materialComboBoxSelectChartToXlsx.Items.AddRange(new object[] { "Линейный", "Бинарный" });
+            this.materialComboBoxSelectChartToXlsx.Location = new System.Drawing.Point(59, 78);
+            this.materialComboBoxSelectChartToXlsx.MaxDropDownItems = 4;
+            this.materialComboBoxSelectChartToXlsx.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBoxSelectChartToXlsx.Name = "materialComboBoxSelectChartToXlsx";
+            this.materialComboBoxSelectChartToXlsx.Size = new System.Drawing.Size(196, 49);
+            this.materialComboBoxSelectChartToXlsx.StartIndex = 0;
+            this.materialComboBoxSelectChartToXlsx.TabIndex = 2;
             // 
             // materialCardSave
             // 
@@ -939,7 +1290,7 @@ namespace CourseworkASD
             this.materialCardSave.Controls.Add(this.materialComboBoxSelectChart);
             this.materialCardSave.Depth = 0;
             this.materialCardSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCardSave.Location = new System.Drawing.Point(280, 17);
+            this.materialCardSave.Location = new System.Drawing.Point(279, 9);
             this.materialCardSave.Margin = new System.Windows.Forms.Padding(14);
             this.materialCardSave.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCardSave.Name = "materialCardSave";
@@ -972,7 +1323,7 @@ namespace CourseworkASD
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel3.Location = new System.Drawing.Point(93, 7);
+            this.materialLabel3.Location = new System.Drawing.Point(92, 14);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(337, 40);
@@ -1144,19 +1495,45 @@ namespace CourseworkASD
             this.materialCardAuto.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewWords)).EndInit();
             this.tabPageCharts.ResumeLayout(false);
+            this.materialCardHandleSearch.ResumeLayout(false);
+            this.materialCardHandleSearch.PerformLayout();
             this.materialCardLinealSearch.ResumeLayout(false);
             this.materialCardLinealSearch.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartLineal)).EndInit();
             this.materialCardBinarySearch.ResumeLayout(false);
             this.materialCardBinarySearch.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartBinary)).EndInit();
-            this.tabPageSettings.ResumeLayout(false);
+            this.tabPageSpec.ResumeLayout(false);
+            this.materialCard1.ResumeLayout(false);
+            this.materialCard1.PerformLayout();
             this.materialCardSave.ResumeLayout(false);
             this.materialCardSave.PerformLayout();
             this.tabPageInfo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfoLogo)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private MaterialSkin.Controls.MaterialTextBox2 materialTextBoxHandleQuestion;
+
+        private MaterialSkin.Controls.MaterialComboBox materialComboBoxHandleSeach;
+
+        private MaterialSkin.Controls.MaterialCard materialCardHandleSearch;
+        private MaterialSkin.Controls.MaterialTextBox2 materialTextBoxHandleTime;
+        private MaterialSkin.Controls.MaterialTextBox2 materialTextBoxHandleFindWord;
+        private MaterialSkin.Controls.MaterialTextBox2 materialTextBoxHandleIterCount;
+        private MaterialSkin.Controls.MaterialButton materialButtonHandleSearch;
+
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckboxBinaryCount;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckboxBinaryTime;
+
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckboxLinealTime;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckboxLinealCount;
+
+        private MaterialSkin.Controls.MaterialCard materialCard1;
+        private MaterialSkin.Controls.MaterialLabel materialLabelSaveXlsx;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBoxSelectChartToXlsx;
+
+        private MaterialSkin.Controls.MaterialButton materialButtonSaveXlsx;
 
         private MaterialSkin.Controls.MaterialButton materialButtonSave;
 
@@ -1237,7 +1614,7 @@ namespace CourseworkASD
 
         private MaterialSkin.Controls.MaterialSwitch materialSwitchTheme;
         
-        private System.Windows.Forms.TabPage tabPageSettings;
+        private System.Windows.Forms.TabPage tabPageSpec;
         private System.Windows.Forms.TabPage tabPageInfo;
 
         private MaterialSkin.Controls.MaterialTabControl materialTabControlMainWindow;
