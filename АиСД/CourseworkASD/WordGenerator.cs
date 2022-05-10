@@ -4,18 +4,18 @@ namespace CourseworkASD
 {
     public class WordGenerator
     {
-        private int wordLenght;
-        private string chars = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя1234567890 ";
-        private string upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-        private string symbolChars = "!№;%:?*()#$@^&`/|~,.'\"";
+        private readonly int _wordLenght;
+        private readonly string _chars = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя1234567890 ";
+        private readonly string _upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+        private readonly string _symbolChars = "!№;%:?*()#$@^&`/|~,.'\"";
         //private Dictionary<string, int> dictionaryChars = new Dictionary<string, int>();
-        private Dictionary<int, string> dictionaryInt = new Dictionary<int, string>();
+        private readonly Dictionary<int, string> _dictionaryInt = new Dictionary<int, string>();
         private void GenerateDictionary()
         {
-            foreach (char letter in chars)
+            foreach (char letter in _chars)
             {
                 //dictionaryChars.Add(letter.ToString(), dictionaryChars.Count + 100);
-                dictionaryInt.Add(dictionaryInt.Count + 100, letter.ToString());
+                _dictionaryInt.Add(_dictionaryInt.Count + 100, letter.ToString());
             }
         }
         //private int GetCharCode(char letter) => dictionaryChars[letter.ToString()];
@@ -28,9 +28,9 @@ namespace CourseworkASD
         private string GenerateWord(Random rnd)
         {
             string word = "";
-            for (int counter = 0; counter < wordLenght; counter++)
+            for (int counter = 0; counter < _wordLenght; counter++)
             {
-                word += dictionaryInt[rnd.Next(1, dictionaryInt.Count) + 100];
+                word += _dictionaryInt[rnd.Next(1, _dictionaryInt.Count) + 100];
             }
             return word;
         }
@@ -41,9 +41,9 @@ namespace CourseworkASD
         }
         public WordGenerator(int lenght, bool symbols, bool uppered)
         {
-            wordLenght = lenght;
-            if (uppered) chars += upperChars;
-            if (symbols) chars += symbolChars;
+            _wordLenght = lenght;
+            if (uppered) _chars += _upperChars;
+            if (symbols) _chars += _symbolChars;
             GenerateDictionary();
         }
     }
