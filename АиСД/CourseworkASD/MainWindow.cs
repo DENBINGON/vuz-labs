@@ -7,6 +7,7 @@ using System.IO;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using System.Runtime.InteropServices;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms.DataVisualization.Charting;
 using OfficeOpenXml;
@@ -28,37 +29,46 @@ namespace CourseworkASD
         public MainWindow()
         {
             InitializeComponent();
-
             _data = new List<(string word, int hash)>();
-
+                     
             FormBorderStyle = FormBorderStyle.None;
             Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 15, 15));
-
             MaterialSkinManager skinManager = MaterialSkinManager.Instance;
             skinManager.AddFormToManage(this);
             skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
 
             skinManager.ColorScheme = new ColorScheme(
+                Primary.Blue700,
                 Primary.Blue600,
-                Primary.Blue700,
-                Primary.Blue700,
-                Accent.LightBlue400,
+                Primary.Blue800,
+                Accent.Pink200,
                 TextShade.WHITE
             );
         }
 
-        private async void RefreshDataAtGridAsync()
+        private async void ClearDataAtListBoxAsync()
+        {
+            await Task.Run(() =>
+            {
+                while (materialListBoxData.Count != 0)
+                {
+                    materialListBoxData.Invoke(new Action(() => materialListBoxData.RemoveItemAt(0)));
+                }
+            });
+        }
+
+        private async void RefreshDataAtListBoxAsync()
         {
             QuickSort quickSort = new QuickSort();
             _data = quickSort.Sort(_data, 0, _data.Count - 1);
-            dataGridViewWords.Rows.Clear();
-
+            ClearDataAtListBoxAsync();
             await Task.Run(() =>
             {
                 materialProgressBarDev.Invoke(new Action(() => materialProgressBarDev.Value = 0));
                 for (int counter = 0; counter < _data.Count; counter++)
                 {
-                    dataGridViewWords.Invoke(new Action(() => dataGridViewWords.Rows.Add(_data[counter].word)));
+                    materialListBoxData.Invoke(new Action(() => 
+                        materialListBoxData.Items.Add(new MaterialListBoxItem(_data[counter].word))));
                     materialProgressBarDev.Invoke(new Action(() =>
                         materialProgressBarDev.Value = Convert.ToInt32((double)counter / (double)_data.Count * 100)));
                 }
@@ -83,26 +93,12 @@ namespace CourseworkASD
                 MaterialSkinManager skinManager = MaterialSkinManager.Instance;
                 skinManager.AddFormToManage(this);
                 skinManager.Theme = MaterialSkinManager.Themes.DARK;
-                skinManager.ColorScheme = new ColorScheme(
-                    Primary.Blue600,
-                    Primary.Blue700,
-                    Primary.Blue700,
-                    Accent.LightBlue400,
-                    TextShade.BLACK
-                );
             }
             else
             {
                 MaterialSkinManager skinManager = MaterialSkinManager.Instance;
                 skinManager.AddFormToManage(this);
                 skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-                skinManager.ColorScheme = new ColorScheme(
-                    Primary.Blue600,
-                    Primary.Blue700,
-                    Primary.Blue700,
-                    Accent.LightBlue400,
-                    TextShade.WHITE
-                );
             }
         }
 
@@ -142,28 +138,16 @@ namespace CourseworkASD
                             Convert.ToInt32((double)counter / (double)(materialSliderCount.Value + 1) * 100)));
                 }
             });
-            await Task.Run(RefreshDataAtGridAsync);
+            await Task.Run(RefreshDataAtListBoxAsync);
         }
 
-        private void materialSwitchHandle_CheckedChanged(object sender, EventArgs e)
-        {
-            if (materialSwitchHandle.Checked)
-            {
-                materialCardAuto.Hide();
-                materialCardHandle.Show();
-            }
-            else
-            {
-                materialCardAuto.Show();
-                materialCardHandle.Hide();
-            }
-        }
+        
 
         private void materialButtonHandAdd_Click(object sender, EventArgs e)
         {
             (string word, int hash) temp = (materialTextBoxHandAdd.Text, materialTextBoxHandAdd.Text.GetHashCode());
             if (_data.IndexOf(temp) == -1) _data.Add(temp);
-            RefreshDataAtGridAsync();
+            RefreshDataAtListBoxAsync();
         }
 
         private void materialButtonDel_Click(object sender, EventArgs e)
@@ -172,7 +156,7 @@ namespace CourseworkASD
             {
                 int index = Convert.ToInt32(materialTextBoxDel.Text);
                 if (index < _data.Count) _data.RemoveAt(index);
-                RefreshDataAtGridAsync();
+                RefreshDataAtListBoxAsync();
             }
             finally
             {
@@ -183,7 +167,7 @@ namespace CourseworkASD
         private void materialButtonClear_Click(object sender, EventArgs e)
         {
             _data.Clear();
-            dataGridViewWords.Rows.Clear();
+            materialListBoxData.Clear();
         }
 
         private void materialComboBoxSelect_SelectedIndexChanged(object sender, EventArgs e)
