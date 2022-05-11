@@ -47,6 +47,15 @@ namespace CourseworkASD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.materialTabControlMainWindow = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPageDevelop = new System.Windows.Forms.TabPage();
+            this.materialCardAuto = new MaterialSkin.Controls.MaterialCard();
+            this.materialProgressBarDev = new MaterialSkin.Controls.MaterialProgressBar();
+            this.materialCheckboxGenerated = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialButtonClear = new MaterialSkin.Controls.MaterialButton();
+            this.materialCheckboxUppers = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckboxSymbols = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialSliderLenght = new MaterialSkin.Controls.MaterialSlider();
+            this.materialSliderCount = new MaterialSkin.Controls.MaterialSlider();
+            this.materialButtonGenerate = new MaterialSkin.Controls.MaterialButton();
             this.materialCardHandle = new MaterialSkin.Controls.MaterialCard();
             this.materialButtonDel = new MaterialSkin.Controls.MaterialButton();
             this.materialLabelDel = new MaterialSkin.Controls.MaterialLabel();
@@ -54,19 +63,13 @@ namespace CourseworkASD
             this.materialButtonHandAdd = new MaterialSkin.Controls.MaterialButton();
             this.materialLabelHandAdd = new MaterialSkin.Controls.MaterialLabel();
             this.materialTextBoxHandAdd = new MaterialSkin.Controls.MaterialTextBox2();
-            this.materialCardAuto = new MaterialSkin.Controls.MaterialCard();
-            this.materialButtonClear = new MaterialSkin.Controls.MaterialButton();
-            this.materialCheckboxUppers = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialCheckboxSymbols = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialSliderLenght = new MaterialSkin.Controls.MaterialSlider();
-            this.materialSliderCount = new MaterialSkin.Controls.MaterialSlider();
-            this.materialButtonGenerate = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialSwitchHandle = new MaterialSkin.Controls.MaterialSwitch();
             this.dataGridViewWords = new System.Windows.Forms.DataGridView();
             this.Значение = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPageCharts = new System.Windows.Forms.TabPage();
+            this.materialProgressBarStat = new MaterialSkin.Controls.MaterialProgressBar();
             this.materialCardHandleSearch = new MaterialSkin.Controls.MaterialCard();
             this.materialTextBoxHandleQuestion = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialComboBoxHandleSeach = new MaterialSkin.Controls.MaterialComboBox();
@@ -114,8 +117,8 @@ namespace CourseworkASD
             this.imageListMenu = new System.Windows.Forms.ImageList(this.components);
             this.materialTabControlMainWindow.SuspendLayout();
             this.tabPageDevelop.SuspendLayout();
-            this.materialCardHandle.SuspendLayout();
             this.materialCardAuto.SuspendLayout();
+            this.materialCardHandle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewWords)).BeginInit();
             this.tabPageCharts.SuspendLayout();
             this.materialCardHandleSearch.SuspendLayout();
@@ -149,8 +152,8 @@ namespace CourseworkASD
             // tabPageDevelop
             // 
             this.tabPageDevelop.BackColor = System.Drawing.Color.White;
-            this.tabPageDevelop.Controls.Add(this.materialCardHandle);
             this.tabPageDevelop.Controls.Add(this.materialCardAuto);
+            this.tabPageDevelop.Controls.Add(this.materialCardHandle);
             this.tabPageDevelop.Controls.Add(this.materialLabel2);
             this.tabPageDevelop.Controls.Add(this.materialLabel1);
             this.tabPageDevelop.Controls.Add(this.materialSwitchHandle);
@@ -163,6 +166,150 @@ namespace CourseworkASD
             this.tabPageDevelop.Size = new System.Drawing.Size(790, 340);
             this.tabPageDevelop.TabIndex = 0;
             this.tabPageDevelop.Text = "Исходые данные";
+            // 
+            // materialCardAuto
+            // 
+            this.materialCardAuto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCardAuto.Controls.Add(this.materialProgressBarDev);
+            this.materialCardAuto.Controls.Add(this.materialCheckboxGenerated);
+            this.materialCardAuto.Controls.Add(this.materialButtonClear);
+            this.materialCardAuto.Controls.Add(this.materialCheckboxUppers);
+            this.materialCardAuto.Controls.Add(this.materialCheckboxSymbols);
+            this.materialCardAuto.Controls.Add(this.materialSliderLenght);
+            this.materialCardAuto.Controls.Add(this.materialSliderCount);
+            this.materialCardAuto.Controls.Add(this.materialButtonGenerate);
+            this.materialCardAuto.Depth = 0;
+            this.materialCardAuto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCardAuto.Location = new System.Drawing.Point(69, 70);
+            this.materialCardAuto.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCardAuto.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCardAuto.Name = "materialCardAuto";
+            this.materialCardAuto.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCardAuto.Size = new System.Drawing.Size(477, 310);
+            this.materialCardAuto.TabIndex = 7;
+            // 
+            // materialProgressBarDev
+            // 
+            this.materialProgressBarDev.Depth = 0;
+            this.materialProgressBarDev.Location = new System.Drawing.Point(16, 17);
+            this.materialProgressBarDev.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialProgressBarDev.Name = "materialProgressBarDev";
+            this.materialProgressBarDev.Size = new System.Drawing.Size(442, 5);
+            this.materialProgressBarDev.TabIndex = 8;
+            // 
+            // materialCheckboxGenerated
+            // 
+            this.materialCheckboxGenerated.Checked = true;
+            this.materialCheckboxGenerated.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialCheckboxGenerated.Depth = 0;
+            this.materialCheckboxGenerated.Location = new System.Drawing.Point(167, 264);
+            this.materialCheckboxGenerated.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckboxGenerated.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckboxGenerated.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckboxGenerated.Name = "materialCheckboxGenerated";
+            this.materialCheckboxGenerated.ReadOnly = true;
+            this.materialCheckboxGenerated.Ripple = true;
+            this.materialCheckboxGenerated.Size = new System.Drawing.Size(37, 29);
+            this.materialCheckboxGenerated.TabIndex = 7;
+            this.materialCheckboxGenerated.UseVisualStyleBackColor = true;
+            // 
+            // materialButtonClear
+            // 
+            this.materialButtonClear.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButtonClear.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButtonClear.Depth = 0;
+            this.materialButtonClear.HighEmphasis = true;
+            this.materialButtonClear.Icon = null;
+            this.materialButtonClear.Location = new System.Drawing.Point(370, 264);
+            this.materialButtonClear.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButtonClear.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButtonClear.Name = "materialButtonClear";
+            this.materialButtonClear.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButtonClear.Size = new System.Drawing.Size(99, 36);
+            this.materialButtonClear.TabIndex = 6;
+            this.materialButtonClear.Text = "Очистить";
+            this.materialButtonClear.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButtonClear.UseAccentColor = false;
+            this.materialButtonClear.UseVisualStyleBackColor = true;
+            this.materialButtonClear.Click += new System.EventHandler(this.materialButtonClear_Click);
+            // 
+            // materialCheckboxUppers
+            // 
+            this.materialCheckboxUppers.Depth = 0;
+            this.materialCheckboxUppers.Location = new System.Drawing.Point(9, 206);
+            this.materialCheckboxUppers.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckboxUppers.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckboxUppers.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckboxUppers.Name = "materialCheckboxUppers";
+            this.materialCheckboxUppers.ReadOnly = false;
+            this.materialCheckboxUppers.Ripple = true;
+            this.materialCheckboxUppers.Size = new System.Drawing.Size(348, 37);
+            this.materialCheckboxUppers.TabIndex = 5;
+            this.materialCheckboxUppers.Text = "Использовать верхний регистр";
+            this.materialCheckboxUppers.UseVisualStyleBackColor = true;
+            // 
+            // materialCheckboxSymbols
+            // 
+            this.materialCheckboxSymbols.Depth = 0;
+            this.materialCheckboxSymbols.Location = new System.Drawing.Point(9, 154);
+            this.materialCheckboxSymbols.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckboxSymbols.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckboxSymbols.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckboxSymbols.Name = "materialCheckboxSymbols";
+            this.materialCheckboxSymbols.ReadOnly = false;
+            this.materialCheckboxSymbols.Ripple = true;
+            this.materialCheckboxSymbols.Size = new System.Drawing.Size(220, 37);
+            this.materialCheckboxSymbols.TabIndex = 4;
+            this.materialCheckboxSymbols.Text = "Специальные символы";
+            this.materialCheckboxSymbols.UseVisualStyleBackColor = true;
+            // 
+            // materialSliderLenght
+            // 
+            this.materialSliderLenght.Depth = 0;
+            this.materialSliderLenght.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialSliderLenght.Location = new System.Drawing.Point(16, 95);
+            this.materialSliderLenght.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSliderLenght.Name = "materialSliderLenght";
+            this.materialSliderLenght.Size = new System.Drawing.Size(443, 40);
+            this.materialSliderLenght.TabIndex = 3;
+            this.materialSliderLenght.Text = "Длина           ";
+            this.materialSliderLenght.Value = 1;
+            this.materialSliderLenght.ValueMax = 100;
+            this.materialSliderLenght.ValueSuffix = " сим.";
+            // 
+            // materialSliderCount
+            // 
+            this.materialSliderCount.Depth = 0;
+            this.materialSliderCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialSliderCount.Location = new System.Drawing.Point(17, 38);
+            this.materialSliderCount.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSliderCount.Name = "materialSliderCount";
+            this.materialSliderCount.RangeMax = 10000;
+            this.materialSliderCount.Size = new System.Drawing.Size(443, 40);
+            this.materialSliderCount.TabIndex = 2;
+            this.materialSliderCount.Text = "Количество ";
+            this.materialSliderCount.Value = 1;
+            this.materialSliderCount.ValueMax = 10000;
+            // 
+            // materialButtonGenerate
+            // 
+            this.materialButtonGenerate.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButtonGenerate.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButtonGenerate.Depth = 0;
+            this.materialButtonGenerate.HighEmphasis = true;
+            this.materialButtonGenerate.Icon = null;
+            this.materialButtonGenerate.Location = new System.Drawing.Point(9, 264);
+            this.materialButtonGenerate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButtonGenerate.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButtonGenerate.Name = "materialButtonGenerate";
+            this.materialButtonGenerate.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButtonGenerate.Size = new System.Drawing.Size(143, 36);
+            this.materialButtonGenerate.TabIndex = 1;
+            this.materialButtonGenerate.Text = "Сгенерировать";
+            this.materialButtonGenerate.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButtonGenerate.UseAccentColor = false;
+            this.materialButtonGenerate.UseVisualStyleBackColor = true;
+            this.materialButtonGenerate.Click += new System.EventHandler(this.materialButtonGenerate_Click);
             // 
             // materialCardHandle
             // 
@@ -308,123 +455,6 @@ namespace CourseworkASD
             this.materialTextBoxHandAdd.TrailingIcon = null;
             this.materialTextBoxHandAdd.UseSystemPasswordChar = false;
             // 
-            // materialCardAuto
-            // 
-            this.materialCardAuto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCardAuto.Controls.Add(this.materialButtonClear);
-            this.materialCardAuto.Controls.Add(this.materialCheckboxUppers);
-            this.materialCardAuto.Controls.Add(this.materialCheckboxSymbols);
-            this.materialCardAuto.Controls.Add(this.materialSliderLenght);
-            this.materialCardAuto.Controls.Add(this.materialSliderCount);
-            this.materialCardAuto.Controls.Add(this.materialButtonGenerate);
-            this.materialCardAuto.Depth = 0;
-            this.materialCardAuto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCardAuto.Location = new System.Drawing.Point(69, 70);
-            this.materialCardAuto.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCardAuto.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCardAuto.Name = "materialCardAuto";
-            this.materialCardAuto.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCardAuto.Size = new System.Drawing.Size(477, 310);
-            this.materialCardAuto.TabIndex = 7;
-            // 
-            // materialButtonClear
-            // 
-            this.materialButtonClear.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButtonClear.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButtonClear.Depth = 0;
-            this.materialButtonClear.HighEmphasis = true;
-            this.materialButtonClear.Icon = null;
-            this.materialButtonClear.Location = new System.Drawing.Point(370, 264);
-            this.materialButtonClear.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButtonClear.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButtonClear.Name = "materialButtonClear";
-            this.materialButtonClear.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButtonClear.Size = new System.Drawing.Size(99, 36);
-            this.materialButtonClear.TabIndex = 6;
-            this.materialButtonClear.Text = "Очистить";
-            this.materialButtonClear.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButtonClear.UseAccentColor = false;
-            this.materialButtonClear.UseVisualStyleBackColor = true;
-            this.materialButtonClear.Click += new System.EventHandler(this.materialButtonClear_Click);
-            // 
-            // materialCheckboxUppers
-            // 
-            this.materialCheckboxUppers.Depth = 0;
-            this.materialCheckboxUppers.Location = new System.Drawing.Point(9, 206);
-            this.materialCheckboxUppers.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckboxUppers.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckboxUppers.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckboxUppers.Name = "materialCheckboxUppers";
-            this.materialCheckboxUppers.ReadOnly = false;
-            this.materialCheckboxUppers.Ripple = true;
-            this.materialCheckboxUppers.Size = new System.Drawing.Size(348, 37);
-            this.materialCheckboxUppers.TabIndex = 5;
-            this.materialCheckboxUppers.Text = "Использовать верхний регистр";
-            this.materialCheckboxUppers.UseVisualStyleBackColor = true;
-            // 
-            // materialCheckboxSymbols
-            // 
-            this.materialCheckboxSymbols.Depth = 0;
-            this.materialCheckboxSymbols.Location = new System.Drawing.Point(9, 154);
-            this.materialCheckboxSymbols.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckboxSymbols.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckboxSymbols.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckboxSymbols.Name = "materialCheckboxSymbols";
-            this.materialCheckboxSymbols.ReadOnly = false;
-            this.materialCheckboxSymbols.Ripple = true;
-            this.materialCheckboxSymbols.Size = new System.Drawing.Size(220, 37);
-            this.materialCheckboxSymbols.TabIndex = 4;
-            this.materialCheckboxSymbols.Text = "Специальные символы";
-            this.materialCheckboxSymbols.UseVisualStyleBackColor = true;
-            // 
-            // materialSliderLenght
-            // 
-            this.materialSliderLenght.Depth = 0;
-            this.materialSliderLenght.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialSliderLenght.Location = new System.Drawing.Point(16, 82);
-            this.materialSliderLenght.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSliderLenght.Name = "materialSliderLenght";
-            this.materialSliderLenght.Size = new System.Drawing.Size(443, 40);
-            this.materialSliderLenght.TabIndex = 3;
-            this.materialSliderLenght.Text = "Длина           ";
-            this.materialSliderLenght.Value = 1;
-            this.materialSliderLenght.ValueMax = 100;
-            this.materialSliderLenght.ValueSuffix = " сим.";
-            // 
-            // materialSliderCount
-            // 
-            this.materialSliderCount.Depth = 0;
-            this.materialSliderCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialSliderCount.Location = new System.Drawing.Point(16, 20);
-            this.materialSliderCount.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSliderCount.Name = "materialSliderCount";
-            this.materialSliderCount.Size = new System.Drawing.Size(443, 40);
-            this.materialSliderCount.TabIndex = 2;
-            this.materialSliderCount.Text = "Количество ";
-            this.materialSliderCount.Value = 1;
-            this.materialSliderCount.ValueMax = 100;
-            this.materialSliderCount.ValueSuffix = "00";
-            // 
-            // materialButtonGenerate
-            // 
-            this.materialButtonGenerate.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButtonGenerate.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButtonGenerate.Depth = 0;
-            this.materialButtonGenerate.HighEmphasis = true;
-            this.materialButtonGenerate.Icon = null;
-            this.materialButtonGenerate.Location = new System.Drawing.Point(9, 264);
-            this.materialButtonGenerate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButtonGenerate.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButtonGenerate.Name = "materialButtonGenerate";
-            this.materialButtonGenerate.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButtonGenerate.Size = new System.Drawing.Size(143, 36);
-            this.materialButtonGenerate.TabIndex = 1;
-            this.materialButtonGenerate.Text = "Сгенерировать";
-            this.materialButtonGenerate.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButtonGenerate.UseAccentColor = false;
-            this.materialButtonGenerate.UseVisualStyleBackColor = true;
-            this.materialButtonGenerate.Click += new System.EventHandler(this.materialButtonGenerate_Click);
-            // 
             // materialLabel2
             // 
             this.materialLabel2.Depth = 0;
@@ -492,6 +522,7 @@ namespace CourseworkASD
             // tabPageCharts
             // 
             this.tabPageCharts.BackColor = System.Drawing.Color.White;
+            this.tabPageCharts.Controls.Add(this.materialProgressBarStat);
             this.tabPageCharts.Controls.Add(this.materialCardHandleSearch);
             this.tabPageCharts.Controls.Add(this.materialCardLinealSearch);
             this.tabPageCharts.Controls.Add(this.materialCardBinarySearch);
@@ -504,6 +535,15 @@ namespace CourseworkASD
             this.tabPageCharts.Size = new System.Drawing.Size(790, 340);
             this.tabPageCharts.TabIndex = 1;
             this.tabPageCharts.Text = "Статистика";
+            // 
+            // materialProgressBarStat
+            // 
+            this.materialProgressBarStat.Depth = 0;
+            this.materialProgressBarStat.Location = new System.Drawing.Point(633, 22);
+            this.materialProgressBarStat.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialProgressBarStat.Name = "materialProgressBarStat";
+            this.materialProgressBarStat.Size = new System.Drawing.Size(146, 5);
+            this.materialProgressBarStat.TabIndex = 10;
             // 
             // materialCardHandleSearch
             // 
@@ -1183,14 +1223,14 @@ namespace CourseworkASD
             // materialCheckboxRefresh
             // 
             this.materialCheckboxRefresh.Depth = 0;
-            this.materialCheckboxRefresh.Location = new System.Drawing.Point(337, 6);
+            this.materialCheckboxRefresh.Location = new System.Drawing.Point(329, 6);
             this.materialCheckboxRefresh.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckboxRefresh.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialCheckboxRefresh.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCheckboxRefresh.Name = "materialCheckboxRefresh";
             this.materialCheckboxRefresh.ReadOnly = false;
             this.materialCheckboxRefresh.Ripple = true;
-            this.materialCheckboxRefresh.Size = new System.Drawing.Size(296, 35);
+            this.materialCheckboxRefresh.Size = new System.Drawing.Size(292, 35);
             this.materialCheckboxRefresh.TabIndex = 1;
             this.materialCheckboxRefresh.Text = "Обновлять расчеты при выборе";
             this.materialCheckboxRefresh.UseVisualStyleBackColor = true;
@@ -1245,7 +1285,7 @@ namespace CourseworkASD
             this.materialButtonSaveXlsx.Depth = 0;
             this.materialButtonSaveXlsx.HighEmphasis = true;
             this.materialButtonSaveXlsx.Icon = null;
-            this.materialButtonSaveXlsx.Location = new System.Drawing.Point(340, 78);
+            this.materialButtonSaveXlsx.Location = new System.Drawing.Point(340, 91);
             this.materialButtonSaveXlsx.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButtonSaveXlsx.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButtonSaveXlsx.Name = "materialButtonSaveXlsx";
@@ -1305,7 +1345,7 @@ namespace CourseworkASD
             this.materialButtonSave.Depth = 0;
             this.materialButtonSave.HighEmphasis = true;
             this.materialButtonSave.Icon = null;
-            this.materialButtonSave.Location = new System.Drawing.Point(340, 85);
+            this.materialButtonSave.Location = new System.Drawing.Point(340, 91);
             this.materialButtonSave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButtonSave.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButtonSave.Name = "materialButtonSave";
@@ -1489,10 +1529,10 @@ namespace CourseworkASD
             this.Text = "Анализ поисков";
             this.materialTabControlMainWindow.ResumeLayout(false);
             this.tabPageDevelop.ResumeLayout(false);
-            this.materialCardHandle.ResumeLayout(false);
-            this.materialCardHandle.PerformLayout();
             this.materialCardAuto.ResumeLayout(false);
             this.materialCardAuto.PerformLayout();
+            this.materialCardHandle.ResumeLayout(false);
+            this.materialCardHandle.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewWords)).EndInit();
             this.tabPageCharts.ResumeLayout(false);
             this.materialCardHandleSearch.ResumeLayout(false);
@@ -1512,6 +1552,12 @@ namespace CourseworkASD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfoLogo)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private MaterialSkin.Controls.MaterialProgressBar materialProgressBarStat;
+
+        private MaterialSkin.Controls.MaterialProgressBar materialProgressBarDev;
+
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckboxGenerated;
 
         private MaterialSkin.Controls.MaterialTextBox2 materialTextBoxHandleQuestion;
 

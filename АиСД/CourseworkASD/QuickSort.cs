@@ -4,39 +4,39 @@ namespace CourseworkASD
 {
     public class QuickSort
     {
-        public List<(string word, int hash)> Sort(List<(string word, int hash)> array, int minIndex, int maxIndex)
+        public List<(string word, int hash)> Sort(List<(string word, int hash)> data, int minIndex, int maxIndex)
         {
             if (minIndex >= maxIndex)
             {
-                return array;
+                return data;
             }
 
-            int pivotIndex = GetPivotIndex(array, minIndex, maxIndex);
+            int propIndex = GetPropIndex(data, minIndex, maxIndex);
 
-            Sort(array, minIndex, pivotIndex - 1);
-            Sort(array, pivotIndex + 1, maxIndex);
+            Sort(data, minIndex, propIndex - 1);
+            Sort(data, propIndex + 1, maxIndex);
 
-            return array;
+            return data;
         }
 
-        private int GetPivotIndex(List<(string word, int hash)> array, int minIndex, int maxIndex)
+        private int GetPropIndex(List<(string word, int hash)> data, int minIndex, int maxIndex)
         {
-            int pivot = minIndex - 1;
+            int prop = minIndex - 1;
 
             for (int i = minIndex; i <= maxIndex; i++)
             {
-                if (array[i].hash < array[maxIndex].hash)
+                if (data[i].hash < data[maxIndex].hash)
                 {
-                    pivot++;
-                    (array[pivot], array[i]) = (array[i], array[pivot]);
+                    prop++;
+                    (data[prop], data[i]) = (data[i], data[prop]);
                 }
             }
 
-            pivot++;
+            prop++;
 
-            (array[pivot], array[maxIndex]) = (array[maxIndex], array[pivot]);
+            (data[prop], data[maxIndex]) = (data[maxIndex], data[prop]);
 
-            return pivot;
+            return prop;
         }
     }
 }

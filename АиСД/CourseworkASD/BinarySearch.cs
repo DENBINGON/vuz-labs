@@ -37,7 +37,6 @@ namespace CourseworkASD
             if (rightPointer - leftPointer == 1 &&
                 (_data[rightPointer].hash == hash || _data[leftPointer].hash == hash)) exist = true;
             
-            
             return (exist, iterCount);
         }
     }

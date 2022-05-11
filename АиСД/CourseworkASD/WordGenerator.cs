@@ -6,8 +6,8 @@ namespace CourseworkASD
     {
         private readonly int _wordLenght;
         private readonly string _chars = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя1234567890";
-        private readonly string _upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-        private readonly string _symbolChars = "!№;%:?*()#$@^&`/ |~,.'\"";
+        private const string _upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+        private const string _symbolChars = "!№;%:?*()#$@^&`/ |~,.'\"";
         //private Dictionary<string, int> dictionaryChars = new Dictionary<string, int>();
         private readonly Dictionary<int, string> _dictionaryInt = new Dictionary<int, string>();
         private void GenerateDictionary()
@@ -39,10 +39,10 @@ namespace CourseworkASD
             string word = GenerateWord(rnd);
             return (word, Convert.ToInt32(word.GetHashCode()));
         }
-        public WordGenerator(int lenght, bool symbols, bool uppered)
+        public WordGenerator(int lenght, bool symbols, bool upper)
         {
             _wordLenght = lenght;
-            if (uppered) _chars += _upperChars;
+            if (upper) _chars += _upperChars;
             if (symbols) _chars += _symbolChars;
             GenerateDictionary();
         }

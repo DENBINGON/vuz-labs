@@ -7,6 +7,7 @@ using System.IO;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
 using System.Windows.Forms.DataVisualization.Charting;
 using OfficeOpenXml;
 
@@ -46,15 +47,33 @@ namespace CourseworkASD
             );
         }
 
-        private void RefreshDataAtGrid()
+        private async void RefreshDataAtGridAsync()
         {
             QuickSort quickSort = new QuickSort();
             _data = quickSort.Sort(_data, 0, _data.Count - 1);
             dataGridViewWords.Rows.Clear();
-            for (int counter = 0; counter < _data.Count; counter++)
+
+            await Task.Run(() =>
             {
-                dataGridViewWords.Rows.Add(_data[counter].word);
-            }
+                materialProgressBarDev.Invoke(new Action(() => materialProgressBarDev.Value = 0));
+                for (int counter = 0; counter < _data.Count; counter++)
+                {
+                    dataGridViewWords.Invoke(new Action(() => dataGridViewWords.Rows.Add(_data[counter].word)));
+                    materialProgressBarDev.Invoke(new Action(() =>
+                        materialProgressBarDev.Value = Convert.ToInt32((double)counter / (double)_data.Count * 100)));
+                }
+            });
+            materialProgressBarDev.Invoke(new Action(() => materialProgressBarDev.Value = 0));
+            materialCheckboxGenerated.Invoke(new Action(() => materialCheckboxGenerated.Checked = true));
+            materialButtonGenerate.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonClear.Enabled = materialCheckboxGenerated.Checked;
+
+            materialButtonSave.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonSaveXlsx.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonLinealRefresh.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonBinaryRefresh.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonHandleSearch.Enabled = materialCheckboxGenerated.Checked;
+            materialCheckboxRefresh.Enabled = materialCheckboxGenerated.Checked;
         }
 
         private void materialSwitchTheme_CheckedChanged(object sender, EventArgs e)
@@ -92,22 +111,38 @@ namespace CourseworkASD
             Process.Start("https://github.com/DENBINGON/vuzLabs/tree/main/%D0%90%D0%B8%D0%A1%D0%94/CourseworkASD");
         }
 
-        private void materialButtonGenerate_Click(object sender, EventArgs e)
+        private async void materialButtonGenerate_Click(object sender, EventArgs e)
         {
             if (materialSliderCount.Value == 0) materialSliderCount.Value = 1;
             if (materialSliderLenght.Value == 0) materialSliderLenght.Value = 1;
+            materialCheckboxGenerated.Checked = false;
+            materialButtonGenerate.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonClear.Enabled = materialCheckboxGenerated.Checked;
+
+            materialButtonSave.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonSaveXlsx.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonLinealRefresh.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonBinaryRefresh.Enabled = materialCheckboxGenerated.Checked;
+            materialButtonHandleSearch.Enabled = materialCheckboxGenerated.Checked;
+            materialCheckboxRefresh.Enabled = materialCheckboxGenerated.Checked;
+            materialCheckboxRefresh.Checked = materialCheckboxGenerated.Checked;
 
             _wordGenerator = new WordGenerator(materialSliderLenght.Value,
                 materialCheckboxSymbols.Checked, materialCheckboxUppers.Checked);
             _data.Clear();
-
-            for (int counter = 1; counter < materialSliderCount.Value * 100 + 1; counter++)
+            materialProgressBarDev.Value = 0;
+            await Task.Run(() =>
             {
-                (string word, int hash) temp = _wordGenerator.GetWord(_random);
-                if (_data.IndexOf(temp) == -1) _data.Add(temp);
-            }
-
-            RefreshDataAtGrid();
+                for (int counter = 1; counter < materialSliderCount.Value + 1; counter++)
+                {
+                    (string word, int hash) temp = _wordGenerator.GetWord(_random);
+                    if (_data.IndexOf(temp) == -1) _data.Add(temp);
+                    materialProgressBarDev.Invoke(new Action(() =>
+                        materialProgressBarDev.Value =
+                            Convert.ToInt32((double)counter / (double)(materialSliderCount.Value + 1) * 100)));
+                }
+            });
+            await Task.Run(RefreshDataAtGridAsync);
         }
 
         private void materialSwitchHandle_CheckedChanged(object sender, EventArgs e)
@@ -128,7 +163,7 @@ namespace CourseworkASD
         {
             (string word, int hash) temp = (materialTextBoxHandAdd.Text, materialTextBoxHandAdd.Text.GetHashCode());
             if (_data.IndexOf(temp) == -1) _data.Add(temp);
-            RefreshDataAtGrid();
+            RefreshDataAtGridAsync();
         }
 
         private void materialButtonDel_Click(object sender, EventArgs e)
@@ -137,7 +172,7 @@ namespace CourseworkASD
             {
                 int index = Convert.ToInt32(materialTextBoxDel.Text);
                 if (index < _data.Count) _data.RemoveAt(index);
-                RefreshDataAtGrid();
+                RefreshDataAtGridAsync();
             }
             finally
             {
@@ -161,7 +196,7 @@ namespace CourseworkASD
                     materialCardLinealSearch.Show();
                     if (materialCheckboxRefresh.Checked)
                     {
-                        RefreshStats(chartLineal, materialTextBoxLinealIterCount, materialTextBoxLinealMinTime,
+                        RefreshStatsAsync(chartLineal, materialTextBoxLinealIterCount, materialTextBoxLinealMinTime,
                             materialTextBoxLinealMaxTime, materialTextBoxLinealTotalTime, 0);
                     }
 
@@ -172,7 +207,7 @@ namespace CourseworkASD
                     materialCardBinarySearch.Show();
                     if (materialCheckboxRefresh.Checked)
                     {
-                        RefreshStats(chartBinary, materialTextBoxBinaryIterCount, materialTextBoxBinaryMinTime,
+                        RefreshStatsAsync(chartBinary, materialTextBoxBinaryIterCount, materialTextBoxBinaryMinTime,
                             materialTextBoxBinaryMaxTime, materialTextBoxBinaryTotalTime, 1);
                     }
 
@@ -185,6 +220,7 @@ namespace CourseworkASD
                     {
                         materialButtonHandleSearch_Click(sender, e);
                     }
+
                     break;
                 default:
                     materialCardLinealSearch.Hide();
@@ -194,7 +230,7 @@ namespace CourseworkASD
             }
         }
 
-        private void RefreshStats(Chart chart, MaterialTextBox2 iterCount, MaterialTextBox2 minTime,
+        private async void RefreshStatsAsync(Chart chart, MaterialTextBox2 iterCount, MaterialTextBox2 minTime,
             MaterialTextBox2 maxTime, MaterialTextBox2 totalTime, int varEng)
         {
             TimeSpan tsMinTime = TimeSpan.MaxValue;
@@ -217,35 +253,43 @@ namespace CourseworkASD
                     break;
             }
 
-            foreach ((string word, int hash) word in _data)
+            await Task.Run(() =>
             {
-                timer.Start();
-                (bool exist, int iterCount) temp = search.Find(word.word);
-                timer.Stop();
-                if (tsMinTime > timer.Elapsed) tsMinTime = timer.Elapsed;
-                if (tsMaxTime < timer.Elapsed) tsMaxTime = timer.Elapsed;
-                iterationsCount += temp.iterCount;
-                tsTotalTime += timer.Elapsed;
-                chart.Series[0].Points.AddXY(chartCounter, timer.Elapsed.TotalMilliseconds);
-                chart.Series[1].Points.AddXY(chartCounter, temp.iterCount);
-                chartCounter++;
-                timer.Reset();
-            }
+                foreach ((string word, int hash) word in _data)
+                {
+                    timer.Start();
+                    (bool exist, int iterCount) temp = search.Find(word.word);
+                    timer.Stop();
+                    if (tsMinTime > timer.Elapsed) tsMinTime = timer.Elapsed;
+                    if (tsMaxTime < timer.Elapsed) tsMaxTime = timer.Elapsed;
+                    iterationsCount += temp.iterCount;
+                    tsTotalTime += timer.Elapsed;
+                    chart.Invoke(new Action(() =>
+                        chart.Series[0].Points.AddXY(chartCounter, timer.Elapsed.TotalMilliseconds)));
+                    chart.Invoke(new Action(() => chart.Series[1].Points.AddXY(chartCounter, temp.iterCount)));
+                    timer.Reset();
+                    materialProgressBarStat.Invoke(new Action(() =>
+                        materialProgressBarStat.Value =
+                            Convert.ToInt32((double)chartCounter / (double)_data.Count * 100)));
+                    chartCounter++;
+                }
+            });
 
             minTime.Text = tsMinTime.ToString();
             maxTime.Text = tsMaxTime.ToString();
             totalTime.Text = tsTotalTime.ToString();
             iterCount.Text = iterationsCount.ToString();
+            materialProgressBarStat.Value = 0;
         }
 
         private void materialButtonLinealRefresh_Click(object sender, EventArgs e) =>
-            RefreshStats(chartLineal, materialTextBoxLinealIterCount, materialTextBoxLinealMinTime,
+            RefreshStatsAsync(chartLineal, materialTextBoxLinealIterCount, materialTextBoxLinealMinTime,
                 materialTextBoxLinealMaxTime, materialTextBoxLinealTotalTime, 0);
 
         private void materialButtonBinaryRefresh_Click(object sender, EventArgs e) =>
-            RefreshStats(chartBinary, materialTextBoxBinaryIterCount, materialTextBoxBinaryMinTime,
+            RefreshStatsAsync(chartBinary, materialTextBoxBinaryIterCount, materialTextBoxBinaryMinTime,
                 materialTextBoxBinaryMaxTime, materialTextBoxBinaryTotalTime, 1);
-        
+
 
         private void SaveChart(Chart chart)
         {
@@ -273,34 +317,38 @@ namespace CourseworkASD
             }
         }
 
-        private void SaveData(int searchId)
+        private async void SaveDataAsync(int searchId)
         {
-            using (SaveFileDialog sfd = new SaveFileDialog())
+
+            SaveFileDialog sfd = new SaveFileDialog();
+
+            sfd.Title = @"Сохранить таблицу как...";
+            sfd.Filter = @"*.xlsx|*.xlsx";
+            sfd.AddExtension = true;
+            sfd.FileName = "dataBook";
+            if (sfd.ShowDialog() == DialogResult.OK)
             {
-                sfd.Title = @"Сохранить таблицу как...";
-                sfd.Filter = @"*.xlsx|*.xlsx";
-                sfd.AddExtension = true;
-                sfd.FileName = "dataBook";
-                if (sfd.ShowDialog() == DialogResult.OK)
+                ExcelPackage package = new ExcelPackage();
+                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("DATA");
+                worksheet.Cells["A1"].Value = "WORD";
+                worksheet.Cells["B1"].Value = "HASH";
+                worksheet.Cells["C1"].Value = "TIME";
+                worksheet.Cells["D1"].Value = "ITER";
+                Stopwatch stopwatch = new Stopwatch();
+                ISearch search;
+                int counter = 1;
+                switch (searchId)
                 {
-                    ExcelPackage package = new ExcelPackage();
-                    ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("DATA");
-                    worksheet.Cells["A1"].Value = "WORD";
-                    worksheet.Cells["B1"].Value = "HASH";
-                    worksheet.Cells["C1"].Value = "TIME";
-                    worksheet.Cells["D1"].Value = "ITER";
-                    Stopwatch stopwatch = new Stopwatch();
-                    ISearch search;
-                    int counter = 1;
-                    switch (searchId)
-                    {
-                        case 0:
-                            search = new LinealSearch(_data);
-                            break;
-                        default:
-                            search = new BinarySearch(_data);
-                            break;
-                    }
+                    case 0:
+                        search = new LinealSearch(_data);
+                        break;
+                    default:
+                        search = new BinarySearch(_data);
+                        break;
+                }
+
+                await Task.Run(() =>
+                {
 
                     foreach ((string word, int hash) word in _data)
                     {
@@ -315,8 +363,10 @@ namespace CourseworkASD
                         stopwatch.Reset();
                     }
 
-                    File.WriteAllBytes(sfd.FileName, package.GetAsByteArray());
-                }
+                });
+
+                File.WriteAllBytes(sfd.FileName, await package.GetAsByteArrayAsync());
+
             }
         }
 
@@ -338,25 +388,25 @@ namespace CourseworkASD
             switch (materialComboBoxSelectChartToXlsx.SelectedIndex)
             {
                 case 0:
-                    SaveData(0);
+                    SaveDataAsync(0);
                     break;
                 case 1:
-                    SaveData(1);
+                    SaveDataAsync(1);
                     break;
             }
         }
 
-        private void materialCheckboxLinealTime_CheckedChanged(object sender, EventArgs e) =>
-            chartLineal.Series[0].Enabled = materialCheckboxLinealTime.Checked;
+        private async void materialCheckboxLinealTime_CheckedChanged(object sender, EventArgs e) =>
+            await Task.Run(() => chartLineal.Series[0].Enabled = materialCheckboxLinealTime.Checked);
 
-        private void materialCheckboxLinealCount_CheckedChanged(object sender, EventArgs e) =>
-            chartLineal.Series[1].Enabled = materialCheckboxLinealCount.Checked;
+        private async void materialCheckboxLinealCount_CheckedChanged(object sender, EventArgs e) =>
+            await Task.Run(() => chartLineal.Series[1].Enabled = materialCheckboxLinealCount.Checked);
 
-        private void materialCheckboxBinaryTime_CheckedChanged(object sender, EventArgs e) =>
-            chartBinary.Series[0].Enabled = materialCheckboxBinaryTime.Checked;
+        private async void materialCheckboxBinaryTime_CheckedChanged(object sender, EventArgs e) =>
+            await Task.Run(() => chartBinary.Series[0].Enabled = materialCheckboxBinaryTime.Checked);
 
-        private void materialCheckboxBinaryCount_CheckedChanged(object sender, EventArgs e) =>
-            chartBinary.Series[1].Enabled = materialCheckboxBinaryCount.Checked;
+        private async void materialCheckboxBinaryCount_CheckedChanged(object sender, EventArgs e) =>
+            await Task.Run(() => chartBinary.Series[1].Enabled = materialCheckboxBinaryCount.Checked);
 
         private void materialButtonHandleSearch_Click(object sender, EventArgs e)
         {
