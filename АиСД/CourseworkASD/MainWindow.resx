@@ -117,15 +117,1440 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="imageListGit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>145, 17</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="materialButtonGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 259</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlMainWindow.Name" xml:space="preserve">
+    <value>materialTabControlMainWindow</value>
+  </data>
+  <data name="materialLabelKR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarDev.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialProgressBar, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="materialCheckboxBinaryCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 37</value>
+  </data>
+  <data name="&gt;&gt;materialListBoxData.Name" xml:space="preserve">
+    <value>materialListBoxData</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialListBoxData.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialButtonLinealRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabPageAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchUseAsync.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialButtonLinealRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 36</value>
+  </data>
+  <data name="materialLabelInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 213</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleIterCount.Parent" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
+  </data>
+  <data name="materialCard3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.Hint" xml:space="preserve">
+    <value>Минимальное время</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSaveXlsx.Name" xml:space="preserve">
+    <value>materialLabelSaveXlsx</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectImportType.Name" xml:space="preserve">
+    <value>materialComboBoxSelectImportType</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="tabPageDevelop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="materialCheckboxUppers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 37</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMaxTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialButtonLinealRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 281</value>
+  </data>
+  <data name="tabPageInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageSpec.Parent" xml:space="preserve">
+    <value>materialTabControlMainWindow</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchTheme.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.Hint" xml:space="preserve">
+    <value>Выберите график</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealTotalTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialLabelSubject.Text" xml:space="preserve">
+    <value>Исследование линейного, индексного и бинарного поисков</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleFindWord.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialCheckboxLinealTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMaxTime.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandle.Name" xml:space="preserve">
+    <value>tabPageHandle</value>
+  </data>
+  <data name="&gt;&gt;materialCard1.Name" xml:space="preserve">
+    <value>materialCard1</value>
+  </data>
+  <data name="materialCheckBoxDop.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.Items1" xml:space="preserve">
+    <value>Текстовый файл</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectImportType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chartBinary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMaxTime.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 102</value>
+  </data>
+  <data name="imageListMenu.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC6
+        GQAAAk1TRnQBSQFMAgEBBAEAAaABBQGkAQUBIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
+        AwABQAMAAQEBAAEgBgABgP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
+        /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
+        /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AlQADUwGqA1MBqgNTAaUDFAEc/wBhAAM1AVUDNQFV
+        AyYBOQgAAyYBOQM1AVUDNQFVSAADAwEEAycBOwM1AVUDNQFVAzUBVQM1AVUDNQFVAxQBHAsAAf8DAAH/
+        AwAB/wNfAdsDFAEcYAADDQESAx8BLQMvAUkDLwFJAx8BLQMNARLkAANNAf8DTQH/A1MBqggAA1MBqgNN
+        Af8DTQH/RAADCgENA1wByQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM1AVULAAH/AwAB/wMAAf8DAAH/
+        A18B2wMUARxQAAMYASIDRgF/A14BzgMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNcAc0DRgF+AxgBITAA
+        AzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AzUBVTgAA00B/wNN
+        Af8DUwGqCAADUwGqA00B/wNNAf9EAANEAXoDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AzUBVQgA
+        A1EBnwMAAf8DAAH/AwAB/wMAAf8DXwHbAxQBHEQAAxABFQNMAZIDagH5AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wNqAfkDTAGQAw8BFCgAAzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AzUBVTgAA00B/wNNAf8DUwGqCAADUwGqA00B/wNNAf9EAANT
+        AagDAAH/AwAB/wM1AVUDNQFVAzUBVQM1AVUDNQFVAxQBHAgAAwEBAgNRAZ8DAAH/AwAB/wMAAf8DAAH/
+        A18B2wMUARw8AAMmATkDZAHnAwAB/wMAAf8DAAH/A2QB8QNSAakDRQF9AzoBYQM6AWEDRgF+A1MBqgNn
+        AfIDAAH/AwAB/wMAAf8DYQHmAyYBOCQAAzUBVQMAAf8DAAH/AwAB/wMAAf8DXQHKA1MBqgNTAaoDUwGq
+        A1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGq
+        A1MBqgNTAaoDUwGqAyYBODgAA00B/wNNAf8DUwGqCAADUwGqA00B/wNNAf9EAANTAaoDAAH/AwAB/yQA
+        AwEBAgNRAaADAAH/AwAB/wMAAf8DAAH/A1wB3wMXASA0AAM1AVUDXAH4AwAB/wMAAf8DXwHgAzgBXgMF
+        AQcYAAMFAQcDOQFfA2EB4gMAAf8DAAH/A20B9wM0AVQgAAM1AVUDAAH/AwAB/wMAAf8DAAH/A1sBxAMA
+        AQGMAANNAf8DTQH/A1MBqggAA1MBqgNNAf8DTQH/RAADUwGqAwAB/wMAAf8oAAMBAQIDUQGgAwAB/wMA
+        Af8DAAH/AwAB/wNcAd8DFwEgLAADJgE5A1wB+AMAAf8DAAH/A1ABmgMGAQgoAAMHAQkDUAGdAwAB/wMA
+        Af8DbQH3AyYBOBwAAzUBVQMAAf8DAAH/A2UB9AMAAf8DAAH/AzUBV4wAA00B/wNNAf8DUwGqCAADUwGq
+        A00B/wNNAf9EAANTAaoDAAH/AwAB/wgAAzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/A1EBnwMBAQIEAAMB
+        AQIDUQGgAwAB/wMAAf8DAAH/AwAB/wNcAd8DFwEgJAADEAEWA2QB5wMAAf8DAAH/A0MBeDgAA0QBegMA
+        Af8DAAH/A2EB5gMPARQYAAM1AVUDAAH/AwAB/wNGAX8DXwH7AwAB/wNhAeIDBwEKiAADTQH/A00B/wNT
+        AaoIAANTAaoDTQH/A00B/0QAA1MBqgMAAf8DAAH/CAADNQFVAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AzIBUAgAAwEBAgNRAZ8DAAH/AwAB/wMAAf8DAAH/A1QBriQAA0wBkwMAAf8DAAH/A1ABmhgAAyYBOANT
+        AaoDUwGqAyYBOBgAA1ABnQMAAf8DAAH/A0wBkBgAAzUBVQMAAf8DAAH/AzUBVQNOAZUDAAH/AwAB/wNG
+        AX6IAANNAf8DTQH/A1MBqggAA1MBqgNNAf8DTQH/RAADUwGqAwAB/wMAAf8IAAMmATgDUwGqA1MBqgNT
+        AaoDUwGqA1MBqgNTAaoDJgE4DAADAQECA1EBnwMAAf8DAAH/A1wB0QMPARQDNwFbAyABLhgAAxkBIwNq
+        AfkDAAH/A18B4AMGAQgYAAM1AVUDAAH/AwAB/wM1AVUYAAMHAQkDYQHiAwAB/wNqAfkDGAEhFAADNQFV
+        AwAB/wMAAf8DNQFVAw0BEgNkAewDAAH/A2IB9gMWAR+EAANNAf8DTQH/A1MBqggAA1MBqgNNAf8DTQH/
+        RAADUwGqAwAB/wMAAf84AAMBAQIDUQGfA1wB0QMPARQDOgFgA0AB/QNcAeoDGAEhFAADRwGAAwAB/wMA
+        Af8DOAFdHAADNQFVAwAB/wMAAf8DNQFVHAADOgFgAwAB/wMAAf8DRgF+FAADNQFVAwAB/wMAAf8DNQFV
+        BAADPwFtAwAB/wMAAf8DVAGmKAADBAEFAxQBHFQAA00B/wNNAf8DTQH/A00B/wNNAf8DTQH/A00B/wNN
+        Af9EAANTAaoDAAH/AwAB/zwAAwEBAgMMARADOgFgA0AB/QMAAf8DQAH9AycBOxQAA1wBzwMAAf8DZwHy
+        AwUBBxwAAzUBVQMAAf8DAAH/AzUBVRwAAwUBBwNnAfIDAAH/A1wBzBQAAzUBVQMAAf8DAAH/AzUBVQQA
+        AwMBBANdAdMDAAH/A3UB/gMoAT0gAAMsAUMDXQHTA1wBzQMBAQJQAANNAf8DTQH/A00B/wNNAf8DTQH/
+        A00B/wNNAf8DTQH/RAADUwGqAwAB/wMAAf8IAAMmATgDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGq
+        A1MBqgNTAaoDUwGqAyYBOAwAA0YBfgMAAf8DQAH9AzkBXxQAAw4BEwMAAf8DAAH/A1MBqCAAAzUBVQMA
+        Af8DAAH/AzUBVSAAA1MBqgMAAf8DdQH+Aw0BEhAAAzUBVQMAAf8DAAH/AzUBVQgAAywBQwMAAf8DAAH/
+        A14BzgMBAQIUAAMaASUDUwGqAwAB/wMAAf8DAAH/AzoBYDsAAQEDFAEbEAADTQH/A00B/wNNAf8DTQH/
+        A00B/wNNAf8DTQH/A00B/xAAAxQBGwMAAQEsAANTAaoDAAH/AwAB/wgAAzUBVQMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DNQFVEAADQAFuAzIBURgAAyABLwMAAf8DAAH/A0QBeyAA
+        AzUBVQMAAf8DAAH/AzUBVSAAA0YBfgMAAf8DAAH/Ax8BLRAAAzUBVQMAAf8DAAH/AzUBVQwAA1UBsgMA
+        Af8DAAH/AzoBYgwAAwkBDANHAYADXAH4AwAB/wMAAf8DAAH/AwAB/wNfAegDCgEOMwABAQNOAZUDXwHo
+        Ax0BKgwAA00B/wNNAf8DTQH/A00B/wNNAf8DTQH/A00B/wNNAf8MAAMbASYDZQHlA1EBnAMBAQIoAANT
+        AaoDAAH/AwAB/wgAAzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DNQFV
+        CAADAQECJAADLgFIAwAB/wMAAf8DOgFiIAADNQFVAwAB/wMAAf8DNQFVIAADOwFjAwAB/wMAAf8DLgFH
+        EAADNQFVAwAB/wMAAf8DNQFVDAADGgElA2oB+QMAAf8DXwHoAwoBDgMCAQMDPQFnA1wB6gMAAf8DAAH/
+        AwAB/wNaAcUDUgGnAwAB/wMAAf8DSQGIMAADPgFqA00B/wNNAf8DYQHmAxwBJwgAA00B/wNNAf8DTQH/
+        A00B/wNNAf8DTQH/A00B/wNNAf8IAAMcAScDYQHmA00B/wNNAf8DPgFqKAADUwGqAwAB/wMAAf9AAANR
+        AZ8DAQECIAADLwFJAwAB/wMAAf8DOgFhIAADNQFVAwAB/wMAAf8DNQFVIAADOgFiAwAB/wMAAf8DLgFI
+        EAADNQFVAwAB/wMAAf8DNQFVEAADSgGKAwAB/wMAAf8DUwGqA14B0AMAAf8DAAH/AwAB/wNhAeQDNwFb
+        AwABAQMLAQ8DXwHoAwAB/wNcAfgDGgEkLAADBAEGA1UBsANNAf8DTQH/A18B6AMdASoEAANNAf8DTQH/
+        A00B/wNNAf8DTQH/A00B/wNNAf8DTQH/BAADGgElA2UB5QNNAf8DTQH/A1YBtgMFAQcoAANTAaoDAAH/
+        AwAB/0MAAf8DUQGfAwEBAhwAAyABLwMAAf8DAAH/A0QBeyAAAxQBHAM1AVUDNQFVAxQBHCAAA0UBfAMA
+        Af8DAAH/AyABLhAAAzUBVQMAAf8DAAH/AzUBVRAAAwoBDQNhAeYDAAH/AwAB/wMAAf8DAAH/A2oB+QNN
+        AZEDCgEODAADOwFlAwAB/wMAAf8DVAGvMAADBAEGA1UBsANNAf8DTQH/A18B6AMdASoDTQH/A00B/wNN
+        Af8DTQH/A00B/wNNAf8DTQH/A00B/wMaASUDYQHkA00B/wNNAf8DVgG2AwUBBywAA1MBqgMAAf8DAAH/
+        QwAB/wMAAf8DSAGGHAADDwEUAwAB/wMAAf8DUwGoUAADUwGqAwAB/wN1Af4DDQESEAADNQFVAwAB/wMA
+        Af8DNQFVFAADOwFkAwAB/wMAAf8DAAH/A1YBswMYASIUAAMBAQIDWwHLAwAB/wMAAf8DLgFHMAADBAEG
+        A1YBsQNNAf8DTQH/A2UB5QNNAf8DTQH/A00B/wNNAf8DTQH/A00B/wNNAf8DTQH/A2UB5QNNAf8DTQH/
+        A1YBsQMEAQYwAANTAaoDAAH/AwAB/0MAAf8DAAH/A1MBqiAAA1wB0QMAAf8DXQHwAwQBBkgAAwUBBwNk
+        AfEDAAH/A14BzhQAAzUBVQMAAf8DAAH/AzUBVRQAAwEBAgNbAcsDXgHYAy8BSSAAAycBOgN1Af4DAAH/
+        A14B1QMEAQUwAAMEAQYDVQGwA00B/wNNAf8DTQH/A00B/wNNAf8DTQH/A00B/wNNAf8DTQH/A00B/wNN
+        Af8DTQH/A1YBtgMFAQc0AANTAaoDAAH/AwAB/yQAA1MBqgMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/A1MBqiAAA0cBgQMAAf8DAAH/AzgBXBwAAzUBVQMAAf8DAAH/AzUBVRwAAzgBXgMAAf8DAAH/
+        A0YBfxQAAzUBVQMAAf8DAAH/AzUBVRgAAxQBHAMDAQQoAANSAacDAAH/AwAB/wM/AWw0AAMEAQYDVQGw
+        A00B/wNNAf8DTQH/A00B/wNNAf8DTQH/A00B/wNNAf8DTQH/A00B/wNWAbYDBgEIOAADUwGqAwAB/wMA
+        Af8kAANTAaoDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNBAXIgAAMaASQDTQH6AwAB/wNg
+        Ad4DBQEHGAADNQFVAwAB/wMAAf8DNQFVGAADBgEIA18B4AMAAf8DagH5AxgBIhQAAzUBVQMAAf8DAAH/
+        AzUBVUgAAxQBHANlAfQDAAH/A2EB7gMOARM0AAMEAQYDVgGxA00B/wNNAf8DTQH/A00B/wNNAf8DTQH/
+        A00B/wNNAf8DVwG3AwYBCDwAA1MBqgMAAf8DAAH/JAADUwGqAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wNJAYgoAANOAZUDAAH/AwAB/wNPAZcYAAMmATgDUwGqA1MBqgMmATgYAANQAZoDAAH/AwAB/wNM
+        AZIYAAM1AVUDAAH/AwAB/wM1AVVMAANHAYADAAH/AwAB/wNMAZI4AAMEAQYDUgGnA0UB/ANNAf8DTQH/
+        A00B/wNNAf8DRQH8A1IBpwMEAQZAAANTAaoDAAH/AwAB/yQAA1MBqgMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wNJAYgsAAMRARcDXwHoAwAB/wMAAf8DQgF2OAADQwF4AwAB/wMAAf8DZAHnAxABFRgAAzUBVQMA
+        Af8DAAH/AzUBVUwAAwcBCQNhAeEDAAH/A2oB+QMSARmcAANTAaoDAAH/AwAB/yQAA1MBqgMAAf8DAAH/
+        AwAB/wMAAf8DAAH/A0kBiDQAAycBOgNcAfgDAAH/AwAB/wNPAZcDBQEHKAADBgEIA1ABmgMAAf8DAAH/
+        A1wB+AMmATkcAAM1AVUDAAH/AwAB/wM1AVVQAAM2AVgDXQHKAyYBOUQAAx8BLQNNAZEDTAGQAx8BLEwA
+        A1MBqgMAAf8DAAH/JAADUwGqAwAB/wMAAf8DAAH/AwAB/wNJAYg8AAM1AVYDXAH4AwAB/wMAAf8DXAHf
+        AzcBWwMEAQYYAAMEAQYDOAFdA18B4AMAAf8DAAH/A1wB+AM1AVUgAAM1AVUDAAH/AwAB/wM1AVVTAAEB
+        AwABAUQAAx8BLQNtAfcDTQH/A00B/wNtAfcDHwEsSAADUwGoAwAB/wMAAf8DNQFVAzUBVQM1AVUDNQFV
+        AzUBVQM1AVUDNQFVAzUBVQM1AVUDWQHHAwAB/wMAAf8DAAH/A0cBgEQAAycBOgNfAegDAAH/AwAB/wMA
+        Af8DXQHwA1IBpwNFAXwDOgFgAzoBYANFAXwDUwGoA2QB8QMAAf8DAAH/AwAB/wNkAecDJgE5JAADNQFV
+        AwAB/wMAAf8DNQFVnAADTQGRA00B/wNNAf8DTQH/A00B/wNMAY9IAANEAXsDAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNHAYBMAAMRARcDTgGVA00B+gMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DTQH6A0wBkwMQARbUAANMAZIDTQH/
+        A00B/wNNAf8DTQH/A0wBkEgAAwoBDQNbAcsDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DRwGAWAADGgEkA0cBgQNeAdADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DXAHP
+        A0cBgAMZASPcAAMfAS0DbQH3A00B/wNNAf8DbQH3Ax8BLEwAAwMBBAMnATsDNQFVAzUBVQM1AVUDNQFV
+        AzUBVQM1AVUDNQFVAzUBVQM1AVUDNQFVAy4BR2gAAw8BFAMgAS4DLwFKAy8BSQMfAS0DDgET7AADHwEt
+        A00BkQNNAZEDHwEs/wD/AP8AOwABQgFNAT4HAAE+AwABKAMAAYADAAFAAwABAQEAAQEGAAEEFgAD//8A
+        /wADABr/AQ8K/wHxAY8B/wH8AQMBBwL/AfgBHwb/AfEBjwH/AfgCAwL/AcABAwH/AcACAAEDAf8B8QGP
+        Af8B+AEDAQEC/wIAAf8BwAIAAQMB/wHxAY8B/wH4AQMBAAH/Af4CAAF/AcACAAEDAf8B8QGPAf8B+AH/
+        AYABfwH8AQcB4AE/AcABfwP/AfEBjwH/AfgB/wHAAT8B+AEfAfgBHwHAAX8D/wHxAY8B/wH4AcABIAEf
+        AfABfwH+AQ8BwAE/A/8B8QGPAf8B+AHAATABHwHwAfwBPwEPAcABPwP/AfEBjwH/AfgBwAE4AQcB4AH8
+        AT8BBwHAAR8D/wHxAY8B/wH4Af8B/AEDAeEB/AE/AYcBwgEfAfkC/wHwAQ8B/wH4Af8B/gEDAeEB/AE/
+        AYcBwgEPAfAC/wHwAQ8B/wH4AcABAwGHAcMB/AE/AsMBBwHAAf8B/AHwAQ8BPwH4AcABAwHPAcMB/AE/
+        AsMBhwEAAX8B+AFwAQ4BHwH4AcABAwF/AcMB/AE/AsMBgAEAAX8B+AEwAQwBHwH4Av8BPwHDAfwBPwLD
+        AcABAAE/AfgBEAEIAR8B+AL/AR8BwwH8AT8CwwHAARwBPwH8AgABPwH4Av8BHwHDAv8CwwHgAXwBHwH+
+        AgABfwH4Av8BHwHhAv8BhwHDAeEB/gEPAf8CAAH/AfgB/wGAAR8B4QH8AT8BhwHDAfMB/wEPAf8BgAEB
+        Af8B+AH/AYABHwHgAfwBPwEHAcMC/wEHAf8BwAEDAf8B+AH/AYABPwHwAfwBPwEPAcMC/wGHAf8B4AEH
+        Af8B+AH/AYABfwHwAX8B/gEPAcMC/wGDBP8B+AH/AYAB/wH4AR8B+AEfAcMC/wHHAf8B/AE/Af8B+AH/
+        AYEB/wH8AQcB4AE/AcMC/wHPAf8B+AEfAf8B+AEAAQMB/wH+AgABfwHDBP8B+AEfAf8B+AEAAQcC/wIA
+        Bv8B+AEfAf8B+AEAAQ8C/wHAAQMG/wH4AR8B/wH8AQABHwL/AfgBHwb/AfwBPxn/FgAL
+</value>
+  </data>
+  <data name="materialTabControlMainWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 526</value>
+  </data>
+  <data name="materialTextBoxDel.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealTotalTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxGenerated.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCardBinarySearch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;materialButtonLinealRefresh.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandleSearch.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabelDel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDop.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chartBinary.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="materialCheckboxUppers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 198</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 115</value>
+  </data>
+  <data name="materialLabelImportError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 36</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportClearPath.Name" xml:space="preserve">
+    <value>materialButtonImportClearPath</value>
+  </data>
+  <data name="linkLabelGitHub.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="materialButtonSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;materialButtonClear.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
+  </data>
+  <data name="materialCheckboxLinealCount.Text" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.Hint" xml:space="preserve">
+    <value>Общее время</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.Parent" xml:space="preserve">
+    <value>materialCard1</value>
+  </data>
+  <data name="tabPageSpec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;materialCard1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Items" xml:space="preserve">
+    <value>Линейный</value>
+  </data>
+  <data name="materialLabelSubject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 89</value>
+  </data>
+  <data name="materialSwitchWrapChartAsync.Text" xml:space="preserve">
+    <value> Графы</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDel.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchUseAsync.Parent" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Items1" xml:space="preserve">
+    <value>Бинарный</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialButtonHandleSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 17</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandAdd.Name" xml:space="preserve">
+    <value>materialTextBoxHandAdd</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportSelect.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabPageImport.Parent" xml:space="preserve">
+    <value>materialTabControlDev</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="chartBinary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 347</value>
+  </data>
+  <data name="materialButtonImportClearPath.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialButtonSave.Name" xml:space="preserve">
+    <value>materialButtonSave</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;materialCardLogo.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialButtonClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 259</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSaveXlsx.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialButtonHandAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 36</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.Hint" xml:space="preserve">
+    <value>Количество итераций</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImportError.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageSpec.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchGenWordAsync.Name" xml:space="preserve">
+    <value>materialSwitchGenWordAsync</value>
+  </data>
+  <data name="&gt;&gt;tabPageImport.Name" xml:space="preserve">
+    <value>tabPageImport</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 118</value>
+  </data>
+  <data name="materialLabelInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialCard3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCardBinarySearch.Parent" xml:space="preserve">
+    <value>tabPageCharts</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleFindWord.Parent" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
+  </data>
+  <data name="materialComboBoxSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialSliderLenght.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxUppers.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialCheckBoxDop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialSliderLenght.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 86</value>
+  </data>
+  <data name="&gt;&gt;materialCard3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImport.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialCardHandle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 332</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Items" xml:space="preserve">
+    <value>Линейный поиск</value>
+  </data>
+  <data name="tabPageHandle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialCard2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 135</value>
+  </data>
+  <data name="&gt;&gt;materialCard2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialSwitchWrapChartAsync.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 139</value>
+  </data>
+  <data name="materialLabelKR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 43</value>
+  </data>
+  <data name="materialCardBinarySearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>725, 330</value>
+  </data>
+  <data name="materialLabelImportError.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="materialLabelKR.Text" xml:space="preserve">
+    <value>Курсовая работа</value>
+  </data>
+  <data name="materialButtonImportSelect.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialButtonGenerate.Text" xml:space="preserve">
+    <value>Сгенерировать</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="materialCheckBoxDop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 31</value>
+  </data>
+  <data name="materialCheckboxGenerated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 29</value>
+  </data>
+  <data name="materialCheckboxRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 35</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
+    <value>materialLabel2</value>
+  </data>
+  <data name="materialCheckboxGenerated.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialSwitchUseAsync.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 48</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialCheckboxBinaryTime.Text" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealIterCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelect.Parent" xml:space="preserve">
+    <value>tabPageCharts</value>
+  </data>
+  <data name="materialCardHandle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 36</value>
+  </data>
+  <data name="linkLabelGitHub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 58</value>
+  </data>
+  <data name="materialCheckboxLinealTime.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectImportType.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckboxBinaryCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>567, 238</value>
+  </data>
+  <data name="materialSwitchUseAsync.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;linkLabelGitHub.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageHandle.ImageKey" xml:space="preserve">
+    <value>(отсутствует)</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchTheme.Name" xml:space="preserve">
+    <value>materialSwitchTheme</value>
+  </data>
+  <data name="materialTextBoxHandAdd.Hint" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="materialTextBoxHandleTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 48</value>
+  </data>
+  <data name="linkLabelGitHub.Text" xml:space="preserve">
+    <value>Исходный код приложения на GitHub</value>
+  </data>
+  <data name="&gt;&gt;materialLabelDel.Name" xml:space="preserve">
+    <value>materialLabelDel</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevelop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialButtonImport.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialButtonBinaryRefresh.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="materialButtonClear.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialButtonImportClearPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleQuestion.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialSwitchUseAsync.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 54</value>
+  </data>
+  <data name="materialButtonImportSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialCardHandleSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>725, 330</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImport.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryIterCount.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="tabPageDevelop.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;materialSliderCount.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSlider, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealIterCount.Name" xml:space="preserve">
+    <value>materialTextBoxLinealIterCount</value>
+  </data>
+  <data name="materialCard1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 197</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleTime.Parent" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.Hint" xml:space="preserve">
+    <value>Максимальное время</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchGenWordAsync.Parent" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>materialCardLogo</value>
+  </data>
+  <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="materialLabelDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 42</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.Hint" xml:space="preserve">
+    <value>Выберите тип файла</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
+    <value>materialLabel1</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSaveXlsx.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialLabelImport.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialCardLogo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialLabelKR.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDel.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialButtonDel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialCheckboxBinaryCount.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.AutoCompleteCustomSource" xml:space="preserve">
+    <value>Файл XLSX</value>
+  </data>
+  <data name="materialTextBoxHandleTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chartLineal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealCount.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="materialCardBinarySearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 48</value>
+  </data>
+  <data name="materialLabelDel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="materialButtonHandAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 232</value>
+  </data>
+  <data name="materialSwitchTheme.Text" xml:space="preserve">
+    <value> Тёмная тема</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 37</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialButtonDel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="materialCheckboxRefresh.Text" xml:space="preserve">
+    <value>Обновлять расчеты при выборе</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="materialTextBoxHandAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialButtonHandAdd.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialCardLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxImportSelectedFile.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="materialSwitchWrapChartAsync.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialLabelDel.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialTabSelector1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportSelect.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCardSave.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandAdd.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="&gt;&gt;materialLabelInfo.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCardBinarySearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialSwitchWrapChartAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialCardImport.Name" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialTextBoxHandleTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialSliderLenght.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxSymbols.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDop.Name" xml:space="preserve">
+    <value>materialCheckBoxDop</value>
+  </data>
+  <data name="tabPageInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 40</value>
+  </data>
+  <data name="tabPageImport.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealTotalTime.Name" xml:space="preserve">
+    <value>materialTextBoxLinealTotalTime</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPageHandle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 349</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandleSearch.Parent" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
+  </data>
+  <data name="materialButtonClear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImport.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialComboBoxSelectChart.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="materialCardAuto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMinTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryIterCount.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 125</value>
+  </data>
+  <data name="&gt;&gt;materialCardSave.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxImportSelectedFile.Name" xml:space="preserve">
+    <value>materialTextBoxImportSelectedFile</value>
+  </data>
+  <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 14</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImportError.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;materialButtonBinaryRefresh.Name" xml:space="preserve">
+    <value>materialButtonBinaryRefresh</value>
+  </data>
+  <data name="materialCardHandleSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandleSearch.Name" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
+  </data>
+  <data name="materialButtonHandAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Анализ поисков</value>
+  </data>
+  <data name="materialLabelSubject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 101</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.Hint" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.Items" xml:space="preserve">
+    <value>Линейный</value>
+  </data>
+  <data name="materialLabelImportError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 66</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabPageCharts.Parent" xml:space="preserve">
+    <value>materialTabControlMainWindow</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialLabelHandAdd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;materialSliderLenght.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSlider, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageSpec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 483</value>
+  </data>
+  <data name="linkLabelGitHub.ImageKey" xml:space="preserve">
+    <value>github.png</value>
+  </data>
+  <data name="linkLabelGitHub.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="tabPageInfo.Text" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialTabControlMainWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 64</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageCharts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;materialCardAuto.Parent" xml:space="preserve">
+    <value>tabPageAuto</value>
+  </data>
+  <data name="materialSwitchSaveDataAsync.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="materialCardBinarySearch.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="materialCard3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 152</value>
+  </data>
+  <data name="materialLabelSaveXlsx.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="&gt;&gt;materialCard3.Parent" xml:space="preserve">
+    <value>tabPageSpec</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandle.Name" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
+  <data name="materialCard3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="&gt;&gt;materialLabelKR.Parent" xml:space="preserve">
+    <value>tabPageInfo</value>
+  </data>
+  <data name="materialButtonSaveXlsx.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="chartLineal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;materialLabelHandAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Parent" xml:space="preserve">
+    <value>materialCard2</value>
+  </data>
+  <data name="materialButtonDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 232</value>
+  </data>
+  <data name="&gt;&gt;materialCard2.Name" xml:space="preserve">
+    <value>materialCard2</value>
+  </data>
+  <data name="materialTextBoxHandleTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 115</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarDev.Name" xml:space="preserve">
+    <value>materialProgressBarDev</value>
+  </data>
+  <data name="tabPageAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleQuestion.Name" xml:space="preserve">
+    <value>materialTextBoxHandleQuestion</value>
+  </data>
+  <data name="materialButtonImportSelect.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.Hint" xml:space="preserve">
+    <value>Выберите тип файла</value>
+  </data>
+  <data name="tabPageDevelop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialButtonImport.ImageKey" xml:space="preserve">
+    <value>(отсутствует)</value>
+  </data>
+  <data name="materialCheckboxBinaryTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 37</value>
+  </data>
+  <data name="materialTabControlDev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 375</value>
+  </data>
+  <data name="&gt;&gt;materialButtonGenerate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="materialButtonDel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="chartLineal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 347</value>
+  </data>
+  <data name="&gt;&gt;materialCardLogo.Name" xml:space="preserve">
+    <value>materialCardLogo</value>
+  </data>
+  <data name="&gt;&gt;materialCardImport.Parent" xml:space="preserve">
+    <value>tabPageImport</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChart.Name" xml:space="preserve">
+    <value>materialComboBoxSelectChart</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxBinaryCount.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCardImport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMaxTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>Текстовый файл</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxHandleSeach.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTabSelector1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="materialSwitchSaveDataAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Hint" xml:space="preserve">
+    <value>Выберите</value>
+  </data>
+  <data name="materialCheckboxLinealCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>567, 238</value>
+  </data>
+  <data name="&gt;&gt;imageListMenu.Name" xml:space="preserve">
+    <value>imageListMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevelop.Parent" xml:space="preserve">
+    <value>materialTabControlMainWindow</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialComboBoxSaveDataType.Parent" xml:space="preserve">
+    <value>materialCard1</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.Hint" xml:space="preserve">
+    <value>Выбранный файл</value>
+  </data>
+  <data name="materialCardHandle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="materialButtonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarStat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialListBoxData.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialListBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageDevelop.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialButtonImportSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 126</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSaveXlsx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialCardAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 332</value>
+  </data>
+  <data name="materialCardLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 60</value>
+  </data>
+  <data name="materialTabSelector1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>495, 45</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;materialCardLinealSearch.Parent" xml:space="preserve">
+    <value>tabPageCharts</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevelop.Name" xml:space="preserve">
+    <value>tabPageDevelop</value>
+  </data>
+  <data name="&gt;&gt;materialButtonClear.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;chartBinary.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="materialButtonSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="materialCardImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;imageListGit.Name" xml:space="preserve">
+    <value>imageListGit</value>
+  </data>
+  <data name="materialComboBoxSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 35</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealTime.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="materialCheckboxLinealCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSubject.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialButtonGenerate.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="materialSwitchSaveDataAsync.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 177</value>
+  </data>
+  <data name="materialTextBoxHandAdd.PrefixSuffixText" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="materialButtonImportClearPath.ImageKey" xml:space="preserve">
+    <value>(отсутствует)</value>
+  </data>
+  <data name="&gt;&gt;tabPageInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialCardSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 9</value>
+  </data>
+  <data name="&gt;&gt;chartLineal.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="materialButtonSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMaxTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialProgressBarStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 22</value>
+  </data>
+  <data name="materialTextBoxHandleTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;chartBinary.Name" xml:space="preserve">
+    <value>chartBinary</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelect.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialListBoxData.Parent" xml:space="preserve">
+    <value>tabPageDevelop</value>
+  </data>
+  <data name="&gt;&gt;materialCardAuto.Name" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>801, 450</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImportError.Name" xml:space="preserve">
+    <value>materialLabelImportError</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>materialCardSave</value>
+  </data>
+  <data name="&gt;&gt;materialCardLinealSearch.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialLabelInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 16px</value>
+  </data>
+  <data name="&gt;&gt;tabPageAuto.Name" xml:space="preserve">
+    <value>tabPageAuto</value>
+  </data>
+  <data name="materialSliderCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialLabelInfo.Parent" xml:space="preserve">
+    <value>tabPageInfo</value>
+  </data>
+  <data name="&gt;&gt;chartLineal.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchTheme.Parent" xml:space="preserve">
+    <value>materialCard2</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Parent" xml:space="preserve">
+    <value>tabPageDevelop</value>
+  </data>
+  <data name="materialSwitchUseAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialTabControlDev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 45</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="materialButtonClear.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleFindWord.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckboxBinaryTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMaxTime.Name" xml:space="preserve">
+    <value>materialTextBoxLinealMaxTime</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialTextBoxHandleIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialLabelSaveXlsx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 40</value>
+  </data>
+  <data name="tabPageCharts.Text" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandAdd.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandle.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageHandle.Text" xml:space="preserve">
+    <value>Ручной ввод</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMinTime.Name" xml:space="preserve">
+    <value>materialTextBoxLinealMinTime</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 71</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckboxSymbols.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelect.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 134</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckboxRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialCardSave.Name" xml:space="preserve">
+    <value>materialCardSave</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 86</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.Items" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Items2" xml:space="preserve">
+    <value>Линейный поиск</value>
+  </data>
+  <data name="&gt;&gt;materialCardSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMinTime.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="materialListBoxData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 6</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="materialTextBoxHandAdd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="linkLabelGitHub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="tabPageDevelop.Text" xml:space="preserve">
+    <value>Исходые данные</value>
+  </data>
+  <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 40</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealTotalTime.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchUseAsync.Name" xml:space="preserve">
+    <value>materialSwitchUseAsync</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.Items" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="materialCard2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 9</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialButtonImportClearPath.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialCardHandleSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabPageSpec.Text" xml:space="preserve">
+    <value>Возможности</value>
+  </data>
+  <data name="materialLabelKR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 58</value>
+  </data>
+  <data name="materialButtonDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 36</value>
+  </data>
+  <data name="materialComboBoxSelect.ItemHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSaveXlsx.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSaveDataAsync.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSave.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabelHandAdd.Name" xml:space="preserve">
+    <value>materialLabelHandAdd</value>
+  </data>
   <data name="imageListGit.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABC
-        CAAAAk1TRnQBSQFMAwEBAAGAAQQBgAEEASABAAEgAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABgAMA
+        CAAAAk1TRnQBSQFMAwEBAAGAAQUBhAEFASABAAEgAQAE/wEhARAI/wFCAU0BNgcAATYDAAEoAwABgAMA
         ASADAAEBAQABIAYAAUD/AP8A/wD/AP8A/wBAAAMYASEDSQGJAzUBVxgAAzUBWANJAYkDGAEh/wDJAAMP
         ARQDUAGeA0AB/QMAAf8DUwGqGAADUwGqAwAB/wNAAf0DUAGdAw4BE/8AvQADKgFBA1kB6wMAAf8DAAH/
         AwAB/wNTAaoYAANTAaoDAAH/AwAB/wMAAf8DVQHqAykBP/8AtQADNQFYA0EB+QMhAf4DTAGSAyQBNgMZ
@@ -160,397 +1585,17 @@
         AfABAwHAAQ8MAAHgAQMBwAEHDAAB4AEfAfgBBwwAAeABfwH8AQcMAAHAAX8B/gEDDAABwAL/AQMMAAHA
         Av8BAwwAAcAC/wEDDAABwAL/AQMMAAHAAv8BAwwAAeABfwH+AQcMAAHgAX8B/gEHDAAB4AF/Af4BBwwA
         AfABYAEGAQ8MAAHwAgABDwwAAfgCAAEfDAAB/AIAAT8MAAH+AgABfwwAAf8CAAH/DAAB/wHAAQMB/wwA
-        Af8B+AEfAf8MAAT/DAAE/wwACw==
+        Af8B+AEfAf8MAAT/DAAE/yIACw==
 </value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBoxInfoLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="&gt;&gt;materialTextBoxImportSelectedFile.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="pictureBoxInfoLogo.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="&gt;&gt;materialCardAuto.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <metadata name="imageListMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="imageListMenu.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC4
-        GQAAAk1TRnQBSQFMAgEBBAEAAaABBAGgAQQBIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
-        AwABQAMAAQEBAAEgBgABgP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
-        /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
-        /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AlQADUwGqA1MBqgNTAaUDFAEc/wBhAAM1AVUDNQFV
-        AyYBOQgAAyYBOQM1AVUDNQFVSAADAwEEAycBOwM1AVUDNQFVAzUBVQM1AVUDNQFVAxQBHAsAAf8DAAH/
-        AwAB/wNfAdsDFAEcYAADDQESAx8BLQMvAUkDLwFJAx8BLQMNARLkAANtAf8DbQH/A1MBqggAA1MBqgNt
-        Af8DbQH/RAADCgENA1wByQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM1AVULAAH/AwAB/wMAAf8DAAH/
-        A18B2wMUARxQAAMYASIDRgF/A14BzgMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNcAc0DRgF+AxgBITAA
-        AzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AzUBVTgAA20B/wNt
-        Af8DUwGqCAADUwGqA20B/wNtAf9EAANEAXoDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AzUBVQgA
-        A1EBnwMAAf8DAAH/AwAB/wMAAf8DXwHbAxQBHEQAAxABFQNMAZIDagH5AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wNqAfkDTAGQAw8BFCgAAzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AzUBVTgAA20B/wNtAf8DUwGqCAADUwGqA20B/wNtAf9EAANT
-        AagDAAH/AwAB/wM1AVUDNQFVAzUBVQM1AVUDNQFVAxQBHAgAAwEBAgNRAZ8DAAH/AwAB/wMAAf8DAAH/
-        A18B2wMUARw8AAMmATkDZAHnAwAB/wMAAf8DAAH/A2QB8QNSAakDRQF9AzoBYQM6AWEDRgF+A1MBqgNn
-        AfIDAAH/AwAB/wMAAf8DYQHmAyYBOCQAAzUBVQMAAf8DAAH/AwAB/wMAAf8DXQHKA1MBqgNTAaoDUwGq
-        A1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGq
-        A1MBqgNTAaoDUwGqAyYBODgAA20B/wNtAf8DUwGqCAADUwGqA20B/wNtAf9EAANTAaoDAAH/AwAB/yQA
-        AwEBAgNRAaADAAH/AwAB/wMAAf8DAAH/A1wB3wMXASA0AAM1AVUDXAH4AwAB/wMAAf8DXwHgAzgBXgMF
-        AQcYAAMFAQcDOQFfA2EB4gMAAf8DAAH/A20B9wM0AVQgAAM1AVUDAAH/AwAB/wMAAf8DAAH/A1sBxAMA
-        AQGMAANtAf8DbQH/A1MBqggAA1MBqgNtAf8DbQH/RAADUwGqAwAB/wMAAf8oAAMBAQIDUQGgAwAB/wMA
-        Af8DAAH/AwAB/wNcAd8DFwEgLAADJgE5A1wB+AMAAf8DAAH/A1ABmgMGAQgoAAMHAQkDUAGdAwAB/wMA
-        Af8DbQH3AyYBOBwAAzUBVQMAAf8DAAH/A2UB9AMAAf8DAAH/AzUBV4wAA20B/wNtAf8DUwGqCAADUwGq
-        A20B/wNtAf9EAANTAaoDAAH/AwAB/wgAAzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/A1EBnwMBAQIEAAMB
-        AQIDUQGgAwAB/wMAAf8DAAH/AwAB/wNcAd8DFwEgJAADEAEWA2QB5wMAAf8DAAH/A0MBeDgAA0QBegMA
-        Af8DAAH/A2EB5gMPARQYAAM1AVUDAAH/AwAB/wNGAX8DXwH7AwAB/wNhAeIDBwEKiAADbQH/A20B/wNT
-        AaoIAANTAaoDbQH/A20B/0QAA1MBqgMAAf8DAAH/CAADNQFVAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AzIBUAgAAwEBAgNRAZ8DAAH/AwAB/wMAAf8DAAH/A1QBriQAA0wBkwMAAf8DAAH/A1ABmhgAAyYBOANT
-        AaoDUwGqAyYBOBgAA1ABnQMAAf8DAAH/A0wBkBgAAzUBVQMAAf8DAAH/AzUBVQNOAZUDAAH/AwAB/wNG
-        AX6IAANtAf8DbQH/A1MBqggAA1MBqgNtAf8DbQH/RAADUwGqAwAB/wMAAf8IAAMmATgDUwGqA1MBqgNT
-        AaoDUwGqA1MBqgNTAaoDJgE4DAADAQECA1EBnwMAAf8DAAH/A1wB0QMPARQDNwFbAyABLhgAAxkBIwNq
-        AfkDAAH/A18B4AMGAQgYAAM1AVUDAAH/AwAB/wM1AVUYAAMHAQkDYQHiAwAB/wNqAfkDGAEhFAADNQFV
-        AwAB/wMAAf8DNQFVAw0BEgNkAewDAAH/A2IB9gMWAR+EAANtAf8DbQH/A1MBqggAA1MBqgNtAf8DbQH/
-        RAADUwGqAwAB/wMAAf84AAMBAQIDUQGfA1wB0QMPARQDOgFgA0AB/QNcAeoDGAEhFAADRwGAAwAB/wMA
-        Af8DOAFdHAADNQFVAwAB/wMAAf8DNQFVHAADOgFgAwAB/wMAAf8DRgF+FAADNQFVAwAB/wMAAf8DNQFV
-        BAADPwFtAwAB/wMAAf8DVAGmKAADBAEFAxQBHFQAA20B/wNtAf8DbQH/A20B/wNtAf8DbQH/A20B/wNt
-        Af9EAANTAaoDAAH/AwAB/zwAAwEBAgMMARADOgFgA0AB/QMAAf8DQAH9AycBOxQAA1wBzwMAAf8DZwHy
-        AwUBBxwAAzUBVQMAAf8DAAH/AzUBVRwAAwUBBwNnAfIDAAH/A1wBzBQAAzUBVQMAAf8DAAH/AzUBVQQA
-        AwMBBANdAdMDAAH/A3UB/gMoAT0gAAMsAUMDXQHTA1wBzQMBAQJQAANtAf8DbQH/A20B/wNtAf8DbQH/
-        A20B/wNtAf8DbQH/RAADUwGqAwAB/wMAAf8IAAMmATgDUwGqA1MBqgNTAaoDUwGqA1MBqgNTAaoDUwGq
-        A1MBqgNTAaoDUwGqAyYBOAwAA0YBfgMAAf8DQAH9AzkBXxQAAw4BEwMAAf8DAAH/A1MBqCAAAzUBVQMA
-        Af8DAAH/AzUBVSAAA1MBqgMAAf8DdQH+Aw0BEhAAAzUBVQMAAf8DAAH/AzUBVQgAAywBQwMAAf8DAAH/
-        A14BzgMBAQIUAAMaASUDUwGqAwAB/wMAAf8DAAH/AzoBYDsAAQEDFAEbEAADbQH/A20B/wNtAf8DbQH/
-        A20B/wNtAf8DbQH/A20B/xAAAxQBGwMAAQEsAANTAaoDAAH/AwAB/wgAAzUBVQMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DNQFVEAADQAFuAzIBURgAAyABLwMAAf8DAAH/A0QBeyAA
-        AzUBVQMAAf8DAAH/AzUBVSAAA0YBfgMAAf8DAAH/Ax8BLRAAAzUBVQMAAf8DAAH/AzUBVQwAA1UBsgMA
-        Af8DAAH/AzoBYgwAAwkBDANHAYADXAH4AwAB/wMAAf8DAAH/AwAB/wNfAegDCgEOMwABAQNOAZUDZAHo
-        Ax0BKgwAA20B/wNtAf8DbQH/A20B/wNtAf8DbQH/A20B/wNtAf8MAAMbASYDZQHlA1EBnAMBAQIoAANT
-        AaoDAAH/AwAB/wgAAzUBVQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DNQFV
-        CAADAQECJAADLgFIAwAB/wMAAf8DOgFiIAADNQFVAwAB/wMAAf8DNQFVIAADOwFjAwAB/wMAAf8DLgFH
-        EAADNQFVAwAB/wMAAf8DNQFVDAADGgElA2oB+QMAAf8DXwHoAwoBDgMCAQMDPQFnA1wB6gMAAf8DAAH/
-        AwAB/wNaAcUDUgGnAwAB/wMAAf8DSQGIMAADPgFqA20B/wNtAf8DZgHmAxwBJwgAA20B/wNtAf8DbQH/
-        A20B/wNtAf8DbQH/A20B/wNtAf8IAAMcAScDZgHmA20B/wNtAf8DPgFqKAADUwGqAwAB/wMAAf9AAANR
-        AZ8DAQECIAADLwFJAwAB/wMAAf8DOgFhIAADNQFVAwAB/wMAAf8DNQFVIAADOgFiAwAB/wMAAf8DLgFI
-        EAADNQFVAwAB/wMAAf8DNQFVEAADSgGKAwAB/wMAAf8DUwGqA14B0AMAAf8DAAH/AwAB/wNhAeQDNwFb
-        AwABAQMLAQ8DXwHoAwAB/wNcAfgDGgEkLAADBAEGA1UBsANtAf8DbQH/A2QB6AMdASoEAANtAf8DbQH/
-        A20B/wNtAf8DbQH/A20B/wNtAf8DbQH/BAADGgElA2UB5QNtAf8DbQH/A1YBtgMFAQcoAANTAaoDAAH/
-        AwAB/0MAAf8DUQGfAwEBAhwAAyABLwMAAf8DAAH/A0QBeyAAAxQBHAM1AVUDNQFVAxQBHCAAA0UBfAMA
-        Af8DAAH/AyABLhAAAzUBVQMAAf8DAAH/AzUBVRAAAwoBDQNhAeYDAAH/AwAB/wMAAf8DAAH/A2oB+QNN
-        AZEDCgEODAADOwFlAwAB/wMAAf8DVAGvMAADBAEGA1UBsANtAf8DbQH/A2QB6AMdASoDbQH/A20B/wNt
-        Af8DbQH/A20B/wNtAf8DbQH/A20B/wMaASUDYQHkA20B/wNtAf8DVgG2AwUBBywAA1MBqgMAAf8DAAH/
-        QwAB/wMAAf8DSAGGHAADDwEUAwAB/wMAAf8DUwGoUAADUwGqAwAB/wN1Af4DDQESEAADNQFVAwAB/wMA
-        Af8DNQFVFAADOwFkAwAB/wMAAf8DAAH/A1YBswMYASIUAAMBAQIDWwHLAwAB/wMAAf8DLgFHMAADBAEG
-        A1YBsQNtAf8DbQH/A2UB5QNtAf8DbQH/A20B/wNtAf8DbQH/A20B/wNtAf8DbQH/A2UB5QNtAf8DbQH/
-        A1YBsQMEAQYwAANTAaoDAAH/AwAB/0MAAf8DAAH/A1MBqiAAA1wB0QMAAf8DXQHwAwQBBkgAAwUBBwNk
-        AfEDAAH/A14BzhQAAzUBVQMAAf8DAAH/AzUBVRQAAwEBAgNbAcsDXgHYAy8BSSAAAycBOgN1Af4DAAH/
-        A14B1QMEAQUwAAMEAQYDVQGwA20B/wNtAf8DbQH/A20B/wNtAf8DbQH/A20B/wNtAf8DbQH/A20B/wNt
-        Af8DbQH/A1YBtgMFAQc0AANTAaoDAAH/AwAB/yQAA1MBqgMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/A1MBqiAAA0cBgQMAAf8DAAH/AzgBXBwAAzUBVQMAAf8DAAH/AzUBVRwAAzgBXgMAAf8DAAH/
-        A0YBfxQAAzUBVQMAAf8DAAH/AzUBVRgAAxQBHAMDAQQoAANSAacDAAH/AwAB/wM/AWw0AAMEAQYDVQGw
-        A20B/wNtAf8DbQH/A20B/wNtAf8DbQH/A20B/wNtAf8DbQH/A20B/wNWAbYDBgEIOAADUwGqAwAB/wMA
-        Af8kAANTAaoDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNBAXIgAAMaASQDTQH6AwAB/wNg
-        Ad4DBQEHGAADNQFVAwAB/wMAAf8DNQFVGAADBgEIA18B4AMAAf8DagH5AxgBIhQAAzUBVQMAAf8DAAH/
-        AzUBVUgAAxQBHANlAfQDAAH/A2EB7gMOARM0AAMEAQYDVgGxA20B/wNtAf8DbQH/A20B/wNtAf8DbQH/
-        A20B/wNtAf8DVwG3AwYBCDwAA1MBqgMAAf8DAAH/JAADUwGqAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wNJAYgoAANOAZUDAAH/AwAB/wNPAZcYAAMmATgDUwGqA1MBqgMmATgYAANQAZoDAAH/AwAB/wNM
-        AZIYAAM1AVUDAAH/AwAB/wM1AVVMAANHAYADAAH/AwAB/wNMAZI4AAMEAQYDUgGnA20B/ANtAf8DbQH/
-        A20B/wNtAf8DbQH8A1IBpwMEAQZAAANTAaoDAAH/AwAB/yQAA1MBqgMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wNJAYgsAAMRARcDXwHoAwAB/wMAAf8DQgF2OAADQwF4AwAB/wMAAf8DZAHnAxABFRgAAzUBVQMA
-        Af8DAAH/AzUBVUwAAwcBCQNhAeEDAAH/A2oB+QMSARmcAANTAaoDAAH/AwAB/yQAA1MBqgMAAf8DAAH/
-        AwAB/wMAAf8DAAH/A0kBiDQAAycBOgNcAfgDAAH/AwAB/wNPAZcDBQEHKAADBgEIA1ABmgMAAf8DAAH/
-        A1wB+AMmATkcAAM1AVUDAAH/AwAB/wM1AVVQAAM2AVgDXQHKAyYBOUQAAx8BLQNNAZEDTAGQAx8BLEwA
-        A1MBqgMAAf8DAAH/JAADUwGqAwAB/wMAAf8DAAH/AwAB/wNJAYg8AAM1AVYDXAH4AwAB/wMAAf8DXAHf
-        AzcBWwMEAQYYAAMEAQYDOAFdA18B4AMAAf8DAAH/A1wB+AM1AVUgAAM1AVUDAAH/AwAB/wM1AVVTAAEB
-        AwABAUQAAx8BLQNtAfcDbQH/A20B/wNtAfcDHwEsSAADUwGoAwAB/wMAAf8DNQFVAzUBVQM1AVUDNQFV
-        AzUBVQM1AVUDNQFVAzUBVQM1AVUDWQHHAwAB/wMAAf8DAAH/A0cBgEQAAycBOgNfAegDAAH/AwAB/wMA
-        Af8DXQHwA1IBpwNFAXwDOgFgAzoBYANFAXwDUwGoA2QB8QMAAf8DAAH/AwAB/wNkAecDJgE5JAADNQFV
-        AwAB/wMAAf8DNQFVnAADTQGRA20B/wNtAf8DbQH/A20B/wNMAY9IAANEAXsDAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNHAYBMAAMRARcDTgGVA00B+gMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DTQH6A0wBkwMQARbUAANMAZIDbQH/
-        A20B/wNtAf8DbQH/A0wBkEgAAwoBDQNbAcsDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DRwGAWAADGgEkA0cBgQNeAdADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DXAHP
-        A0cBgAMZASPcAAMfAS0DbQH3A20B/wNtAf8DbQH3Ax8BLEwAAwMBBAMnATsDNQFVAzUBVQM1AVUDNQFV
-        AzUBVQM1AVUDNQFVAzUBVQM1AVUDNQFVAy4BR2gAAw8BFAMgAS4DLwFKAy8BSQMfAS0DDgET7AADHwEt
-        A00BkQNNAZEDHwEs/wD/AP8AOwABQgFNAT4HAAE+AwABKAMAAYADAAFAAwABAQEAAQEGAAEEFgAD//8A
-        /wADABr/AQ8K/wHxAY8B/wH8AQMBBwL/AfgBHwb/AfEBjwH/AfgCAwL/AcABAwH/AcACAAEDAf8B8QGP
-        Af8B+AEDAQEC/wIAAf8BwAIAAQMB/wHxAY8B/wH4AQMBAAH/Af4CAAF/AcACAAEDAf8B8QGPAf8B+AH/
-        AYABfwH8AQcB4AE/AcABfwP/AfEBjwH/AfgB/wHAAT8B+AEfAfgBHwHAAX8D/wHxAY8B/wH4AcABIAEf
-        AfABfwH+AQ8BwAE/A/8B8QGPAf8B+AHAATABHwHwAfwBPwEPAcABPwP/AfEBjwH/AfgBwAE4AQcB4AH8
-        AT8BBwHAAR8D/wHxAY8B/wH4Af8B/AEDAeEB/AE/AYcBwgEfAfkC/wHwAQ8B/wH4Af8B/gEDAeEB/AE/
-        AYcBwgEPAfAC/wHwAQ8B/wH4AcABAwGHAcMB/AE/AsMBBwHAAf8B/AHwAQ8BPwH4AcABAwHPAcMB/AE/
-        AsMBhwEAAX8B+AFwAQ4BHwH4AcABAwF/AcMB/AE/AsMBgAEAAX8B+AEwAQwBHwH4Av8BPwHDAfwBPwLD
-        AcABAAE/AfgBEAEIAR8B+AL/AR8BwwH8AT8CwwHAARwBPwH8AgABPwH4Av8BHwHDAv8CwwHgAXwBHwH+
-        AgABfwH4Av8BHwHhAv8BhwHDAeEB/gEPAf8CAAH/AfgB/wGAAR8B4QH8AT8BhwHDAfMB/wEPAf8BgAEB
-        Af8B+AH/AYABHwHgAfwBPwEHAcMC/wEHAf8BwAEDAf8B+AH/AYABPwHwAfwBPwEPAcMC/wGHAf8B4AEH
-        Af8B+AH/AYABfwHwAX8B/gEPAcMC/wGDBP8B+AH/AYAB/wH4AR8B+AEfAcMC/wHHAf8B/AE/Af8B+AH/
-        AYEB/wH8AQcB4AE/AcMC/wHPAf8B+AEfAf8B+AEAAQMB/wH+AgABfwHDBP8B+AEfAf8B+AEAAQcC/wIA
-        Bv8B+AEfAf8B+AEAAQ8C/wHAAQMG/wH4AR8B/wH8AQABHwL/AfgBHwb/AfwBPxn/Cw==
-</value>
-  </data>
-  <metadata name="imageListSelector.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>259, 17</value>
-  </metadata>
-  <data name="imageListSelector.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACo
-        BAAAAk1TRnQBSQFMAgEBAgEAAUABAAFAAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
-        AwABEAMAAQEBAAEgBgABECoAAxIBGANCAXYDRwGAA0cBgANHAYADRgF+AykBP+AAAxsBJgNqAfMDbQH/
-        A20B/wNtAf8DbQH/A20B/wNtAfggAAMCAQMMAANHAYADbQH/A20B/wNHAYCbAAEBAywBRANeAdgDbQH/
-        A20B/wNtAf8DbQH/A20B/wNtAf8DbQH/GAADGgEkA1MBqANDAXgMAANHAYADbQH/A2cB6wMtAUYDAAEB
-        lAADMQFNA20B/wNmAeYDLQFFA20B/wNtAf8DbQH/A20B/wNtAf8DbQH/GAADWQHHA2AB+wMnATsMAANH
-        AYADRwGAA1UBrQNtAf8DLgFHlAADBwEKAzUBVgMQARYEAANtAf8DbQH/A20B/wNtAf8DbQH/A2EB4RAA
-        AwEBAgNOAZkDYQHcAxoBJBAAAxcBIAQAAwsBDwNWAbMDXAHMAwIBA6AAA20B/wNtAf8DbQH/A20B/wNW
-        AbQDDAEQEAADHwEsA20B/wNAAW8EAANhAeQDIAEvCAADEgEYA20B/wM7AWQDAQECA2YB7QM1AVegAANt
-        Af8DWgG9A0kBhwMmATgDAgEDFAADOgFiA20B/wMdASoEAANNAZEDWwHGA0cBgANHAYADUgGjA2cB8gMS
-        ARgEAANTAaoDWwHDmAADDQESBAADbQH/BAADDQESHAADRAF7A20B/wMHAQkEAAMpAT4DbQH/A0wBkgND
-        AXcDYAHWA0UBfAgAA0oBiQNiAfaYAANKAY0EAANtAf8EAANKAYwcAANCAXMDbQH/AwoBDgQAAwQBBgNb
-        AcsDQAFvAwcBCgNeAdADCQEMCAADSwGOA2QB5pgAA0gBhQQAA20B/wQAA0gBhRwAAzMBUwNtAf8DJQE3
-        CAADIgExA1cBtwNAAW8DUAGaDAADVwG4A1IBo5gAA0oBjAQAAzoBYgQAA0oBjBwAAxEBFwNmAe0DTAGQ
-        DAADVwG6A2QB5wMtAUYIAAMmATgDZAHsAx8BLZgAA0cBggNCAXYDEwEaA0MBdwNHAYIgAAMxAU8DbQH8
-        AysBQggAA0IBcwNhAeEDAQECBAADGAEiA2oB+QNUAaacAAMGAQgDNQFWA0QBeQM2AVgDBwEKJAADSAGE
-        A20B/ANMAZADJgE4AwoBDgMEAQYDHAEnAz4BawNeAdkDWwHDAxgBItgAAzEBTwNmAe0DbQH/A20B/wNt
-        Af8DbQH/A20B/wNOAZXkAAMRARcDMwFSA0IBcwNEAXoDOQFfAx0BKgMBAQL/AJEAAUIBTQE+BwABPgMA
-        ASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAH8AQcC/wQAAfgBBwH7AYcEAAHgAQcB4wGDBAAB4AEH
-        AeMBgwQAAeIBBwGHAaEEAAH+AQcBiQGBBAAB/gEPAYgBCQQAAfoBvwGIARkEAAH6Ab8BiAEZBAAB+gG/
-        AYwBOQQAAfoBvwGOATEEAAH4AT8BxgEjBAAB+AE/AeABAwQAAv8B8AEPBAAC/wH4AQ8EAAT/BAAL
-</value>
+  <data name="&gt;&gt;materialSliderLenght.Name" xml:space="preserve">
+    <value>materialSliderLenght</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1000,4 +2045,1607 @@
         AAAB/wAA/+AAAAAAAAAH/wAA//gAAAAAAAAf/wAA//+AAAAAAAH//wAA
 </value>
   </data>
+  <data name="&gt;&gt;materialCheckboxBinaryCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealIterCount.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialLabelDel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialLabelKR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialButtonDel.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
+  <data name="materialCheckboxRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMinTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTabSelector1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 63</value>
+  </data>
+  <data name="materialButtonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 91</value>
+  </data>
+  <data name="materialLabel2.Text" xml:space="preserve">
+    <value>Асинхронность</value>
+  </data>
+  <data name="&gt;&gt;tabPageInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialTextBoxDel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialLabelSubject.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;materialCardLinealSearch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialCheckboxGenerated.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlDev.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 48</value>
+  </data>
+  <data name="materialLabelImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 75</value>
+  </data>
+  <data name="materialButtonSaveXlsx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 36</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialButtonLinealRefresh.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialCard1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialSliderCount.Text" xml:space="preserve">
+    <value>Количество  </value>
+  </data>
+  <data name="tabPageSpec.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialTextBoxDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="&gt;&gt;chartLineal.Name" xml:space="preserve">
+    <value>chartLineal</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialButtonImportClearPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 258</value>
+  </data>
+  <data name="materialSwitchTheme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialButtonGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;linkLabelGitHub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialLabelImport.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="tabPageCharts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 483</value>
+  </data>
+  <data name="materialLabelHandAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialButtonHandleSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 228</value>
+  </data>
+  <data name="materialLabelSaveXlsx.Text" xml:space="preserve">
+    <value>Выгрузить данные</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImport.Name" xml:space="preserve">
+    <value>materialLabelImport</value>
+  </data>
+  <data name="materialCheckboxLinealCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 37</value>
+  </data>
+  <data name="materialTextBoxDel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealTime.Name" xml:space="preserve">
+    <value>materialCheckboxLinealTime</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 17</value>
+  </data>
+  <data name="materialButtonSaveXlsx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialButtonDel.Name" xml:space="preserve">
+    <value>materialButtonDel</value>
+  </data>
+  <data name="materialLabelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 66</value>
+  </data>
+  <data name="chartBinary.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxGenerated.Name" xml:space="preserve">
+    <value>materialCheckboxGenerated</value>
+  </data>
+  <data name="&gt;&gt;materialCardLogo.Parent" xml:space="preserve">
+    <value>tabPageInfo</value>
+  </data>
+  <data name="&gt;&gt;tabPageSpec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckBoxDop.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="materialLabelHandAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialCardHandle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialCardSave.Parent" xml:space="preserve">
+    <value>tabPageSpec</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chartBinary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="materialCheckboxBinaryTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 238</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 349</value>
+  </data>
+  <data name="materialTabControlDev.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 18</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.Hint" xml:space="preserve">
+    <value>Количество итераций</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 49</value>
+  </data>
+  <data name="materialTextBoxDel.Hint" xml:space="preserve">
+    <value>Введите индекс</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.Items1" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialButtonHandleSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 36</value>
+  </data>
+  <data name="materialLabelHandAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialSliderCount.Name" xml:space="preserve">
+    <value>materialSliderCount</value>
+  </data>
+  <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 14</value>
+  </data>
+  <data name="&gt;&gt;tabPageSpec.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxRefresh.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;linkLabelGitHub.Parent" xml:space="preserve">
+    <value>tabPageInfo</value>
+  </data>
+  <data name="materialComboBoxSelectChart.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialSwitchWrapChartAsync.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 38</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandle.Parent" xml:space="preserve">
+    <value>materialTabControlDev</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxBinaryTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxDel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialCheckboxLinealTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 37</value>
+  </data>
+  <data name="&gt;&gt;chartLineal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="materialCard1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="tabPageImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandAdd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialTextBoxHandleTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialComboBoxSelect.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 49</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSaveDataType.Name" xml:space="preserve">
+    <value>materialComboBoxSaveDataType</value>
+  </data>
+  <data name="materialProgressBarStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 5</value>
+  </data>
+  <data name="materialButtonDel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Parent" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 49</value>
+  </data>
+  <data name="materialComboBoxSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialCheckboxBinaryTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSaveDataType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialButtonGenerate.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialLabel1.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="materialLabelImportError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="materialLabelSubject.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarStat.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialProgressBar, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialButtonHandleSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImport.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabPageInfo.Parent" xml:space="preserve">
+    <value>materialTabControlMainWindow</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSaveXlsx.Parent" xml:space="preserve">
+    <value>materialCard1</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlMainWindow.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxRefresh.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMaxTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPageDevelop.ImageKey" xml:space="preserve">
+    <value>file-document-edit-outline.png</value>
+  </data>
+  <data name="&gt;&gt;materialCard3.Name" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSubject.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialSliderCount.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="materialLabelInfo.Text" xml:space="preserve">
+    <value>Выполнил: Соловьев Р.А.
+Группа: 21-КБ-ПИ1
+КубГТУ 2022</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportClearPath.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="materialButtonImportClearPath.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA0ElEQVRIS92VPQrCUBCE48WsbLQXLTyM
+        pa1X1BzBTlFniRuGZdj3U0k++Mhj2TcjpsiwSHZwhJ+CZ9jFHapAZVeJX87gkosNWmgtMJtK/FIGh7vV
+        JX4hg4PZqhJfzuDQaJHqxcB/F2zgYTrOrH5Pp7tgDR/wBU82ABZ+nY4zXQUe7jMvsfAYxvdSeNH+lif0
+        mfmmM6Nmkri4h7Ek7hhqJlGLR8i/XO2omSQu+gv1OcuomYQXs3CTUTNJ9WKg+l7LByd6g0Xsk9lTYuFb
+        uCiG4QsK46ylz5nkxwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImportError.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandle.Parent" xml:space="preserve">
+    <value>tabPageHandle</value>
+  </data>
+  <data name="materialCardHandleSearch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealCount.Name" xml:space="preserve">
+    <value>materialCheckboxLinealCount</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandleSearch.Parent" xml:space="preserve">
+    <value>tabPageCharts</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleQuestion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialButtonGenerate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImport.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelect.Name" xml:space="preserve">
+    <value>materialComboBoxSelect</value>
+  </data>
+  <data name="materialButtonSaveXlsx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 91</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleTime.Name" xml:space="preserve">
+    <value>materialTextBoxHandleTime</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMinTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>801, 450</value>
+  </data>
+  <data name="materialCheckboxBinaryCount.Text" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="&gt;&gt;materialListBoxData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialSliderCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 29</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandAdd.Name" xml:space="preserve">
+    <value>materialButtonHandAdd</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryTotalTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchGenWordAsync.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckboxSymbols.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialComboBoxSelect.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlDev.Name" xml:space="preserve">
+    <value>materialTabControlDev</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMinTime.Name" xml:space="preserve">
+    <value>materialTextBoxBinaryMinTime</value>
+  </data>
+  <data name="tabPageAuto.ImageKey" xml:space="preserve">
+    <value>(отсутствует)</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxRefresh.Parent" xml:space="preserve">
+    <value>tabPageCharts</value>
+  </data>
+  <data name="&gt;&gt;tabPageCharts.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSubject.Name" xml:space="preserve">
+    <value>materialLabelSubject</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandleSearch.Name" xml:space="preserve">
+    <value>materialButtonHandleSearch</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 71</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.Hint" xml:space="preserve">
+    <value>Количество итераций</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialCardLogo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
+  </data>
+  <data name="materialCard2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="materialLabelSaveXlsx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarStat.Parent" xml:space="preserve">
+    <value>tabPageCharts</value>
+  </data>
+  <data name="materialSwitchSaveDataAsync.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 32</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleIterCount.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImport.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxSymbols.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportSelect.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="&gt;&gt;materialCardAuto.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialButtonBinaryRefresh.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="materialLabelImportError.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryTotalTime.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="materialCheckboxLinealCount.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="materialComboBoxSelect.Items2" xml:space="preserve">
+    <value>Единичный поиск</value>
+  </data>
+  <data name="materialTabControlDev.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportClearPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialComboBoxSelect.Items1" xml:space="preserve">
+    <value>Бинарный поиск</value>
+  </data>
+  <data name="&gt;&gt;tabPageSpec.Name" xml:space="preserve">
+    <value>tabPageSpec</value>
+  </data>
+  <data name="materialLabelSaveXlsx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
+  </data>
+  <data name="materialLabelSaveXlsx.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialComboBoxSelectChart.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialListBoxData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialCheckboxSymbols.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 37</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleIterCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.Hint" xml:space="preserve">
+    <value>Найден?</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tabPageCharts.ImageKey" xml:space="preserve">
+    <value>chart-line.png</value>
+  </data>
+  <data name="tabPageDevelop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 483</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDel.Name" xml:space="preserve">
+    <value>materialTextBoxDel</value>
+  </data>
+  <data name="materialCardBinarySearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialLabelInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialProgressBarDev.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandleSearch.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 81</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 48</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleFindWord.Name" xml:space="preserve">
+    <value>materialTextBoxHandleFindWord</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChart.Parent" xml:space="preserve">
+    <value>materialCardSave</value>
+  </data>
+  <data name="&gt;&gt;materialCard1.Parent" xml:space="preserve">
+    <value>tabPageSpec</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleIterCount.Name" xml:space="preserve">
+    <value>materialTextBoxHandleIterCount</value>
+  </data>
+  <data name="materialCheckboxSymbols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 147</value>
+  </data>
+  <data name="materialCheckboxUppers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPageAuto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPageImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialSwitchTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 47</value>
+  </data>
+  <data name="materialCardLinealSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 48</value>
+  </data>
+  <data name="materialButtonSaveXlsx.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageHandle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialCheckboxUppers.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="materialButtonImportSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialLabelInfo.Name" xml:space="preserve">
+    <value>materialLabelInfo</value>
+  </data>
+  <data name="materialButtonImportSelect.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAYElEQVRIS+2UMQ7AIAwD87xWfKpvpfyD
+        OgMSEolApAODT7qJyGaykKNIsMDq+MAQL7SCe0MlVuCO+tEbDljHu2Y40B6juDksaLBgCgumuDkrY7eq
+        ORU6UH+UaPgFyRGIfOMRhb93mhd+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;imageListMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchWrapChartAsync.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 179</value>
+  </data>
+  <data name="materialTextBoxHandAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="materialLabel3.Text" xml:space="preserve">
+    <value>Сохранить график</value>
+  </data>
+  <data name="materialLabelImport.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;materialLabelKR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxImportSelectedFile.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSave.Parent" xml:space="preserve">
+    <value>materialCardSave</value>
+  </data>
+  <data name="materialButtonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 36</value>
+  </data>
+  <data name="materialButtonClear.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialTextBoxHandleQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="materialLabelKR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Hint" xml:space="preserve">
+    <value>Выберите график</value>
+  </data>
+  <data name="materialLabelDel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.Hint" xml:space="preserve">
+    <value>Общее время</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchWrapChartAsync.Name" xml:space="preserve">
+    <value>materialSwitchWrapChartAsync</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryTotalTime.Name" xml:space="preserve">
+    <value>materialTextBoxBinaryTotalTime</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchTheme.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialTextBoxLinealTotalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevelop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialSwitchTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialCardHandle.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxHandleSeach.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImport.Name" xml:space="preserve">
+    <value>materialButtonImport</value>
+  </data>
+  <data name="linkLabelGitHub.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPageCharts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="materialButtonImport.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarDev.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryMaxTime.Name" xml:space="preserve">
+    <value>materialTextBoxBinaryMaxTime</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSaveXlsx.Name" xml:space="preserve">
+    <value>materialButtonSaveXlsx</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlDev.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxGenerated.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialButtonHandleSearch.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialCardAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandAdd.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
+  <data name="materialCardAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tabPageInfo.ImageKey" xml:space="preserve">
+    <value>information-outline.png</value>
+  </data>
+  <data name="materialButtonImport.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA0ElEQVRIS92VPQrCUBCE48WsbLQXLTyM
+        pa1X1BzBTlFniRuGZdj3U0k++Mhj2TcjpsiwSHZwhJ+CZ9jFHapAZVeJX87gkosNWmgtMJtK/FIGh7vV
+        JX4hg4PZqhJfzuDQaJHqxcB/F2zgYTrOrH5Pp7tgDR/wBU82ABZ+nY4zXQUe7jMvsfAYxvdSeNH+lif0
+        mfmmM6Nmkri4h7Ek7hhqJlGLR8i/XO2omSQu+gv1OcuomYQXs3CTUTNJ9WKg+l7LByd6g0Xsk9lTYuFb
+        uCiG4QsK46ylz5nkxwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="materialProgressBarStat.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.Text" xml:space="preserve">
+    <value> Генератор</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialCard2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryIterCount.Name" xml:space="preserve">
+    <value>materialTextBoxBinaryIterCount</value>
+  </data>
+  <data name="&gt;&gt;materialLabelKR.Name" xml:space="preserve">
+    <value>materialLabelKR</value>
+  </data>
+  <data name="materialCardHandleSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 48</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxUppers.Name" xml:space="preserve">
+    <value>materialCheckboxUppers</value>
+  </data>
+  <data name="materialButtonImportSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 36</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlMainWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialButtonLinealRefresh.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageCharts.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSubject.Parent" xml:space="preserve">
+    <value>tabPageInfo</value>
+  </data>
+  <data name="materialCheckboxGenerated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 259</value>
+  </data>
+  <data name="linkLabelGitHub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 294</value>
+  </data>
+  <data name="materialCheckBoxDop.Text" xml:space="preserve">
+    <value>Дополнить?</value>
+  </data>
+  <data name="&gt;&gt;materialButtonDel.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabelHandAdd.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlDev.Parent" xml:space="preserve">
+    <value>tabPageDevelop</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.Text" xml:space="preserve">
+    <value>Подсчитать</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarStat.Name" xml:space="preserve">
+    <value>materialProgressBarStat</value>
+  </data>
+  <data name="&gt;&gt;materialCardBinarySearch.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportClearPath.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCardImport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandAdd.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCardLinealSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageSpec.ImageKey" xml:space="preserve">
+    <value>human-handsdown.png</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchGenWordAsync.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialLabelDel.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="materialTextBoxHandleTime.Hint" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSaveDataType.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCardSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxHandleSeach.Parent" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
+  </data>
+  <data name="materialLabelHandAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="&gt;&gt;materialCardBinarySearch.Name" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.Items1" xml:space="preserve">
+    <value>Бинарный</value>
+  </data>
+  <data name="tabPageAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 349</value>
+  </data>
+  <data name="materialLabelImportError.Text" xml:space="preserve">
+    <value>Ошибка импорта</value>
+  </data>
+  <data name="chartLineal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialButtonGenerate.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.Hint" xml:space="preserve">
+    <value>Максимальное время</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxRefresh.Name" xml:space="preserve">
+    <value>materialCheckboxRefresh</value>
+  </data>
+  <data name="&gt;&gt;materialCard1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialSwitchUseAsync.Text" xml:space="preserve">
+    <value> Использовать</value>
+  </data>
+  <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 14</value>
+  </data>
+  <data name="materialButtonImport.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 48</value>
+  </data>
+  <data name="materialButtonSaveXlsx.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialButtonImportClearPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 36</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryIterCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSaveDataAsync.Name" xml:space="preserve">
+    <value>materialSwitchSaveDataAsync</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="materialListBoxData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 373</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSaveDataAsync.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialButtonLinealRefresh.Name" xml:space="preserve">
+    <value>materialButtonLinealRefresh</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealIterCount.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="&gt;&gt;tabPageCharts.Name" xml:space="preserve">
+    <value>tabPageCharts</value>
+  </data>
+  <data name="materialSliderCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 40</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxUppers.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchWrapChartAsync.Parent" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialComboBoxSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 6</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMinTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabelHandAdd.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckboxUppers.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialCheckboxBinaryTime.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="materialCheckboxLinealTime.Text" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="chartBinary.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialSwitchTheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialButtonClear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialComboBoxSelect.Items" xml:space="preserve">
+    <value>Линейный поиск</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialLabelInfo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="materialCardLinealSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 64, 3, 3</value>
+  </data>
+  <data name="materialProgressBarDev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 310</value>
+  </data>
+  <data name="materialCard3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="materialButtonImport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandleSearch.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageAuto.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="materialCard2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialSliderCount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>801, 450</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSaveDataAsync.Parent" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
+  <data name="&gt;&gt;imageListGit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxBinaryCount.Name" xml:space="preserve">
+    <value>materialCheckboxBinaryCount</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandleSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMinTime.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportSelect.Name" xml:space="preserve">
+    <value>materialButtonImportSelect</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxHandleSeach.Name" xml:space="preserve">
+    <value>materialComboBoxHandleSeach</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialLabelDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 40</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxLinealCount.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxBinaryTime.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDop.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 179</value>
+  </data>
+  <data name="&gt;&gt;materialButtonBinaryRefresh.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialProgressBarDev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 5</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxBinaryCount.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 190</value>
+  </data>
+  <data name="&gt;&gt;materialCardImport.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCardLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 262</value>
+  </data>
+  <data name="materialComboBoxSelectChart.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialCheckBoxDop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 260</value>
+  </data>
+  <data name="materialButtonDel.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="materialTextBoxHandAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCard1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 181</value>
+  </data>
+  <data name="materialSliderLenght.Text" xml:space="preserve">
+    <value>Длина           </value>
+  </data>
+  <data name="&gt;&gt;materialButtonGenerate.Name" xml:space="preserve">
+    <value>materialButtonGenerate</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxBinaryTime.Name" xml:space="preserve">
+    <value>materialCheckboxBinaryTime</value>
+  </data>
+  <data name="materialCardHandleSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 49</value>
+  </data>
+  <data name="&gt;&gt;materialCardImport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageAuto.Parent" xml:space="preserve">
+    <value>materialTabControlDev</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 281</value>
+  </data>
+  <data name="materialCheckboxBinaryCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;materialCardLinealSearch.Name" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="materialCheckboxUppers.Text" xml:space="preserve">
+    <value>Использовать верхний регистр</value>
+  </data>
+  <data name="tabPageAuto.Text" xml:space="preserve">
+    <value>Генератор слов</value>
+  </data>
+  <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 40</value>
+  </data>
+  <data name="&gt;&gt;materialButtonClear.Name" xml:space="preserve">
+    <value>materialButtonClear</value>
+  </data>
+  <data name="&gt;&gt;materialLabelDel.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
+  <data name="materialSliderLenght.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialSwitchUseAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialComboBoxSelectImportType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 119</value>
+  </data>
+  <data name="materialCardImport.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Items1" xml:space="preserve">
+    <value>Бинарный поиск</value>
+  </data>
+  <data name="&gt;&gt;tabPageAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialTextBoxBinaryTotalTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialLabelImportError.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="materialCardSave.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialTabControlMainWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="materialButtonHandAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialComboBoxSelectChartToXlsx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="materialLabelImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 14</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 48</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectImportType.Parent" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
+  <data name="materialSwitchWrapChartAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPageInfo.Name" xml:space="preserve">
+    <value>tabPageInfo</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.Name" xml:space="preserve">
+    <value>materialComboBoxSelectChartToXlsx</value>
+  </data>
+  <data name="&gt;&gt;materialCard2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckboxLinealTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 238</value>
+  </data>
+  <data name="materialButtonGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 36</value>
+  </data>
+  <data name="materialTextBoxLinealMaxTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 125</value>
+  </data>
+  <data name="materialTextBoxHandAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialButtonHandleSearch.Text" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBarDev.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialButtonImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Name" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="materialButtonHandAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialSwitchSaveDataAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialSwitchSaveDataAsync.Text" xml:space="preserve">
+    <value> Данные</value>
+  </data>
+  <data name="materialCardSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 181</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchWrapChartAsync.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleQuestion.Parent" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
+  </data>
+  <data name="materialCardBinarySearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="tabPageInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 483</value>
+  </data>
+  <data name="materialTextBoxHandleTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialButtonImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 258</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialButtonClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 36</value>
+  </data>
+  <data name="materialTextBoxHandAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 134</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSaveXlsx.Parent" xml:space="preserve">
+    <value>materialCard1</value>
+  </data>
+  <data name="materialSwitchTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 68</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="materialLabelSubject.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 256</value>
+  </data>
+  <data name="materialCardImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 332</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="materialCardAuto.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="materialCheckboxSymbols.Text" xml:space="preserve">
+    <value>Специальные символы</value>
+  </data>
+  <data name="materialCardLinealSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="&gt;&gt;materialCardLogo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialTextBoxHandleTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.Hint" xml:space="preserve">
+    <value>Минимальное время</value>
+  </data>
+  <data name="&gt;&gt;materialTabControlMainWindow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchUseAsync.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 48</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelectChart.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCard3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 226</value>
+  </data>
+  <data name="materialButtonImportClearPath.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialLabelHandAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 42</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxBinaryTotalTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageImport.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.Items3" xml:space="preserve">
+    <value>Бинарный поиск</value>
+  </data>
+  <data name="materialCardLinealSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>725, 330</value>
+  </data>
+  <data name="materialButtonLinealRefresh.Text" xml:space="preserve">
+    <value>Подсчитать</value>
+  </data>
+  <data name="&gt;&gt;tabPageImport.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialLabelImport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 36</value>
+  </data>
+  <data name="materialTextBoxDel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxGenerated.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="materialCard1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="materialCheckboxRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 6</value>
+  </data>
+  <data name="materialSliderLenght.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 40</value>
+  </data>
+  <data name="&gt;&gt;materialButtonLinealRefresh.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxSymbols.Name" xml:space="preserve">
+    <value>materialCheckboxSymbols</value>
+  </data>
+  <data name="materialButtonLinealRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialComboBoxSelect.Hint" xml:space="preserve">
+    <value>Выберите</value>
+  </data>
+  <data name="&gt;&gt;materialCard2.Parent" xml:space="preserve">
+    <value>tabPageSpec</value>
+  </data>
+  <data name="tabPageCharts.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxSymbols.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;linkLabelGitHub.Name" xml:space="preserve">
+    <value>linkLabelGitHub</value>
+  </data>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imageListMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru</value>
+  </metadata>
+  <metadata name="imageListGit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 17</value>
+  </metadata>
 </root>

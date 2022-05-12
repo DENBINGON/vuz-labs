@@ -34,6 +34,7 @@ namespace CourseworkASD
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -44,13 +45,12 @@ namespace CourseworkASD
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.materialTabControlMainWindow = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPageDevelop = new System.Windows.Forms.TabPage();
             this.materialTabControlDev = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPageAuto = new System.Windows.Forms.TabPage();
-            this.materialProgressBarDev = new MaterialSkin.Controls.MaterialProgressBar();
             this.materialCardAuto = new MaterialSkin.Controls.MaterialCard();
+            this.materialProgressBarDev = new MaterialSkin.Controls.MaterialProgressBar();
             this.materialCheckboxGenerated = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialButtonClear = new MaterialSkin.Controls.MaterialButton();
             this.materialCheckboxUppers = new MaterialSkin.Controls.MaterialCheckbox();
@@ -66,6 +66,16 @@ namespace CourseworkASD
             this.materialTextBoxHandAdd = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBoxDel = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialButtonHandAdd = new MaterialSkin.Controls.MaterialButton();
+            this.tabPageImport = new System.Windows.Forms.TabPage();
+            this.materialCardImport = new MaterialSkin.Controls.MaterialCard();
+            this.materialCheckBoxDop = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialButtonImportClearPath = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabelImportError = new MaterialSkin.Controls.MaterialLabel();
+            this.materialTextBoxImportSelectedFile = new MaterialSkin.Controls.MaterialTextBox2();
+            this.materialButtonImportSelect = new MaterialSkin.Controls.MaterialButton();
+            this.materialComboBoxSelectImportType = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialLabelImport = new MaterialSkin.Controls.MaterialLabel();
+            this.materialButtonImport = new MaterialSkin.Controls.MaterialButton();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialListBoxData = new MaterialSkin.Controls.MaterialListBox();
             this.tabPageCharts = new System.Windows.Forms.TabPage();
@@ -98,7 +108,17 @@ namespace CourseworkASD
             this.materialComboBoxSelect = new MaterialSkin.Controls.MaterialComboBox();
             this.materialCheckboxRefresh = new MaterialSkin.Controls.MaterialCheckbox();
             this.tabPageSpec = new System.Windows.Forms.TabPage();
+            this.materialCard3 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialSwitchUseAsync = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialSwitchWrapChartAsync = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialSwitchSaveDataAsync = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialSwitchGenWordAsync = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialCard2 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialSwitchTheme = new MaterialSkin.Controls.MaterialSwitch();
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
+            this.materialComboBoxSaveDataType = new MaterialSkin.Controls.MaterialComboBox();
             this.materialLabelSaveXlsx = new MaterialSkin.Controls.MaterialLabel();
             this.materialButtonSaveXlsx = new MaterialSkin.Controls.MaterialButton();
             this.materialComboBoxSelectChartToXlsx = new MaterialSkin.Controls.MaterialComboBox();
@@ -106,16 +126,15 @@ namespace CourseworkASD
             this.materialButtonSave = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialComboBoxSelectChart = new MaterialSkin.Controls.MaterialComboBox();
-            this.materialSwitchTheme = new MaterialSkin.Controls.MaterialSwitch();
             this.tabPageInfo = new System.Windows.Forms.TabPage();
+            this.materialCardLogo = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkLabelGitHub = new System.Windows.Forms.LinkLabel();
             this.imageListGit = new System.Windows.Forms.ImageList(this.components);
             this.materialLabelSubject = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabelKR = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabelInfo = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBoxInfoLogo = new System.Windows.Forms.PictureBox();
             this.imageListMenu = new System.Windows.Forms.ImageList(this.components);
-            this.imageListSelector = new System.Windows.Forms.ImageList(this.components);
             this.materialTabControlMainWindow.SuspendLayout();
             this.tabPageDevelop.SuspendLayout();
             this.materialTabControlDev.SuspendLayout();
@@ -123,6 +142,8 @@ namespace CourseworkASD
             this.materialCardAuto.SuspendLayout();
             this.tabPageHandle.SuspendLayout();
             this.materialCardHandle.SuspendLayout();
+            this.tabPageImport.SuspendLayout();
+            this.materialCardImport.SuspendLayout();
             this.tabPageCharts.SuspendLayout();
             this.materialCardHandleSearch.SuspendLayout();
             this.materialCardLinealSearch.SuspendLayout();
@@ -130,10 +151,13 @@ namespace CourseworkASD
             this.materialCardBinarySearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartBinary)).BeginInit();
             this.tabPageSpec.SuspendLayout();
+            this.materialCard3.SuspendLayout();
+            this.materialCard2.SuspendLayout();
             this.materialCard1.SuspendLayout();
             this.materialCardSave.SuspendLayout();
             this.tabPageInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfoLogo)).BeginInit();
+            this.materialCardLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabControlMainWindow
@@ -171,8 +195,9 @@ namespace CourseworkASD
             // 
             this.materialTabControlDev.Controls.Add(this.tabPageAuto);
             this.materialTabControlDev.Controls.Add(this.tabPageHandle);
+            this.materialTabControlDev.Controls.Add(this.tabPageImport);
             this.materialTabControlDev.Depth = 0;
-            this.materialTabControlDev.ItemSize = new System.Drawing.Size(240, 18);
+            this.materialTabControlDev.ItemSize = new System.Drawing.Size(120, 18);
             this.materialTabControlDev.Location = new System.Drawing.Point(66, 45);
             this.materialTabControlDev.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControlDev.Multiline = true;
@@ -184,9 +209,8 @@ namespace CourseworkASD
             // 
             // tabPageAuto
             // 
-            this.tabPageAuto.Controls.Add(this.materialProgressBarDev);
             this.tabPageAuto.Controls.Add(this.materialCardAuto);
-            this.tabPageAuto.ImageKey = "refresh-auto.png";
+            this.tabPageAuto.ImageKey = "(отсутствует)";
             this.tabPageAuto.Location = new System.Drawing.Point(4, 22);
             this.tabPageAuto.Name = "tabPageAuto";
             this.tabPageAuto.Padding = new System.Windows.Forms.Padding(3);
@@ -195,18 +219,10 @@ namespace CourseworkASD
             this.tabPageAuto.Text = "Генератор слов";
             this.tabPageAuto.UseVisualStyleBackColor = true;
             // 
-            // materialProgressBarDev
-            // 
-            this.materialProgressBarDev.Depth = 0;
-            this.materialProgressBarDev.Location = new System.Drawing.Point(19, 321);
-            this.materialProgressBarDev.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialProgressBarDev.Name = "materialProgressBarDev";
-            this.materialProgressBarDev.Size = new System.Drawing.Size(442, 5);
-            this.materialProgressBarDev.TabIndex = 8;
-            // 
             // materialCardAuto
             // 
             this.materialCardAuto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCardAuto.Controls.Add(this.materialProgressBarDev);
             this.materialCardAuto.Controls.Add(this.materialCheckboxGenerated);
             this.materialCardAuto.Controls.Add(this.materialButtonClear);
             this.materialCardAuto.Controls.Add(this.materialCheckboxUppers);
@@ -221,15 +237,24 @@ namespace CourseworkASD
             this.materialCardAuto.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCardAuto.Name = "materialCardAuto";
             this.materialCardAuto.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCardAuto.Size = new System.Drawing.Size(477, 310);
+            this.materialCardAuto.Size = new System.Drawing.Size(477, 332);
             this.materialCardAuto.TabIndex = 7;
+            // 
+            // materialProgressBarDev
+            // 
+            this.materialProgressBarDev.Depth = 0;
+            this.materialProgressBarDev.Location = new System.Drawing.Point(17, 310);
+            this.materialProgressBarDev.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialProgressBarDev.Name = "materialProgressBarDev";
+            this.materialProgressBarDev.Size = new System.Drawing.Size(442, 5);
+            this.materialProgressBarDev.TabIndex = 8;
             // 
             // materialCheckboxGenerated
             // 
             this.materialCheckboxGenerated.Checked = true;
             this.materialCheckboxGenerated.CheckState = System.Windows.Forms.CheckState.Checked;
             this.materialCheckboxGenerated.Depth = 0;
-            this.materialCheckboxGenerated.Location = new System.Drawing.Point(165, 259);
+            this.materialCheckboxGenerated.Location = new System.Drawing.Point(173, 259);
             this.materialCheckboxGenerated.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckboxGenerated.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialCheckboxGenerated.MouseState = MaterialSkin.MouseState.HOVER;
@@ -247,7 +272,7 @@ namespace CourseworkASD
             this.materialButtonClear.Depth = 0;
             this.materialButtonClear.HighEmphasis = true;
             this.materialButtonClear.Icon = null;
-            this.materialButtonClear.Location = new System.Drawing.Point(368, 259);
+            this.materialButtonClear.Location = new System.Drawing.Point(360, 259);
             this.materialButtonClear.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButtonClear.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButtonClear.Name = "materialButtonClear";
@@ -314,7 +339,7 @@ namespace CourseworkASD
             this.materialSliderCount.RangeMax = 10000;
             this.materialSliderCount.Size = new System.Drawing.Size(443, 40);
             this.materialSliderCount.TabIndex = 2;
-            this.materialSliderCount.Text = "Количество ";
+            this.materialSliderCount.Text = "Количество  ";
             this.materialSliderCount.Value = 1;
             this.materialSliderCount.ValueMax = 10000;
             this.materialSliderCount.ValueSuffix = "    ";
@@ -326,7 +351,7 @@ namespace CourseworkASD
             this.materialButtonGenerate.Depth = 0;
             this.materialButtonGenerate.HighEmphasis = true;
             this.materialButtonGenerate.Icon = null;
-            this.materialButtonGenerate.Location = new System.Drawing.Point(9, 259);
+            this.materialButtonGenerate.Location = new System.Drawing.Point(17, 259);
             this.materialButtonGenerate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButtonGenerate.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButtonGenerate.Name = "materialButtonGenerate";
@@ -342,7 +367,7 @@ namespace CourseworkASD
             // tabPageHandle
             // 
             this.tabPageHandle.Controls.Add(this.materialCardHandle);
-            this.tabPageHandle.ImageKey = "gesture-tap.png";
+            this.tabPageHandle.ImageKey = "(отсутствует)";
             this.tabPageHandle.Location = new System.Drawing.Point(4, 22);
             this.tabPageHandle.Name = "tabPageHandle";
             this.tabPageHandle.Size = new System.Drawing.Size(477, 349);
@@ -376,7 +401,7 @@ namespace CourseworkASD
             this.materialButtonDel.Depth = 0;
             this.materialButtonDel.HighEmphasis = true;
             this.materialButtonDel.Icon = null;
-            this.materialButtonDel.Location = new System.Drawing.Point(305, 232);
+            this.materialButtonDel.Location = new System.Drawing.Point(310, 232);
             this.materialButtonDel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButtonDel.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButtonDel.Name = "materialButtonDel";
@@ -493,18 +518,210 @@ namespace CourseworkASD
             this.materialButtonHandAdd.UseVisualStyleBackColor = true;
             this.materialButtonHandAdd.Click += new System.EventHandler(this.materialButtonHandAdd_Click);
             // 
+            // tabPageImport
+            // 
+            this.tabPageImport.Controls.Add(this.materialCardImport);
+            this.tabPageImport.Location = new System.Drawing.Point(4, 22);
+            this.tabPageImport.Name = "tabPageImport";
+            this.tabPageImport.Size = new System.Drawing.Size(477, 349);
+            this.tabPageImport.TabIndex = 2;
+            this.tabPageImport.Text = "Импорт";
+            this.tabPageImport.UseVisualStyleBackColor = true;
+            // 
+            // materialCardImport
+            // 
+            this.materialCardImport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCardImport.Controls.Add(this.materialCheckBoxDop);
+            this.materialCardImport.Controls.Add(this.materialButtonImportClearPath);
+            this.materialCardImport.Controls.Add(this.materialLabelImportError);
+            this.materialCardImport.Controls.Add(this.materialTextBoxImportSelectedFile);
+            this.materialCardImport.Controls.Add(this.materialButtonImportSelect);
+            this.materialCardImport.Controls.Add(this.materialComboBoxSelectImportType);
+            this.materialCardImport.Controls.Add(this.materialLabelImport);
+            this.materialCardImport.Controls.Add(this.materialButtonImport);
+            this.materialCardImport.Depth = 0;
+            this.materialCardImport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCardImport.Location = new System.Drawing.Point(3, 0);
+            this.materialCardImport.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCardImport.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCardImport.Name = "materialCardImport";
+            this.materialCardImport.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCardImport.Size = new System.Drawing.Size(477, 332);
+            this.materialCardImport.TabIndex = 0;
+            // 
+            // materialCheckBoxDop
+            // 
+            this.materialCheckBoxDop.Depth = 0;
+            this.materialCheckBoxDop.Location = new System.Drawing.Point(296, 260);
+            this.materialCheckBoxDop.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckBoxDop.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckBoxDop.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckBoxDop.Name = "materialCheckBoxDop";
+            this.materialCheckBoxDop.ReadOnly = false;
+            this.materialCheckBoxDop.Ripple = true;
+            this.materialCheckBoxDop.Size = new System.Drawing.Size(152, 31);
+            this.materialCheckBoxDop.TabIndex = 8;
+            this.materialCheckBoxDop.Text = "Дополнить?";
+            this.materialCheckBoxDop.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.materialCheckBoxDop.UseVisualStyleBackColor = true;
+            // 
+            // materialButtonImportClearPath
+            // 
+            this.materialButtonImportClearPath.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButtonImportClearPath.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButtonImportClearPath.Depth = 0;
+            this.materialButtonImportClearPath.HighEmphasis = true;
+            this.materialButtonImportClearPath.Icon = ((System.Drawing.Image)(resources.GetObject("materialButtonImportClearPath.Icon")));
+            this.materialButtonImportClearPath.ImageKey = "(отсутствует)";
+            this.materialButtonImportClearPath.Location = new System.Drawing.Point(157, 258);
+            this.materialButtonImportClearPath.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButtonImportClearPath.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButtonImportClearPath.Name = "materialButtonImportClearPath";
+            this.materialButtonImportClearPath.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButtonImportClearPath.Size = new System.Drawing.Size(127, 36);
+            this.materialButtonImportClearPath.TabIndex = 7;
+            this.materialButtonImportClearPath.Text = "Очистить";
+            this.materialButtonImportClearPath.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButtonImportClearPath.UseAccentColor = true;
+            this.materialButtonImportClearPath.UseVisualStyleBackColor = true;
+            this.materialButtonImportClearPath.Click += new System.EventHandler(this.materialButtonImportClearPath_Click);
+            // 
+            // materialLabelImportError
+            // 
+            this.materialLabelImportError.BackColor = System.Drawing.Color.White;
+            this.materialLabelImportError.Depth = 0;
+            this.materialLabelImportError.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabelImportError.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.materialLabelImportError.ForeColor = System.Drawing.Color.Black;
+            this.materialLabelImportError.Location = new System.Drawing.Point(5, 66);
+            this.materialLabelImportError.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabelImportError.Name = "materialLabelImportError";
+            this.materialLabelImportError.Size = new System.Drawing.Size(466, 36);
+            this.materialLabelImportError.TabIndex = 5;
+            this.materialLabelImportError.Text = "Ошибка импорта";
+            this.materialLabelImportError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.materialLabelImportError.Visible = false;
+            // 
+            // materialTextBoxImportSelectedFile
+            // 
+            this.materialTextBoxImportSelectedFile.AnimateReadOnly = true;
+            this.materialTextBoxImportSelectedFile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.materialTextBoxImportSelectedFile.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialTextBoxImportSelectedFile.Depth = 0;
+            this.materialTextBoxImportSelectedFile.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBoxImportSelectedFile.HideSelection = true;
+            this.materialTextBoxImportSelectedFile.Hint = "Выбранный файл";
+            this.materialTextBoxImportSelectedFile.LeadingIcon = null;
+            this.materialTextBoxImportSelectedFile.Location = new System.Drawing.Point(36, 190);
+            this.materialTextBoxImportSelectedFile.MaxLength = 32767;
+            this.materialTextBoxImportSelectedFile.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBoxImportSelectedFile.Name = "materialTextBoxImportSelectedFile";
+            this.materialTextBoxImportSelectedFile.PasswordChar = '\0';
+            this.materialTextBoxImportSelectedFile.PrefixSuffixText = null;
+            this.materialTextBoxImportSelectedFile.ReadOnly = true;
+            this.materialTextBoxImportSelectedFile.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialTextBoxImportSelectedFile.SelectedText = "";
+            this.materialTextBoxImportSelectedFile.SelectionLength = 0;
+            this.materialTextBoxImportSelectedFile.SelectionStart = 0;
+            this.materialTextBoxImportSelectedFile.ShortcutsEnabled = true;
+            this.materialTextBoxImportSelectedFile.Size = new System.Drawing.Size(406, 36);
+            this.materialTextBoxImportSelectedFile.TabIndex = 4;
+            this.materialTextBoxImportSelectedFile.TabStop = false;
+            this.materialTextBoxImportSelectedFile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.materialTextBoxImportSelectedFile.TrailingIcon = null;
+            this.materialTextBoxImportSelectedFile.UseSystemPasswordChar = false;
+            this.materialTextBoxImportSelectedFile.UseTallSize = false;
+            // 
+            // materialButtonImportSelect
+            // 
+            this.materialButtonImportSelect.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButtonImportSelect.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButtonImportSelect.Depth = 0;
+            this.materialButtonImportSelect.HighEmphasis = true;
+            this.materialButtonImportSelect.Icon = ((System.Drawing.Image)(resources.GetObject("materialButtonImportSelect.Icon")));
+            this.materialButtonImportSelect.Location = new System.Drawing.Point(349, 126);
+            this.materialButtonImportSelect.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButtonImportSelect.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButtonImportSelect.Name = "materialButtonImportSelect";
+            this.materialButtonImportSelect.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButtonImportSelect.Size = new System.Drawing.Size(118, 36);
+            this.materialButtonImportSelect.TabIndex = 3;
+            this.materialButtonImportSelect.Text = "Открыть";
+            this.materialButtonImportSelect.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButtonImportSelect.UseAccentColor = false;
+            this.materialButtonImportSelect.UseVisualStyleBackColor = true;
+            this.materialButtonImportSelect.Click += new System.EventHandler(this.materialButtonImportSelect_Click);
+            // 
+            // materialComboBoxSelectImportType
+            // 
+            this.materialComboBoxSelectImportType.AutoCompleteCustomSource.AddRange(new string[] { "Файл XLSX", "Текстовый файл" });
+            this.materialComboBoxSelectImportType.AutoResize = false;
+            this.materialComboBoxSelectImportType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBoxSelectImportType.Depth = 0;
+            this.materialComboBoxSelectImportType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBoxSelectImportType.DropDownHeight = 174;
+            this.materialComboBoxSelectImportType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBoxSelectImportType.DropDownWidth = 121;
+            this.materialComboBoxSelectImportType.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBoxSelectImportType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBoxSelectImportType.FormattingEnabled = true;
+            this.materialComboBoxSelectImportType.Hint = "Выберите тип файла";
+            this.materialComboBoxSelectImportType.IntegralHeight = false;
+            this.materialComboBoxSelectImportType.ItemHeight = 43;
+            this.materialComboBoxSelectImportType.Items.AddRange(new object[] { "XLSX", "Текстовый файл" });
+            this.materialComboBoxSelectImportType.Location = new System.Drawing.Point(36, 119);
+            this.materialComboBoxSelectImportType.MaxDropDownItems = 4;
+            this.materialComboBoxSelectImportType.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBoxSelectImportType.Name = "materialComboBoxSelectImportType";
+            this.materialComboBoxSelectImportType.Size = new System.Drawing.Size(215, 49);
+            this.materialComboBoxSelectImportType.StartIndex = 0;
+            this.materialComboBoxSelectImportType.TabIndex = 2;
+            // 
+            // materialLabelImport
+            // 
+            this.materialLabelImport.Depth = 0;
+            this.materialLabelImport.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabelImport.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabelImport.Location = new System.Drawing.Point(17, 14);
+            this.materialLabelImport.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabelImport.Name = "materialLabelImport";
+            this.materialLabelImport.Size = new System.Drawing.Size(443, 75);
+            this.materialLabelImport.TabIndex = 1;
+            this.materialLabelImport.Text = "Импорт";
+            this.materialLabelImport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // materialButtonImport
+            // 
+            this.materialButtonImport.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButtonImport.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButtonImport.Depth = 0;
+            this.materialButtonImport.HighEmphasis = true;
+            this.materialButtonImport.Icon = ((System.Drawing.Image)(resources.GetObject("materialButtonImport.Icon")));
+            this.materialButtonImport.ImageKey = "(отсутствует)";
+            this.materialButtonImport.Location = new System.Drawing.Point(37, 258);
+            this.materialButtonImport.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButtonImport.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButtonImport.Name = "materialButtonImport";
+            this.materialButtonImport.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButtonImport.Size = new System.Drawing.Size(112, 36);
+            this.materialButtonImport.TabIndex = 0;
+            this.materialButtonImport.Text = "Импорт";
+            this.materialButtonImport.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButtonImport.UseAccentColor = false;
+            this.materialButtonImport.UseVisualStyleBackColor = true;
+            this.materialButtonImport.Click += new System.EventHandler(this.materialButtonImport_Click);
+            // 
             // materialTabSelector1
             // 
             this.materialTabSelector1.BaseTabControl = this.materialTabControlDev;
             this.materialTabSelector1.CharacterCasing = MaterialSkin.Controls.MaterialTabSelector.CustomCharacterCasing.Normal;
             this.materialTabSelector1.Depth = 0;
             this.materialTabSelector1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTabSelector1.Location = new System.Drawing.Point(122, 0);
+            this.materialTabSelector1.Location = new System.Drawing.Point(45, 0);
             this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector1.Name = "materialTabSelector1";
-            this.materialTabSelector1.Size = new System.Drawing.Size(371, 45);
+            this.materialTabSelector1.Size = new System.Drawing.Size(495, 45);
             this.materialTabSelector1.TabIndex = 9;
-            this.materialTabSelector1.Text = "materialTabSelectorDev";
             // 
             // materialListBoxData
             // 
@@ -612,7 +829,7 @@ namespace CourseworkASD
             this.materialComboBoxHandleSeach.Hint = "Выберите";
             this.materialComboBoxHandleSeach.IntegralHeight = false;
             this.materialComboBoxHandleSeach.ItemHeight = 43;
-            this.materialComboBoxHandleSeach.Items.AddRange(new object[] { "Линейный поиск", "Бинарный поиск" });
+            this.materialComboBoxHandleSeach.Items.AddRange(new object[] { "Линейный поиск", "Бинарный поиск", "Линейный поиск", "Бинарный поиск" });
             this.materialComboBoxHandleSeach.Location = new System.Drawing.Point(12, 48);
             this.materialComboBoxHandleSeach.MaxDropDownItems = 4;
             this.materialComboBoxHandleSeach.MouseState = MaterialSkin.MouseState.OUT;
@@ -718,7 +935,7 @@ namespace CourseworkASD
             this.materialButtonHandleSearch.Depth = 0;
             this.materialButtonHandleSearch.HighEmphasis = true;
             this.materialButtonHandleSearch.Icon = null;
-            this.materialButtonHandleSearch.Location = new System.Drawing.Point(325, 228);
+            this.materialButtonHandleSearch.Location = new System.Drawing.Point(328, 228);
             this.materialButtonHandleSearch.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButtonHandleSearch.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButtonHandleSearch.Name = "materialButtonHandleSearch";
@@ -930,6 +1147,11 @@ namespace CourseworkASD
             // 
             // chartLineal
             // 
+            chartArea1.InnerPlotPosition.Auto = false;
+            chartArea1.InnerPlotPosition.Height = 90F;
+            chartArea1.InnerPlotPosition.Width = 95F;
+            chartArea1.InnerPlotPosition.X = 3F;
+            chartArea1.InnerPlotPosition.Y = 4F;
             chartArea1.Name = "ChartArea1";
             this.chartLineal.ChartAreas.Add(chartArea1);
             legend1.Alignment = System.Drawing.StringAlignment.Center;
@@ -939,24 +1161,24 @@ namespace CourseworkASD
             legend1.Name = "LegendLineal";
             legend1.Title = "Скорость линейного поиска";
             this.chartLineal.Legends.Add(legend1);
-            this.chartLineal.Location = new System.Drawing.Point(-13, 0);
+            this.chartLineal.Location = new System.Drawing.Point(5, 5);
             this.chartLineal.Name = "chartLineal";
             this.chartLineal.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            series1.BorderWidth = 3;
+            series1.BorderWidth = 2;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series1.Legend = "LegendLineal";
             series1.MarkerBorderWidth = 3;
             series1.MarkerSize = 1;
             series1.Name = "Время";
-            series2.BorderWidth = 3;
+            series2.BorderWidth = 2;
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series2.Legend = "LegendLineal";
             series2.Name = "Количество операций";
             this.chartLineal.Series.Add(series1);
             this.chartLineal.Series.Add(series2);
-            this.chartLineal.Size = new System.Drawing.Size(471, 352);
+            this.chartLineal.Size = new System.Drawing.Size(453, 347);
             this.chartLineal.TabIndex = 0;
             title1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
             title1.Name = "Скорость линейного поиска";
@@ -1162,6 +1384,11 @@ namespace CourseworkASD
             // 
             // chartBinary
             // 
+            chartArea2.InnerPlotPosition.Auto = false;
+            chartArea2.InnerPlotPosition.Height = 90F;
+            chartArea2.InnerPlotPosition.Width = 95F;
+            chartArea2.InnerPlotPosition.X = 3F;
+            chartArea2.InnerPlotPosition.Y = 4F;
             chartArea2.Name = "ChartArea1";
             this.chartBinary.ChartAreas.Add(chartArea2);
             legend2.Alignment = System.Drawing.StringAlignment.Center;
@@ -1171,7 +1398,7 @@ namespace CourseworkASD
             legend2.Name = "LegendLineal";
             legend2.Title = "Скорость бинарного поиска";
             this.chartBinary.Legends.Add(legend2);
-            this.chartBinary.Location = new System.Drawing.Point(-13, 0);
+            this.chartBinary.Location = new System.Drawing.Point(5, 5);
             this.chartBinary.Name = "chartBinary";
             this.chartBinary.RightToLeft = System.Windows.Forms.RightToLeft.No;
             series3.BorderWidth = 3;
@@ -1188,7 +1415,7 @@ namespace CourseworkASD
             series4.Name = "Количество операций";
             this.chartBinary.Series.Add(series3);
             this.chartBinary.Series.Add(series4);
-            this.chartBinary.Size = new System.Drawing.Size(471, 352);
+            this.chartBinary.Size = new System.Drawing.Size(453, 347);
             this.chartBinary.TabIndex = 0;
             title2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
             title2.Name = "Скорость линейного поиска";
@@ -1238,9 +1465,10 @@ namespace CourseworkASD
             // tabPageSpec
             // 
             this.tabPageSpec.BackColor = System.Drawing.Color.White;
+            this.tabPageSpec.Controls.Add(this.materialCard3);
+            this.tabPageSpec.Controls.Add(this.materialCard2);
             this.tabPageSpec.Controls.Add(this.materialCard1);
             this.tabPageSpec.Controls.Add(this.materialCardSave);
-            this.tabPageSpec.Controls.Add(this.materialSwitchTheme);
             this.tabPageSpec.ImageKey = "human-handsdown.png";
             this.tabPageSpec.Location = new System.Drawing.Point(4, 39);
             this.tabPageSpec.Name = "tabPageSpec";
@@ -1249,9 +1477,154 @@ namespace CourseworkASD
             this.tabPageSpec.TabIndex = 2;
             this.tabPageSpec.Text = "Возможности";
             // 
+            // materialCard3
+            // 
+            this.materialCard3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard3.Controls.Add(this.materialLabel2);
+            this.materialCard3.Controls.Add(this.materialSwitchUseAsync);
+            this.materialCard3.Controls.Add(this.materialSwitchWrapChartAsync);
+            this.materialCard3.Controls.Add(this.materialSwitchSaveDataAsync);
+            this.materialCard3.Controls.Add(this.materialSwitchGenWordAsync);
+            this.materialCard3.Depth = 0;
+            this.materialCard3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard3.Location = new System.Drawing.Point(69, 152);
+            this.materialCard3.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard3.Name = "materialCard3";
+            this.materialCard3.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard3.Size = new System.Drawing.Size(201, 226);
+            this.materialCard3.TabIndex = 9;
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.materialLabel2.Location = new System.Drawing.Point(5, 14);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(191, 40);
+            this.materialLabel2.TabIndex = 9;
+            this.materialLabel2.Text = "Асинхронность";
+            this.materialLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // materialSwitchUseAsync
+            // 
+            this.materialSwitchUseAsync.Checked = true;
+            this.materialSwitchUseAsync.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialSwitchUseAsync.Depth = 0;
+            this.materialSwitchUseAsync.Location = new System.Drawing.Point(5, 54);
+            this.materialSwitchUseAsync.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitchUseAsync.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitchUseAsync.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitchUseAsync.Name = "materialSwitchUseAsync";
+            this.materialSwitchUseAsync.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialSwitchUseAsync.Ripple = true;
+            this.materialSwitchUseAsync.Size = new System.Drawing.Size(191, 48);
+            this.materialSwitchUseAsync.TabIndex = 1;
+            this.materialSwitchUseAsync.Text = " Использовать";
+            this.materialSwitchUseAsync.UseVisualStyleBackColor = true;
+            this.materialSwitchUseAsync.CheckedChanged += new System.EventHandler(this.materialSwitchUseAsync_CheckedChanged);
+            // 
+            // materialSwitchWrapChartAsync
+            // 
+            this.materialSwitchWrapChartAsync.Checked = true;
+            this.materialSwitchWrapChartAsync.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialSwitchWrapChartAsync.Depth = 0;
+            this.materialSwitchWrapChartAsync.Location = new System.Drawing.Point(28, 139);
+            this.materialSwitchWrapChartAsync.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitchWrapChartAsync.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitchWrapChartAsync.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitchWrapChartAsync.Name = "materialSwitchWrapChartAsync";
+            this.materialSwitchWrapChartAsync.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialSwitchWrapChartAsync.Ripple = true;
+            this.materialSwitchWrapChartAsync.Size = new System.Drawing.Size(155, 38);
+            this.materialSwitchWrapChartAsync.TabIndex = 6;
+            this.materialSwitchWrapChartAsync.Text = " Графы";
+            this.materialSwitchWrapChartAsync.UseVisualStyleBackColor = true;
+            // 
+            // materialSwitchSaveDataAsync
+            // 
+            this.materialSwitchSaveDataAsync.Checked = true;
+            this.materialSwitchSaveDataAsync.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialSwitchSaveDataAsync.Depth = 0;
+            this.materialSwitchSaveDataAsync.Location = new System.Drawing.Point(28, 177);
+            this.materialSwitchSaveDataAsync.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitchSaveDataAsync.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitchSaveDataAsync.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitchSaveDataAsync.Name = "materialSwitchSaveDataAsync";
+            this.materialSwitchSaveDataAsync.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialSwitchSaveDataAsync.Ripple = true;
+            this.materialSwitchSaveDataAsync.Size = new System.Drawing.Size(155, 32);
+            this.materialSwitchSaveDataAsync.TabIndex = 8;
+            this.materialSwitchSaveDataAsync.Text = " Данные";
+            this.materialSwitchSaveDataAsync.UseVisualStyleBackColor = true;
+            // 
+            // materialSwitchGenWordAsync
+            // 
+            this.materialSwitchGenWordAsync.Checked = true;
+            this.materialSwitchGenWordAsync.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialSwitchGenWordAsync.Depth = 0;
+            this.materialSwitchGenWordAsync.Location = new System.Drawing.Point(28, 102);
+            this.materialSwitchGenWordAsync.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitchGenWordAsync.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitchGenWordAsync.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitchGenWordAsync.Name = "materialSwitchGenWordAsync";
+            this.materialSwitchGenWordAsync.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialSwitchGenWordAsync.Ripple = true;
+            this.materialSwitchGenWordAsync.Size = new System.Drawing.Size(155, 37);
+            this.materialSwitchGenWordAsync.TabIndex = 7;
+            this.materialSwitchGenWordAsync.Text = " Генератор";
+            this.materialSwitchGenWordAsync.UseVisualStyleBackColor = true;
+            // 
+            // materialCard2
+            // 
+            this.materialCard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard2.Controls.Add(this.materialLabel1);
+            this.materialCard2.Controls.Add(this.materialSwitchTheme);
+            this.materialCard2.Depth = 0;
+            this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard2.Location = new System.Drawing.Point(69, 9);
+            this.materialCard2.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard2.Name = "materialCard2";
+            this.materialCard2.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard2.Size = new System.Drawing.Size(201, 135);
+            this.materialCard2.TabIndex = 6;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.materialLabel1.Location = new System.Drawing.Point(5, 14);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(191, 40);
+            this.materialLabel1.TabIndex = 9;
+            this.materialLabel1.Text = "Настройки";
+            this.materialLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // materialSwitchTheme
+            // 
+            this.materialSwitchTheme.Depth = 0;
+            this.materialSwitchTheme.Location = new System.Drawing.Point(5, 68);
+            this.materialSwitchTheme.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitchTheme.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitchTheme.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitchTheme.Name = "materialSwitchTheme";
+            this.materialSwitchTheme.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.materialSwitchTheme.Ripple = true;
+            this.materialSwitchTheme.Size = new System.Drawing.Size(191, 47);
+            this.materialSwitchTheme.TabIndex = 1;
+            this.materialSwitchTheme.Text = " Тёмная тема";
+            this.materialSwitchTheme.UseVisualStyleBackColor = true;
+            this.materialSwitchTheme.CheckedChanged += new System.EventHandler(this.materialSwitchTheme_CheckedChanged);
+            // 
             // materialCard1
             // 
             this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard1.Controls.Add(this.materialComboBoxSaveDataType);
             this.materialCard1.Controls.Add(this.materialLabelSaveXlsx);
             this.materialCard1.Controls.Add(this.materialButtonSaveXlsx);
             this.materialCard1.Controls.Add(this.materialComboBoxSelectChartToXlsx);
@@ -1265,6 +1638,30 @@ namespace CourseworkASD
             this.materialCard1.Size = new System.Drawing.Size(510, 181);
             this.materialCard1.TabIndex = 5;
             // 
+            // materialComboBoxSaveDataType
+            // 
+            this.materialComboBoxSaveDataType.AutoResize = false;
+            this.materialComboBoxSaveDataType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBoxSaveDataType.Depth = 0;
+            this.materialComboBoxSaveDataType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBoxSaveDataType.DropDownHeight = 174;
+            this.materialComboBoxSaveDataType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBoxSaveDataType.DropDownWidth = 121;
+            this.materialComboBoxSaveDataType.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBoxSaveDataType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBoxSaveDataType.FormattingEnabled = true;
+            this.materialComboBoxSaveDataType.Hint = "Выберите тип файла";
+            this.materialComboBoxSaveDataType.IntegralHeight = false;
+            this.materialComboBoxSaveDataType.ItemHeight = 43;
+            this.materialComboBoxSaveDataType.Items.AddRange(new object[] { "XLSX", "Текст" });
+            this.materialComboBoxSaveDataType.Location = new System.Drawing.Point(59, 118);
+            this.materialComboBoxSaveDataType.MaxDropDownItems = 4;
+            this.materialComboBoxSaveDataType.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBoxSaveDataType.Name = "materialComboBoxSaveDataType";
+            this.materialComboBoxSaveDataType.Size = new System.Drawing.Size(196, 49);
+            this.materialComboBoxSaveDataType.StartIndex = 0;
+            this.materialComboBoxSaveDataType.TabIndex = 5;
+            // 
             // materialLabelSaveXlsx
             // 
             this.materialLabelSaveXlsx.Depth = 0;
@@ -1275,7 +1672,7 @@ namespace CourseworkASD
             this.materialLabelSaveXlsx.Name = "materialLabelSaveXlsx";
             this.materialLabelSaveXlsx.Size = new System.Drawing.Size(384, 40);
             this.materialLabelSaveXlsx.TabIndex = 3;
-            this.materialLabelSaveXlsx.Text = "Выгрузить данные в XLSX";
+            this.materialLabelSaveXlsx.Text = "Выгрузить данные";
             this.materialLabelSaveXlsx.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // materialButtonSaveXlsx
@@ -1314,7 +1711,7 @@ namespace CourseworkASD
             this.materialComboBoxSelectChartToXlsx.IntegralHeight = false;
             this.materialComboBoxSelectChartToXlsx.ItemHeight = 43;
             this.materialComboBoxSelectChartToXlsx.Items.AddRange(new object[] { "Линейный", "Бинарный" });
-            this.materialComboBoxSelectChartToXlsx.Location = new System.Drawing.Point(59, 78);
+            this.materialComboBoxSelectChartToXlsx.Location = new System.Drawing.Point(59, 63);
             this.materialComboBoxSelectChartToXlsx.MaxDropDownItems = 4;
             this.materialComboBoxSelectChartToXlsx.MouseState = MaterialSkin.MouseState.OUT;
             this.materialComboBoxSelectChartToXlsx.Name = "materialComboBoxSelectChartToXlsx";
@@ -1387,7 +1784,7 @@ namespace CourseworkASD
             this.materialComboBoxSelectChart.IntegralHeight = false;
             this.materialComboBoxSelectChart.ItemHeight = 43;
             this.materialComboBoxSelectChart.Items.AddRange(new object[] { "Линейный", "Бинарный" });
-            this.materialComboBoxSelectChart.Location = new System.Drawing.Point(59, 78);
+            this.materialComboBoxSelectChart.Location = new System.Drawing.Point(59, 86);
             this.materialComboBoxSelectChart.MaxDropDownItems = 4;
             this.materialComboBoxSelectChart.MouseState = MaterialSkin.MouseState.OUT;
             this.materialComboBoxSelectChart.Name = "materialComboBoxSelectChart";
@@ -1395,30 +1792,14 @@ namespace CourseworkASD
             this.materialComboBoxSelectChart.StartIndex = 0;
             this.materialComboBoxSelectChart.TabIndex = 2;
             // 
-            // materialSwitchTheme
-            // 
-            this.materialSwitchTheme.Depth = 0;
-            this.materialSwitchTheme.Location = new System.Drawing.Point(83, 17);
-            this.materialSwitchTheme.Margin = new System.Windows.Forms.Padding(0);
-            this.materialSwitchTheme.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialSwitchTheme.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSwitchTheme.Name = "materialSwitchTheme";
-            this.materialSwitchTheme.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.materialSwitchTheme.Ripple = true;
-            this.materialSwitchTheme.Size = new System.Drawing.Size(183, 47);
-            this.materialSwitchTheme.TabIndex = 1;
-            this.materialSwitchTheme.Text = " Тёмная тема";
-            this.materialSwitchTheme.UseVisualStyleBackColor = true;
-            this.materialSwitchTheme.CheckedChanged += new System.EventHandler(this.materialSwitchTheme_CheckedChanged);
-            // 
             // tabPageInfo
             // 
             this.tabPageInfo.BackColor = System.Drawing.Color.White;
+            this.tabPageInfo.Controls.Add(this.materialCardLogo);
             this.tabPageInfo.Controls.Add(this.linkLabelGitHub);
             this.tabPageInfo.Controls.Add(this.materialLabelSubject);
             this.tabPageInfo.Controls.Add(this.materialLabelKR);
             this.tabPageInfo.Controls.Add(this.materialLabelInfo);
-            this.tabPageInfo.Controls.Add(this.pictureBoxInfoLogo);
             this.tabPageInfo.ImageKey = "information-outline.png";
             this.tabPageInfo.Location = new System.Drawing.Point(4, 39);
             this.tabPageInfo.Name = "tabPageInfo";
@@ -1426,6 +1807,29 @@ namespace CourseworkASD
             this.tabPageInfo.Size = new System.Drawing.Size(944, 483);
             this.tabPageInfo.TabIndex = 3;
             this.tabPageInfo.Text = "Справка";
+            // 
+            // materialCardLogo
+            // 
+            this.materialCardLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCardLogo.Controls.Add(this.pictureBox1);
+            this.materialCardLogo.Depth = 0;
+            this.materialCardLogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCardLogo.Location = new System.Drawing.Point(129, 60);
+            this.materialCardLogo.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCardLogo.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCardLogo.Name = "materialCardLogo";
+            this.materialCardLogo.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCardLogo.Size = new System.Drawing.Size(262, 262);
+            this.materialCardLogo.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(256, 256);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // linkLabelGitHub
             // 
@@ -1435,7 +1839,7 @@ namespace CourseworkASD
             this.linkLabelGitHub.ImageKey = "github.png";
             this.linkLabelGitHub.ImageList = this.imageListGit;
             this.linkLabelGitHub.LinkColor = System.Drawing.Color.Black;
-            this.linkLabelGitHub.Location = new System.Drawing.Point(423, 296);
+            this.linkLabelGitHub.Location = new System.Drawing.Point(423, 294);
             this.linkLabelGitHub.Name = "linkLabelGitHub";
             this.linkLabelGitHub.Size = new System.Drawing.Size(336, 58);
             this.linkLabelGitHub.TabIndex = 4;
@@ -1460,7 +1864,7 @@ namespace CourseworkASD
             this.materialLabelSubject.Name = "materialLabelSubject";
             this.materialLabelSubject.Size = new System.Drawing.Size(336, 89);
             this.materialLabelSubject.TabIndex = 3;
-            this.materialLabelSubject.Text = "Исследование линейного, индексного и линейного поисков";
+            this.materialLabelSubject.Text = "Исследование линейного, индексного и бинарного поисков";
             this.materialLabelSubject.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // materialLabelKR
@@ -1486,20 +1890,8 @@ namespace CourseworkASD
             this.materialLabelInfo.Name = "materialLabelInfo";
             this.materialLabelInfo.Size = new System.Drawing.Size(336, 66);
             this.materialLabelInfo.TabIndex = 1;
-            this.materialLabelInfo.Text = "Выполнил: Соловьев Р,А,\r\nГруппа: 21-КБ-ПИ1\r\nКубГТУ 2022\r\n";
+            this.materialLabelInfo.Text = "Выполнил: Соловьев Р.А.\r\nГруппа: 21-КБ-ПИ1\r\nКубГТУ 2022";
             this.materialLabelInfo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // pictureBoxInfoLogo
-            // 
-            this.pictureBoxInfoLogo.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxInfoLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBoxInfoLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxInfoLogo.Image")));
-            this.pictureBoxInfoLogo.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxInfoLogo.InitialImage")));
-            this.pictureBoxInfoLogo.Location = new System.Drawing.Point(113, 54);
-            this.pictureBoxInfoLogo.Name = "pictureBoxInfoLogo";
-            this.pictureBoxInfoLogo.Size = new System.Drawing.Size(272, 260);
-            this.pictureBoxInfoLogo.TabIndex = 0;
-            this.pictureBoxInfoLogo.TabStop = false;
             // 
             // imageListMenu
             // 
@@ -1509,13 +1901,6 @@ namespace CourseworkASD
             this.imageListMenu.Images.SetKeyName(1, "human-handsdown.png");
             this.imageListMenu.Images.SetKeyName(2, "file-document-edit-outline.png");
             this.imageListMenu.Images.SetKeyName(3, "information-outline.png");
-            // 
-            // imageListSelector
-            // 
-            this.imageListSelector.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListSelector.ImageStream")));
-            this.imageListSelector.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageListSelector.Images.SetKeyName(0, "gesture-tap.png");
-            this.imageListSelector.Images.SetKeyName(1, "refresh-auto.png");
             // 
             // MainWindow
             // 
@@ -1535,7 +1920,7 @@ namespace CourseworkASD
             this.Name = "MainWindow";
             this.Padding = new System.Windows.Forms.Padding(0, 64, 3, 3);
             this.Sizable = false;
-            this.Text = "Исследование поисков";
+            this.Text = "Анализ поисков";
             this.materialTabControlMainWindow.ResumeLayout(false);
             this.tabPageDevelop.ResumeLayout(false);
             this.materialTabControlDev.ResumeLayout(false);
@@ -1545,6 +1930,9 @@ namespace CourseworkASD
             this.tabPageHandle.ResumeLayout(false);
             this.materialCardHandle.ResumeLayout(false);
             this.materialCardHandle.PerformLayout();
+            this.tabPageImport.ResumeLayout(false);
+            this.materialCardImport.ResumeLayout(false);
+            this.materialCardImport.PerformLayout();
             this.tabPageCharts.ResumeLayout(false);
             this.materialCardHandleSearch.ResumeLayout(false);
             this.materialCardHandleSearch.PerformLayout();
@@ -1555,16 +1943,56 @@ namespace CourseworkASD
             this.materialCardBinarySearch.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartBinary)).EndInit();
             this.tabPageSpec.ResumeLayout(false);
+            this.materialCard3.ResumeLayout(false);
+            this.materialCard2.ResumeLayout(false);
             this.materialCard1.ResumeLayout(false);
             this.materialCard1.PerformLayout();
             this.materialCardSave.ResumeLayout(false);
             this.materialCardSave.PerformLayout();
             this.tabPageInfo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfoLogo)).EndInit();
+            this.materialCardLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.ImageList imageListSelector;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckBoxDop;
+
+        private MaterialSkin.Controls.MaterialButton materialButtonImportClearPath;
+
+        private MaterialSkin.Controls.MaterialLabel materialLabelImportError;
+
+        private MaterialSkin.Controls.MaterialTextBox2 materialTextBoxImportSelectedFile;
+
+        private MaterialSkin.Controls.MaterialButton materialButtonImportSelect;
+
+        private MaterialSkin.Controls.MaterialComboBox materialComboBoxSelectImportType;
+
+        private MaterialSkin.Controls.MaterialLabel materialLabelImport;
+
+        private MaterialSkin.Controls.MaterialButton materialButtonImport;
+
+        private MaterialSkin.Controls.MaterialCard materialCardImport;
+
+        private System.Windows.Forms.TabPage tabPageImport;
+
+        private MaterialSkin.Controls.MaterialComboBox materialComboBoxSaveDataType;
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+
+        private MaterialSkin.Controls.MaterialCard materialCardLogo;
+
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitchUseAsync;
+
+        private MaterialSkin.Controls.MaterialCard materialCard3;
+
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+
+        private MaterialSkin.Controls.MaterialCard materialCard2;
+
+        private MaterialSkin.Controls.MaterialSwitch materialSwitchWrapChartAsync;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitchSaveDataAsync;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitchGenWordAsync;
 
         private MaterialSkin.Controls.MaterialCard materialCardHandle;
 
@@ -1667,8 +2095,6 @@ namespace CourseworkASD
         private MaterialSkin.Controls.MaterialLabel materialLabelKR;
 
         private MaterialSkin.Controls.MaterialLabel materialLabelInfo;
-
-        private System.Windows.Forms.PictureBox pictureBoxInfoLogo;
 
         private MaterialSkin.Controls.MaterialSwitch materialSwitchTheme;
         
