@@ -649,8 +649,7 @@ namespace CourseworkASD
         private void materialButtonImportSelect_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter =
-                new string[] { "*.xlsx|*.xlsx", "*.txt|*.txt" }[materialComboBoxSelectImportType.SelectedIndex];
+            ofd.Filter = @"*.xlsx|*.xlsx|*.txt|*.txt";
             ofd.Title = "Выберите файл...";
             if (ofd.ShowDialog() == DialogResult.OK)
                 materialTextBoxImportSelectedFile.Text = ofd.FileName;

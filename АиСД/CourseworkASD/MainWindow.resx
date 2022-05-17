@@ -136,15 +136,14 @@
   <data name="materialTextBoxBinaryMaxTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 48</value>
   </data>
-  <data name="materialCheckboxBinaryCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 37</value>
+  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
+    <value>materialLabel1</value>
   </data>
   <data name="&gt;&gt;materialListBoxData.Name" xml:space="preserve">
     <value>materialListBoxData</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="materialListBoxData.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;materialSwitchTheme.Parent" xml:space="preserve">
+    <value>materialCard2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="materialButtonLinealRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -153,9 +152,10 @@
   <data name="materialLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="materialComboBoxSelectChartToXlsx.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="materialButtonHandAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabPageAuto.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -195,8 +195,8 @@
   <data name="tabPageDevelop.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 39</value>
   </data>
-  <data name="materialCheckboxUppers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 37</value>
+  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.Name" xml:space="preserve">
+    <value>materialComboBoxSelectChartToXlsx</value>
   </data>
   <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -219,17 +219,20 @@
   <data name="materialComboBoxSelectChartToXlsx.Hint" xml:space="preserve">
     <value>Выберите график</value>
   </data>
-  <data name="&gt;&gt;materialTextBoxLinealTotalTime.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.Parent" xml:space="preserve">
+    <value>materialCard1</value>
   </data>
   <data name="materialLabelSubject.Text" xml:space="preserve">
     <value>Исследование линейного, индексного и бинарного поисков</value>
   </data>
+  <data name="&gt;&gt;materialSwitchWrapChartAsync.Parent" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
   <data name="&gt;&gt;materialTextBoxHandleFindWord.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="materialCheckboxLinealTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="materialComboBoxHandleSeach.Items2" xml:space="preserve">
+    <value>Линейный поиск</value>
   </data>
   <data name="&gt;&gt;materialTextBoxBinaryMaxTime.Parent" xml:space="preserve">
     <value>materialCardBinarySearch</value>
@@ -258,15 +261,15 @@
   <data name="&gt;&gt;materialTextBoxLinealMaxTime.Parent" xml:space="preserve">
     <value>materialCardLinealSearch</value>
   </data>
-  <data name="materialSwitchGenWordAsync.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 102</value>
+  <data name="materialCheckboxLinealTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 238</value>
   </data>
   <data name="imageListMenu.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC6
-        GQAAAk1TRnQBSQFMAgEBBAEAAaABBQGkAQUBIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
+        GQAAAk1TRnQBSQFMAgEBBAEAAaABBQH0AQUBIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABQAMAAQEBAAEgBgABgP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AlQADUwGqA1MBqgNTAaUDFAEc/wBhAAM1AVUDNQFV
@@ -414,8 +417,8 @@
   <data name="materialCheckboxUppers.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 198</value>
   </data>
-  <data name="materialTextBoxHandleFindWord.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 115</value>
+  <data name="&gt;&gt;materialSwitchWrapChartAsync.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="materialLabelImportError.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 36</value>
@@ -429,23 +432,20 @@
   <data name="materialTextBoxBinaryTotalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 48</value>
   </data>
-  <data name="materialButtonSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
   <data name="&gt;&gt;materialButtonClear.Parent" xml:space="preserve">
     <value>materialCardAuto</value>
   </data>
   <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 24px, style=Bold</value>
   </data>
-  <data name="materialCheckboxLinealCount.Text" xml:space="preserve">
-    <value>Количество</value>
-  </data>
   <data name="materialTextBoxLinealTotalTime.Hint" xml:space="preserve">
     <value>Общее время</value>
   </data>
-  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.Parent" xml:space="preserve">
-    <value>materialCard1</value>
+  <data name="materialComboBoxSelectImportType.Items" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="materialLabelSaveXlsx.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="tabPageSpec.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 39</value>
@@ -465,8 +465,8 @@
   <data name="materialSwitchWrapChartAsync.Text" xml:space="preserve">
     <value> Графы</value>
   </data>
-  <data name="&gt;&gt;materialTextBoxDel.Parent" xml:space="preserve">
-    <value>materialCardHandle</value>
+  <data name="materialButtonSaveXlsx.Text" xml:space="preserve">
+    <value>Сохранить</value>
   </data>
   <data name="&gt;&gt;materialSwitchUseAsync.Parent" xml:space="preserve">
     <value>materialCard3</value>
@@ -525,17 +525,17 @@
   <data name="materialTextBoxLinealMaxTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialButtonClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 259</value>
+  <data name="materialCardHandleSearch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;materialButtonSaveXlsx.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;materialCheckboxSymbols.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="materialButtonHandAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 36</value>
   </data>
-  <data name="materialTextBoxLinealIterCount.Hint" xml:space="preserve">
-    <value>Количество итераций</value>
+  <data name="materialComboBoxSelectImportType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;materialLabelImportError.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -552,17 +552,14 @@
   <data name="&gt;&gt;tabPageImport.Name" xml:space="preserve">
     <value>tabPageImport</value>
   </data>
-  <data name="materialComboBoxSaveDataType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 118</value>
-  </data>
   <data name="materialLabelInfo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;materialCard3.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCardBinarySearch.Parent" xml:space="preserve">
-    <value>tabPageCharts</value>
+  <data name="materialSwitchGenWordAsync.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 102</value>
   </data>
   <data name="&gt;&gt;materialTextBoxHandleFindWord.Parent" xml:space="preserve">
     <value>materialCardHandleSearch</value>
@@ -573,11 +570,21 @@
   <data name="&gt;&gt;materialSliderLenght.Parent" xml:space="preserve">
     <value>materialCardAuto</value>
   </data>
+  <data name="materialButtonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 36</value>
+  </data>
   <data name="&gt;&gt;materialCheckboxUppers.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="materialCheckBoxDop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="materialButtonSaveXlsx.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA6ElEQVRIS8WUSwoCMRBEZ6VXU9eC13Hn
+        55h+D+FCq6ErxOoQE8ZhHjyI1d3TkJEZ5mIDb/Dd6R42cYWlB7TYtITNPWzhC9rc0YIa+QKea5LmJfkg
+        zzVzdrCUf5E38FxTCbkG+W+eayoh1yA0dBLmNQgNnYR5DUKDs4Rn+HBPcAGVMK9BaHDs4azR0t+RtYQG
+        ocF5QtaoZQprCQ1Cg2PXwhq1b5bCWkKD0ODYnbNGD1BhLaFBaHDsJduSu2v3/9eX3EqY12DM55peYIIh
+        WcMxS+zhK5hgYTImXzD2zn9id273VhpucS6G4QNKfPLzzcNh8AAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="materialSliderLenght.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 86</value>
@@ -600,14 +607,11 @@
   <data name="tabPageHandle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="materialCard2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 135</value>
+  <data name="materialButtonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;materialCard2.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="materialSwitchWrapChartAsync.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 139</value>
   </data>
   <data name="materialLabelKR.Location" type="System.Drawing.Point, System.Drawing">
     <value>423, 43</value>
@@ -621,9 +625,6 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainWindow</value>
   </data>
-  <data name="materialLabelKR.Text" xml:space="preserve">
-    <value>Курсовая работа</value>
-  </data>
   <data name="materialButtonImportSelect.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
@@ -633,14 +634,20 @@
   <data name="materialTextBoxBinaryMinTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 48</value>
   </data>
-  <data name="materialComboBoxSelectImportType.ItemHeight" type="System.Int32, mscorlib">
-    <value>43</value>
+  <data name="materialCardLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 60</value>
   </data>
   <data name="materialCheckBoxDop.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 31</value>
   </data>
+  <data name="materialCheckboxLinealTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="materialCheckboxGenerated.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 29</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
   </data>
   <data name="materialCheckboxRefresh.Size" type="System.Drawing.Size, System.Drawing">
     <value>292, 35</value>
@@ -648,14 +655,27 @@
   <data name="materialTextBoxHandleFindWord.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="materialButtonBinaryRefresh.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
+  <data name="materialButtonDel.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABf0lEQVRIS92VWy4EQRSGOwwvhjeJNWAV
+        2IBb7EGIyzZYhphV2AQjCBYhvPDC/5X5M6W6qy+TeJk/+TJVdapOdZ9LTzH1mhcHYiAexccIxtcCG3sm
+        0p54Fd8NsGdHtNasuBR2cCdOxJpYGMGYNWzedyE42yg7/xSHYkbkhMMjwV5fUqtdYecbLLTUpvAl2XCR
+        LMecJ++qY8HZF1GZeCqCDcQ1juW6uBHLYfYrxqxhszgzFPjYZyEVZYeR5MXCkS/GMTi52GKdCdavwizR
+        k8C4GmZjxQ75jcfxWyHeCBt9UtK7wNgPs7/C0a3ADg9iRaRaFNjxVZIvYFOqthcsCexvYZbo30PkJJ+G
+        2VhdknwuWK9MssuUUpu0TO8FPirLNG402r+rKG/OPovsF5Y2ZxNtT/u31Zb4EpzdZqFOfLB8Ce0fhytV
+        T/Dkdt74sUM49CVATuhQ4k2PAGMS6pjbed3DlES4+HDZQQ5i3hiWnEgWFUHZ0Vw0IzBmjX+9OTG1Koof
+        BdKRTaLECOwAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="materialTextBoxHandleIterCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
-    <value>materialLabel2</value>
+  <data name="materialTextBoxLinealIterCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialTextBoxImportSelectedFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 36</value>
   </data>
   <data name="materialCheckboxGenerated.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -665,9 +685,6 @@
   </data>
   <data name="materialTextBoxLinealMinTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 48</value>
-  </data>
-  <data name="materialButtonBinaryRefresh.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="materialCheckboxBinaryTime.Text" xml:space="preserve">
     <value>Время</value>
@@ -683,9 +700,6 @@
   </data>
   <data name="materialButtonBinaryRefresh.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 36</value>
-  </data>
-  <data name="linkLabelGitHub.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 58</value>
   </data>
   <data name="materialCheckboxLinealTime.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -720,8 +734,8 @@
   <data name="materialTextBoxHandleTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 48</value>
   </data>
-  <data name="linkLabelGitHub.Text" xml:space="preserve">
-    <value>Исходный код приложения на GitHub</value>
+  <data name="&gt;&gt;imageListMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;materialLabelDel.Name" xml:space="preserve">
     <value>materialLabelDel</value>
@@ -753,14 +767,14 @@
   <data name="materialSwitchUseAsync.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 54</value>
   </data>
-  <data name="materialButtonImportSelect.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="materialTextBoxBinaryTotalTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
   </data>
   <data name="materialCardHandleSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>725, 330</value>
   </data>
   <data name="&gt;&gt;materialButtonImport.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;materialTextBoxBinaryIterCount.Parent" xml:space="preserve">
     <value>materialCardBinarySearch</value>
@@ -786,11 +800,18 @@
   <data name="&gt;&gt;materialSwitchGenWordAsync.Parent" xml:space="preserve">
     <value>materialCard3</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>materialCardLogo</value>
-  </data>
   <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="materialButtonLinealRefresh.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA70lEQVRIS+2VPw4BQRSHN3Q6x1BrlQr0
+        Kq3OAVQSh5BIHMEVNA6gpucg/D67TyaTGbsz6HzJl3lv8968nWT/FH9SmcibvGdK71hG+WRz8yqjWFEu
+        tf1NB8zlTrblRi4kJA0YyqlnV8JWUnepVnJw+4O4BSdpudmX0JJnyTVWcrC6KG5BT7Kha0eCneBYrVkn
+        eMdMrsrwuZLD1wbEyBqwlIMyrCVrAPm6DF/wAPhC0gDuHMkPVWwn2QeEpAEWu9pJ/KcLweqihArcjQ2r
+        cwU3DhIqIPcH+G84QtaAFGr7f/655mdBQaixifSO5J+mFMUDymCurcKFtBcAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="materialLabelDel.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 42</value>
@@ -798,8 +819,8 @@
   <data name="materialComboBoxSaveDataType.Hint" xml:space="preserve">
     <value>Выберите тип файла</value>
   </data>
-  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
-    <value>materialLabel1</value>
+  <data name="materialCard2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;materialButtonSaveXlsx.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -812,9 +833,6 @@
   </data>
   <data name="materialLabelKR.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDel.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;materialButtonDel.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -837,17 +855,23 @@
   <data name="materialCardBinarySearch.Location" type="System.Drawing.Point, System.Drawing">
     <value>69, 48</value>
   </data>
+  <data name="&gt;&gt;materialTextBoxHandAdd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="materialLabelDel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
   </data>
   <data name="materialButtonHandAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 232</value>
   </data>
+  <data name="materialSwitchWrapChartAsync.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="materialSwitchTheme.Text" xml:space="preserve">
     <value> Тёмная тема</value>
   </data>
-  <data name="materialSwitchGenWordAsync.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 37</value>
+  <data name="materialCardHandleSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
   </data>
   <data name="materialTextBoxBinaryIterCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -867,35 +891,35 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>96, 96</value>
   </data>
-  <data name="materialTextBoxHandAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="materialButtonHandAdd.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
-  </data>
-  <data name="materialCardLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
   </data>
   <data name="&gt;&gt;materialTextBoxImportSelectedFile.Parent" xml:space="preserve">
     <value>materialCardImport</value>
   </data>
-  <data name="materialSwitchWrapChartAsync.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;materialButtonImportSelect.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialButtonSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="materialComboBoxHandleSeach.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;materialLabelDel.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="materialTextBoxHandleIterCount.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="materialButtonImportSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="materialTabSelector1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 0</value>
+  <data name="&gt;&gt;materialLabelImport.Name" xml:space="preserve">
+    <value>materialLabelImport</value>
   </data>
   <data name="materialTextBoxLinealTotalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;materialButtonImportSelect.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="materialComboBoxSelectChartToXlsx.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="materialCardSave.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
@@ -918,8 +942,8 @@
   <data name="materialSwitchWrapChartAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="&gt;&gt;materialCardImport.Name" xml:space="preserve">
-    <value>materialCardImport</value>
+  <data name="materialComboBoxSelectChart.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
   </data>
   <data name="materialComboBoxSaveDataType.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>4</value>
@@ -930,8 +954,8 @@
   <data name="&gt;&gt;materialSliderLenght.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;materialCheckboxSymbols.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="materialButtonSaveXlsx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 36</value>
   </data>
   <data name="&gt;&gt;materialCheckBoxDop.Name" xml:space="preserve">
     <value>materialCheckBoxDop</value>
@@ -944,6 +968,9 @@
   </data>
   <data name="tabPageImport.Text" xml:space="preserve">
     <value>Импорт</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;materialTextBoxLinealTotalTime.Name" xml:space="preserve">
     <value>materialTextBoxLinealTotalTime</value>
@@ -960,11 +987,15 @@
   <data name="materialButtonClear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 6, 4, 6</value>
   </data>
+  <data name="materialButtonHandAdd.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANklEQVRIS2MYBaMAHfyHYpqBUQsIgqFj
+        AcwgUjHRAJtmYjDFgGoG4QKjFhAEQ9+CUTDkAAMDAEy7M82TJe2UAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="&gt;&gt;materialLabelImport.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="materialComboBoxSelectChart.ItemHeight" type="System.Int32, mscorlib">
-    <value>43</value>
   </data>
   <data name="materialCardAuto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
@@ -981,8 +1012,8 @@
   <data name="materialTextBoxBinaryMaxTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>463, 125</value>
   </data>
-  <data name="&gt;&gt;materialCardSave.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="linkLabelGitHub.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
   <data name="&gt;&gt;materialTextBoxImportSelectedFile.Name" xml:space="preserve">
     <value>materialTextBoxImportSelectedFile</value>
@@ -999,8 +1030,8 @@
   <data name="&gt;&gt;materialButtonBinaryRefresh.Name" xml:space="preserve">
     <value>materialButtonBinaryRefresh</value>
   </data>
-  <data name="materialCardHandleSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;materialCardHandleSearch.Name" xml:space="preserve">
     <value>materialCardHandleSearch</value>
@@ -1020,20 +1051,23 @@
   <data name="materialComboBoxSelectChartToXlsx.Items" xml:space="preserve">
     <value>Линейный</value>
   </data>
+  <data name="materialTextBoxHandleQuestion.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="materialLabelImportError.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 66</value>
   </data>
   <data name="materialTextBoxHandleFindWord.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="materialComboBoxSelectImportType.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
   <data name="&gt;&gt;tabPageCharts.Parent" xml:space="preserve">
     <value>materialTabControlMainWindow</value>
   </data>
-  <data name="materialComboBoxHandleSeach.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="materialLabelHandAdd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
+  <data name="materialCheckboxBinaryTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 37</value>
   </data>
   <data name="&gt;&gt;materialSliderLenght.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialSlider, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -1044,11 +1078,8 @@
   <data name="linkLabelGitHub.ImageKey" xml:space="preserve">
     <value>github.png</value>
   </data>
-  <data name="linkLabelGitHub.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="materialButtonBinaryRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+  <data name="&gt;&gt;materialButtonSaveXlsx.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="tabPageInfo.Text" xml:space="preserve">
     <value>Справка</value>
@@ -1059,11 +1090,11 @@
   <data name="materialTextBoxBinaryMinTime.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16px</value>
   </data>
+  <data name="materialComboBoxHandleSeach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 49</value>
+  </data>
   <data name="materialTabControlMainWindow.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 64</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabPageCharts.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1071,23 +1102,30 @@
   <data name="&gt;&gt;materialCardAuto.Parent" xml:space="preserve">
     <value>tabPageAuto</value>
   </data>
-  <data name="materialSwitchSaveDataAsync.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;materialCardLogo.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="materialCardBinarySearch.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="materialTextBoxLinealMaxTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 48</value>
+  <data name="materialTextBoxHandleIterCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="materialCard3.Location" type="System.Drawing.Point, System.Drawing">
     <value>69, 152</value>
   </data>
-  <data name="materialLabelSaveXlsx.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
   <data name="&gt;&gt;materialTextBoxHandleTime.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialButtonHandleSearch.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA5ElEQVRIS+2TTQ4BQRBGeyHcQoRDzMLP
+        zRxD3ICJO4kIjmDBhu+J2lGmujObiZe8dLp1d42q6vSnhLms5UXe5Flu5UwW0ZNr+XBcSfZlYZdf5VKO
+        Zf89MmfdgoRZSLu8YuEDrFuQKQsRyDkH+VIPfmff5jULQEE5SDo8JpJ9FD4E3cJBcu4xkOxjf4joP2B/
+        CPqcg01rQM1C8Ig42LSLeIxh6G8LwpeSDmrCyNwu38kseKEW5JtczniQI5kFj4g+P8m7pKDk3NLC5cVB
+        PIZyLwlylL86L4vuBWktAFDoVordaVJ6AmCqVJKyuZn7AAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="materialComboBoxSelectImportType.Size" type="System.Drawing.Size, System.Drawing">
     <value>215, 49</value>
@@ -1098,9 +1136,6 @@
   <data name="&gt;&gt;materialCardHandle.Name" xml:space="preserve">
     <value>materialCardHandle</value>
   </data>
-  <data name="materialCard3.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
   <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -1110,14 +1145,11 @@
   <data name="&gt;&gt;materialLabelKR.Parent" xml:space="preserve">
     <value>tabPageInfo</value>
   </data>
-  <data name="materialButtonSaveXlsx.Text" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
   <data name="chartLineal.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 5</value>
   </data>
-  <data name="materialTextBoxHandleQuestion.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;tabPageInfo.Parent" xml:space="preserve">
+    <value>materialTabControlMainWindow</value>
   </data>
   <data name="&gt;&gt;materialLabelHandAdd.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1146,20 +1178,23 @@
   <data name="materialButtonImportSelect.Text" xml:space="preserve">
     <value>Открыть</value>
   </data>
+  <data name="materialTabControlDev.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <data name="materialComboBoxSelectImportType.Hint" xml:space="preserve">
     <value>Выберите тип файла</value>
   </data>
   <data name="tabPageDevelop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="materialTextBoxBinaryMaxTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
   <data name="materialSwitchGenWordAsync.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="materialButtonImport.ImageKey" xml:space="preserve">
     <value>(отсутствует)</value>
-  </data>
-  <data name="materialCheckboxBinaryTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 37</value>
   </data>
   <data name="materialTabControlDev.Size" type="System.Drawing.Size, System.Drawing">
     <value>485, 375</value>
@@ -1170,17 +1205,14 @@
   <data name="materialButtonDel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
-  <data name="chartLineal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 347</value>
+  <data name="materialSwitchWrapChartAsync.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 139</value>
   </data>
   <data name="&gt;&gt;materialCardLogo.Name" xml:space="preserve">
     <value>materialCardLogo</value>
   </data>
-  <data name="&gt;&gt;materialCardImport.Parent" xml:space="preserve">
-    <value>tabPageImport</value>
-  </data>
-  <data name="&gt;&gt;materialComboBoxSelectChart.Name" xml:space="preserve">
-    <value>materialComboBoxSelectChart</value>
+  <data name="materialTextBoxImportSelectedFile.Hint" xml:space="preserve">
+    <value>Выбранный файл</value>
   </data>
   <data name="materialSwitchGenWordAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -1212,26 +1244,17 @@
   <data name="materialCheckboxLinealCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>567, 238</value>
   </data>
-  <data name="&gt;&gt;imageListMenu.Name" xml:space="preserve">
-    <value>imageListMenu</value>
-  </data>
   <data name="&gt;&gt;tabPageDevelop.Parent" xml:space="preserve">
     <value>materialTabControlMainWindow</value>
   </data>
-  <data name="materialTextBoxBinaryMinTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="materialCardLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;materialComboBoxSaveDataType.Parent" xml:space="preserve">
     <value>materialCard1</value>
   </data>
-  <data name="materialTextBoxImportSelectedFile.Hint" xml:space="preserve">
-    <value>Выбранный файл</value>
-  </data>
   <data name="materialCardHandle.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 0</value>
-  </data>
-  <data name="materialButtonSave.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
   </data>
   <data name="&gt;&gt;materialProgressBarStat.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1251,14 +1274,8 @@
   <data name="materialCardAuto.Size" type="System.Drawing.Size, System.Drawing">
     <value>477, 332</value>
   </data>
-  <data name="materialCardLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 60</value>
-  </data>
   <data name="materialTabSelector1.Size" type="System.Drawing.Size, System.Drawing">
     <value>495, 45</value>
-  </data>
-  <data name="materialComboBoxSelectChartToXlsx.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1281,9 +1298,6 @@
   <data name="&gt;&gt;chartBinary.Parent" xml:space="preserve">
     <value>materialCardBinarySearch</value>
   </data>
-  <data name="materialButtonSave.Text" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
   <data name="materialCardImport.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 0</value>
   </data>
@@ -1293,17 +1307,23 @@
   <data name="&gt;&gt;imageListGit.Name" xml:space="preserve">
     <value>imageListGit</value>
   </data>
+  <data name="materialLabelDel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
   <data name="materialComboBoxSelect.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 35</value>
   </data>
   <data name="&gt;&gt;materialCheckboxLinealTime.Parent" xml:space="preserve">
     <value>materialCardLinealSearch</value>
   </data>
-  <data name="materialCheckboxLinealCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="linkLabelGitHub.Text" xml:space="preserve">
+    <value>Исходный код приложения на GitHub</value>
   </data>
   <data name="&gt;&gt;materialLabelSubject.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="materialCheckboxUppers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 37</value>
   </data>
   <data name="materialTextBoxImportSelectedFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 16px</value>
@@ -1335,8 +1355,8 @@
   <data name="&gt;&gt;materialTextBoxLinealMaxTime.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="materialProgressBarStat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>633, 22</value>
+  <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 40</value>
   </data>
   <data name="materialTextBoxHandleTime.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16px</value>
@@ -1344,213 +1364,12 @@
   <data name="&gt;&gt;chartBinary.Name" xml:space="preserve">
     <value>chartBinary</value>
   </data>
-  <data name="&gt;&gt;materialComboBoxSelect.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;materialListBoxData.Parent" xml:space="preserve">
-    <value>tabPageDevelop</value>
-  </data>
-  <data name="&gt;&gt;materialCardAuto.Name" xml:space="preserve">
-    <value>materialCardAuto</value>
-  </data>
-  <data name="materialTextBoxLinealTotalTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>801, 450</value>
-  </data>
-  <data name="&gt;&gt;materialLabelImportError.Name" xml:space="preserve">
-    <value>materialLabelImportError</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
-    <value>materialCardSave</value>
-  </data>
-  <data name="&gt;&gt;materialCardLinealSearch.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="materialLabelInfo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 16px</value>
-  </data>
-  <data name="&gt;&gt;tabPageAuto.Name" xml:space="preserve">
-    <value>tabPageAuto</value>
-  </data>
-  <data name="materialSliderCount.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;materialLabelInfo.Parent" xml:space="preserve">
-    <value>tabPageInfo</value>
-  </data>
-  <data name="&gt;&gt;chartLineal.Parent" xml:space="preserve">
-    <value>materialCardLinealSearch</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchTheme.Parent" xml:space="preserve">
-    <value>materialCard2</value>
-  </data>
-  <data name="&gt;&gt;materialTabSelector1.Parent" xml:space="preserve">
-    <value>tabPageDevelop</value>
-  </data>
-  <data name="materialSwitchUseAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="materialTabControlDev.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 45</value>
-  </data>
-  <data name="materialComboBoxSelectChart.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14px, style=Bold</value>
-  </data>
-  <data name="materialButtonClear.Text" xml:space="preserve">
-    <value>Очистить</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxHandleFindWord.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="materialCheckboxBinaryTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxLinealMaxTime.Name" xml:space="preserve">
-    <value>materialTextBoxLinealMaxTime</value>
-  </data>
-  <data name="materialTextBoxBinaryIterCount.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="materialTextBoxHandleIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialLabelSaveXlsx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 40</value>
-  </data>
-  <data name="tabPageCharts.Text" xml:space="preserve">
-    <value>Статистика</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxHandAdd.Parent" xml:space="preserve">
-    <value>materialCardHandle</value>
-  </data>
-  <data name="&gt;&gt;materialCardHandle.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="tabPageHandle.Text" xml:space="preserve">
-    <value>Ручной ввод</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxLinealMinTime.Name" xml:space="preserve">
-    <value>materialTextBoxLinealMinTime</value>
-  </data>
-  <data name="materialTextBoxBinaryMinTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 71</value>
-  </data>
-  <data name="materialTextBoxBinaryMaxTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialCheckboxSymbols.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="materialSwitchGenWordAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;materialComboBoxSelect.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="materialTextBoxDel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 134</value>
-  </data>
-  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="materialCheckboxRefresh.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;materialCardSave.Name" xml:space="preserve">
-    <value>materialCardSave</value>
-  </data>
-  <data name="materialComboBoxSelectChart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 86</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="materialComboBoxSaveDataType.Items" xml:space="preserve">
-    <value>XLSX</value>
-  </data>
-  <data name="materialComboBoxHandleSeach.Items2" xml:space="preserve">
-    <value>Линейный поиск</value>
-  </data>
-  <data name="&gt;&gt;materialCardSave.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxBinaryMinTime.Parent" xml:space="preserve">
-    <value>materialCardBinarySearch</value>
-  </data>
-  <data name="materialListBoxData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>552, 6</value>
-  </data>
-  <data name="materialComboBoxSaveDataType.ItemHeight" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="materialTextBoxHandAdd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="linkLabelGitHub.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 10pt</value>
-  </data>
-  <data name="tabPageDevelop.Text" xml:space="preserve">
-    <value>Исходые данные</value>
-  </data>
-  <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 40</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxLinealTotalTime.Parent" xml:space="preserve">
-    <value>materialCardLinealSearch</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchUseAsync.Name" xml:space="preserve">
-    <value>materialSwitchUseAsync</value>
-  </data>
-  <data name="materialComboBoxSelectImportType.Items" xml:space="preserve">
-    <value>XLSX</value>
-  </data>
-  <data name="materialCard2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 9</value>
-  </data>
-  <data name="materialTextBoxHandleFindWord.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialButtonImportClearPath.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="materialCardHandleSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="tabPageSpec.Text" xml:space="preserve">
-    <value>Возможности</value>
-  </data>
-  <data name="materialLabelKR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 58</value>
-  </data>
-  <data name="materialButtonDel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 36</value>
-  </data>
-  <data name="materialComboBoxSelect.ItemHeight" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;materialLabelSaveXlsx.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="materialTextBoxLinealIterCount.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchSaveDataAsync.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButtonSave.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabelHandAdd.Name" xml:space="preserve">
-    <value>materialLabelHandAdd</value>
-  </data>
   <data name="imageListGit.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABC
-        CAAAAk1TRnQBSQFMAwEBAAGAAQUBhAEFASABAAEgAQAE/wEhARAI/wFCAU0BNgcAATYDAAEoAwABgAMA
+        CAAAAk1TRnQBSQFMAwEBAAGAAQUB1AEFASABAAEgAQAE/wEhARAI/wFCAU0BNgcAATYDAAEoAwABgAMA
         ASADAAEBAQABIAYAAUD/AP8A/wD/AP8A/wBAAAMYASEDSQGJAzUBVxgAAzUBWANJAYkDGAEh/wDJAAMP
         ARQDUAGeA0AB/QMAAf8DUwGqGAADUwGqAwAB/wNAAf0DUAGdAw4BE/8AvQADKgFBA1kB6wMAAf8DAAH/
         AwAB/wNTAaoYAANTAaoDAAH/AwAB/wMAAf8DVQHqAykBP/8AtQADNQFYA0EB+QMhAf4DTAGSAyQBNgMZ
@@ -1588,8 +1407,197 @@
         Af8B+AEfAf8MAAT/DAAE/yIACw==
 </value>
   </data>
+  <data name="&gt;&gt;materialComboBoxSelect.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialListBoxData.Parent" xml:space="preserve">
+    <value>tabPageDevelop</value>
+  </data>
+  <data name="&gt;&gt;materialCardAuto.Name" xml:space="preserve">
+    <value>materialCardAuto</value>
+  </data>
+  <data name="materialTextBoxLinealTotalTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>801, 450</value>
+  </data>
+  <data name="&gt;&gt;materialLabelImportError.Name" xml:space="preserve">
+    <value>materialLabelImportError</value>
+  </data>
+  <data name="materialLabelHandAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialLabelInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 16px</value>
+  </data>
+  <data name="&gt;&gt;tabPageAuto.Name" xml:space="preserve">
+    <value>tabPageAuto</value>
+  </data>
+  <data name="materialSliderCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialCard2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 135</value>
+  </data>
+  <data name="&gt;&gt;chartLineal.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Parent" xml:space="preserve">
+    <value>tabPageDevelop</value>
+  </data>
+  <data name="materialTabControlDev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 45</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="materialButtonClear.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="materialListBoxData.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="materialCheckboxBinaryTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMaxTime.Name" xml:space="preserve">
+    <value>materialTextBoxLinealMaxTime</value>
+  </data>
+  <data name="materialTextBoxBinaryIterCount.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialLabelSaveXlsx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 40</value>
+  </data>
+  <data name="tabPageCharts.Text" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;materialCardHandle.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxLinealMinTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPageHandle.Text" xml:space="preserve">
+    <value>Ручной ввод</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealMinTime.Name" xml:space="preserve">
+    <value>materialTextBoxLinealMinTime</value>
+  </data>
+  <data name="&gt;&gt;materialButtonImportClearPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialTextBoxBinaryMinTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 71</value>
+  </data>
+  <data name="materialTextBoxBinaryMaxTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckboxSymbols.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxSelect.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 134</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckboxRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialCardSave.Name" xml:space="preserve">
+    <value>materialCardSave</value>
+  </data>
+  <data name="materialComboBoxSelectChart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 86</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.Items" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="&gt;&gt;materialCardSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchUseAsync.Name" xml:space="preserve">
+    <value>materialSwitchUseAsync</value>
+  </data>
+  <data name="materialSwitchGenWordAsync.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 37</value>
+  </data>
+  <data name="materialComboBoxSaveDataType.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="materialTextBoxHandAdd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="linkLabelGitHub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="tabPageDevelop.Text" xml:space="preserve">
+    <value>Исходые данные</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealTotalTime.Parent" xml:space="preserve">
+    <value>materialCardLinealSearch</value>
+  </data>
+  <data name="materialLabelHandAdd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="materialTextBoxLinealIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialCard2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 9</value>
+  </data>
+  <data name="materialTextBoxHandleFindWord.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialButtonImportClearPath.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialCardHandleSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabPageSpec.Text" xml:space="preserve">
+    <value>Возможности</value>
+  </data>
+  <data name="materialButtonDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 36</value>
+  </data>
+  <data name="materialComboBoxSelect.ItemHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;materialLabelSaveXlsx.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialButtonImportSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 36</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSave.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabelHandAdd.Name" xml:space="preserve">
+    <value>materialLabelHandAdd</value>
+  </data>
+  <data name="materialLabelKR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 58</value>
+  </data>
   <data name="&gt;&gt;materialTextBoxImportSelectedFile.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 349</value>
   </data>
   <data name="&gt;&gt;materialCardAuto.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2048,14 +2056,11 @@
   <data name="&gt;&gt;materialCheckboxBinaryCount.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;materialTextBoxLinealIterCount.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="materialTextBoxHandAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="materialLabelDel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;materialLabelKR.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;materialButtonDel.Parent" xml:space="preserve">
     <value>materialCardHandle</value>
@@ -2066,8 +2071,8 @@
   <data name="&gt;&gt;materialTextBoxBinaryMinTime.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="materialTabSelector1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 14px</value>
+  <data name="linkLabelGitHub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 58</value>
   </data>
   <data name="materialComboBoxSelectChartToXlsx.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 63</value>
@@ -2096,8 +2101,11 @@
   <data name="materialCheckboxGenerated.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="materialComboBoxSelectImportType.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="materialTextBoxLinealIterCount.Hint" xml:space="preserve">
+    <value>Количество итераций</value>
+  </data>
+  <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 40</value>
   </data>
   <data name="&gt;&gt;materialTabControlDev.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2107,9 +2115,6 @@
   </data>
   <data name="materialLabelImport.Size" type="System.Drawing.Size, System.Drawing">
     <value>443, 75</value>
-  </data>
-  <data name="materialButtonSaveXlsx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 36</value>
   </data>
   <data name="materialTextBoxLinealIterCount.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2132,8 +2137,8 @@
   <data name="materialTextBoxDel.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 48</value>
   </data>
-  <data name="&gt;&gt;chartLineal.Name" xml:space="preserve">
-    <value>chartLineal</value>
+  <data name="materialLabelKR.Text" xml:space="preserve">
+    <value>Курсовая работа</value>
   </data>
   <data name="&gt;&gt;tabPageHandle.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2144,8 +2149,8 @@
   <data name="materialSwitchTheme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="materialTextBoxLinealMinTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>materialCardSave</value>
   </data>
   <data name="materialButtonGenerate.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2153,14 +2158,27 @@
   <data name="&gt;&gt;linkLabelGitHub.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="materialButtonSave.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA6ElEQVRIS8WUSwoCMRBEZ6VXU9eC13Hn
+        55h+D+FCq6ErxOoQE8ZhHjyI1d3TkJEZ5mIDb/Dd6R42cYWlB7TYtITNPWzhC9rc0YIa+QKea5LmJfkg
+        zzVzdrCUf5E38FxTCbkG+W+eayoh1yA0dBLmNQgNnYR5DUKDs4Rn+HBPcAGVMK9BaHDs4azR0t+RtYQG
+        ocF5QtaoZQprCQ1Cg2PXwhq1b5bCWkKD0ODYnbNGD1BhLaFBaHDsJduSu2v3/9eX3EqY12DM55peYIIh
+        WcMxS+zhK5hgYTImXzD2zn9id273VhpucS6G4QNKfPLzzcNh8AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;materialCardImport.Name" xml:space="preserve">
+    <value>materialCardImport</value>
+  </data>
   <data name="materialLabelImport.Text" xml:space="preserve">
     <value>Импорт</value>
   </data>
   <data name="tabPageCharts.Size" type="System.Drawing.Size, System.Drawing">
     <value>944, 483</value>
   </data>
-  <data name="materialLabelHandAdd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 34px, style=Bold</value>
+  <data name="&gt;&gt;materialComboBoxSaveDataType.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="materialButtonHandleSearch.Location" type="System.Drawing.Point, System.Drawing">
     <value>328, 228</value>
@@ -2168,8 +2186,8 @@
   <data name="materialLabelSaveXlsx.Text" xml:space="preserve">
     <value>Выгрузить данные</value>
   </data>
-  <data name="&gt;&gt;materialLabelImport.Name" xml:space="preserve">
-    <value>materialLabelImport</value>
+  <data name="materialButtonBinaryRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="materialCheckboxLinealCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 37</value>
@@ -2198,11 +2216,14 @@
   <data name="materialLabelInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 66</value>
   </data>
+  <data name="materialButtonClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 259</value>
+  </data>
   <data name="chartBinary.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="materialTextBoxImportSelectedFile.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="materialButtonBinaryRefresh.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
   </data>
   <data name="&gt;&gt;materialCheckboxGenerated.Name" xml:space="preserve">
     <value>materialCheckboxGenerated</value>
@@ -2213,9 +2234,6 @@
   <data name="&gt;&gt;tabPageSpec.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="materialTextBoxHandleIterCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="materialCheckBoxDop.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
@@ -2225,11 +2243,14 @@
   <data name="materialCardHandle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="&gt;&gt;materialCardSave.Parent" xml:space="preserve">
-    <value>tabPageSpec</value>
+  <data name="tabPageCharts.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="materialTextBoxLinealMaxTime.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialCheckboxSymbols.Parent" xml:space="preserve">
+    <value>materialCardAuto</value>
   </data>
   <data name="&gt;&gt;chartBinary.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
@@ -2248,9 +2269,6 @@
   </data>
   <data name="materialTextBoxHandleIterCount.Hint" xml:space="preserve">
     <value>Количество итераций</value>
-  </data>
-  <data name="materialComboBoxSelectChartToXlsx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 49</value>
   </data>
   <data name="materialTextBoxDel.Hint" xml:space="preserve">
     <value>Введите индекс</value>
@@ -2276,9 +2294,6 @@
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 14</value>
   </data>
-  <data name="&gt;&gt;tabPageSpec.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;materialCheckboxRefresh.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
@@ -2297,8 +2312,8 @@
   <data name="&gt;&gt;materialCheckboxBinaryTime.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="materialTextBoxDel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="materialComboBoxSelectChartToXlsx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 49</value>
   </data>
   <data name="materialCheckboxLinealTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 37</value>
@@ -2315,8 +2330,8 @@
   <data name="tabPageImport.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="&gt;&gt;materialTextBoxHandAdd.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;materialCardHandle.Parent" xml:space="preserve">
+    <value>tabPageHandle</value>
   </data>
   <data name="materialTextBoxHandleTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2333,11 +2348,14 @@
   <data name="materialProgressBarStat.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 5</value>
   </data>
+  <data name="&gt;&gt;materialTextBoxHandleIterCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="materialButtonDel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 6, 4, 6</value>
   </data>
-  <data name="materialTextBoxBinaryMaxTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="&gt;&gt;materialTextBoxHandAdd.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;materialLabel2.Parent" xml:space="preserve">
     <value>materialCard3</value>
@@ -2345,8 +2363,8 @@
   <data name="materialTextBoxBinaryIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialComboBoxHandleSeach.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 49</value>
+  <data name="materialTextBoxHandleFindWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 115</value>
   </data>
   <data name="materialComboBoxSelect.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14px, style=Bold</value>
@@ -2359,6 +2377,9 @@
   </data>
   <data name="&gt;&gt;materialComboBoxSaveDataType.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="materialCheckboxRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 6</value>
   </data>
   <data name="&gt;&gt;materialButtonGenerate.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2382,10 +2403,7 @@
     <value>4, 6, 4, 6</value>
   </data>
   <data name="&gt;&gt;materialLabelImport.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;tabPageInfo.Parent" xml:space="preserve">
-    <value>materialTabControlMainWindow</value>
+    <value>5</value>
   </data>
   <data name="materialComboBoxSelectImportType.IntegralHeight" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2393,11 +2411,8 @@
   <data name="&gt;&gt;materialButtonSaveXlsx.Parent" xml:space="preserve">
     <value>materialCard1</value>
   </data>
-  <data name="&gt;&gt;materialTabControlMainWindow.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialCheckboxRefresh.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="materialSwitchWrapChartAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="&gt;&gt;materialTextBoxBinaryMaxTime.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -2405,8 +2420,8 @@
   <data name="tabPageDevelop.ImageKey" xml:space="preserve">
     <value>file-document-edit-outline.png</value>
   </data>
-  <data name="&gt;&gt;materialCard3.Name" xml:space="preserve">
-    <value>materialCard3</value>
+  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
   </data>
   <data name="&gt;&gt;materialLabelSubject.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2437,12 +2452,6 @@
   </data>
   <data name="&gt;&gt;materialLabelImportError.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;materialCardHandle.Parent" xml:space="preserve">
-    <value>tabPageHandle</value>
-  </data>
-  <data name="materialCardHandleSearch.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;materialCheckboxLinealCount.Name" xml:space="preserve">
     <value>materialCheckboxLinealCount</value>
@@ -2537,11 +2546,11 @@
   <data name="materialCardLogo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 24px, style=Bold</value>
+  <data name="&gt;&gt;materialCardSave.Parent" xml:space="preserve">
+    <value>tabPageSpec</value>
   </data>
-  <data name="materialCard2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;tabPageSpec.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="materialLabelSaveXlsx.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 14</value>
@@ -2558,8 +2567,8 @@
   <data name="&gt;&gt;materialLabelImport.Parent" xml:space="preserve">
     <value>materialCardImport</value>
   </data>
-  <data name="&gt;&gt;materialCheckboxSymbols.Parent" xml:space="preserve">
-    <value>materialCardAuto</value>
+  <data name="&gt;&gt;materialTextBoxDel.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
   </data>
   <data name="&gt;&gt;materialButtonImportSelect.Parent" xml:space="preserve">
     <value>materialCardImport</value>
@@ -2582,11 +2591,11 @@
   <data name="materialComboBoxSelect.Items2" xml:space="preserve">
     <value>Единичный поиск</value>
   </data>
-  <data name="materialTabControlDev.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;materialComboBoxSelectChart.Name" xml:space="preserve">
+    <value>materialComboBoxSelectChart</value>
   </data>
-  <data name="&gt;&gt;materialButtonImportClearPath.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="materialCard3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="materialComboBoxSelect.Items1" xml:space="preserve">
     <value>Бинарный поиск</value>
@@ -2597,8 +2606,11 @@
   <data name="materialLabelSaveXlsx.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 24px, style=Bold</value>
   </data>
-  <data name="materialLabelSaveXlsx.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;materialCardImport.Parent" xml:space="preserve">
+    <value>tabPageImport</value>
+  </data>
+  <data name="&gt;&gt;materialComboBoxHandleSeach.Parent" xml:space="preserve">
+    <value>materialCardHandleSearch</value>
   </data>
   <data name="materialComboBoxSelectChart.IntegralHeight" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2606,20 +2618,23 @@
   <data name="materialTextBoxBinaryTotalTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialListBoxData.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
+  <data name="materialButtonSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
   </data>
   <data name="materialCheckboxSymbols.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 37</value>
   </data>
-  <data name="&gt;&gt;materialTextBoxHandleIterCount.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;materialCard3.Name" xml:space="preserve">
+    <value>materialCard3</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSaveDataAsync.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="materialTextBoxHandleQuestion.Hint" xml:space="preserve">
     <value>Найден?</value>
   </data>
-  <data name="materialTextBoxLinealIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>materialCardLogo</value>
   </data>
   <data name="tabPageCharts.ImageKey" xml:space="preserve">
     <value>chart-line.png</value>
@@ -2633,9 +2648,6 @@
   <data name="materialCardBinarySearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="&gt;&gt;materialLabelInfo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="materialProgressBarDev.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
@@ -2644,6 +2656,9 @@
   </data>
   <data name="materialTextBoxHandleQuestion.Location" type="System.Drawing.Point, System.Drawing">
     <value>302, 81</value>
+  </data>
+  <data name="materialListBoxData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
   </data>
   <data name="materialTextBoxHandleIterCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>475, 48</value>
@@ -2657,8 +2672,8 @@
   <data name="&gt;&gt;materialComboBoxSelectChart.Parent" xml:space="preserve">
     <value>materialCardSave</value>
   </data>
-  <data name="&gt;&gt;materialCard1.Parent" xml:space="preserve">
-    <value>tabPageSpec</value>
+  <data name="&gt;&gt;materialLabelKR.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;materialTextBoxHandleIterCount.Name" xml:space="preserve">
     <value>materialTextBoxHandleIterCount</value>
@@ -2696,9 +2711,6 @@
   <data name="tabPageHandle.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="materialTextBoxBinaryMinTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="materialTextBoxBinaryTotalTime.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
@@ -2708,9 +2720,6 @@
   <data name="materialButtonImportSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 6, 4, 6</value>
   </data>
-  <data name="&gt;&gt;materialLabelInfo.Name" xml:space="preserve">
-    <value>materialLabelInfo</value>
-  </data>
   <data name="materialButtonImportSelect.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -2719,14 +2728,11 @@
         ORU6UH+UaPgFyRGIfOMRhb93mhd+AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="&gt;&gt;imageListMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchWrapChartAsync.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="materialTextBoxBinaryTotalTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>464, 179</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxLinealTotalTime.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="materialTextBoxHandAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 48</value>
@@ -2743,11 +2749,14 @@
   <data name="&gt;&gt;materialTextBoxImportSelectedFile.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="chartLineal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
   <data name="&gt;&gt;materialButtonSave.Parent" xml:space="preserve">
     <value>materialCardSave</value>
   </data>
-  <data name="materialButtonSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 36</value>
+  <data name="&gt;&gt;imageListMenu.Name" xml:space="preserve">
+    <value>imageListMenu</value>
   </data>
   <data name="materialButtonClear.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -2758,17 +2767,17 @@
   <data name="materialLabelKR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
   </data>
-  <data name="materialComboBoxSelectChart.Hint" xml:space="preserve">
-    <value>Выберите график</value>
-  </data>
-  <data name="materialLabelDel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 34px, style=Bold</value>
+  <data name="&gt;&gt;materialTextBoxDel.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="materialTextBoxBinaryTotalTime.Hint" xml:space="preserve">
     <value>Общее время</value>
   </data>
   <data name="&gt;&gt;materialSwitchWrapChartAsync.Name" xml:space="preserve">
     <value>materialSwitchWrapChartAsync</value>
+  </data>
+  <data name="&gt;&gt;materialCardBinarySearch.Parent" xml:space="preserve">
+    <value>tabPageCharts</value>
   </data>
   <data name="&gt;&gt;materialTextBoxBinaryTotalTime.Name" xml:space="preserve">
     <value>materialTextBoxBinaryTotalTime</value>
@@ -2791,6 +2800,9 @@
   <data name="materialTextBoxBinaryMaxTime.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="materialTextBoxImportSelectedFile.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="materialSwitchTheme.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -2799,6 +2811,9 @@
   </data>
   <data name="&gt;&gt;materialComboBoxHandleSeach.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="materialTabSelector1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
   </data>
   <data name="&gt;&gt;materialButtonImport.Name" xml:space="preserve">
     <value>materialButtonImport</value>
@@ -2818,11 +2833,21 @@
   <data name="tabPageCharts.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 39</value>
   </data>
-  <data name="materialButtonImport.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
+  <data name="&gt;&gt;materialCardLinealSearch.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;materialProgressBarDev.Parent" xml:space="preserve">
     <value>materialCardAuto</value>
+  </data>
+  <data name="materialButtonBinaryRefresh.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA70lEQVRIS+2VPw4BQRSHN3Q6x1BrlQr0
+        Kq3OAVQSh5BIHMEVNA6gpucg/D67TyaTGbsz6HzJl3lv8968nWT/FH9SmcibvGdK71hG+WRz8yqjWFEu
+        tf1NB8zlTrblRi4kJA0YyqlnV8JWUnepVnJw+4O4BSdpudmX0JJnyTVWcrC6KG5BT7Kha0eCneBYrVkn
+        eMdMrsrwuZLD1wbEyBqwlIMyrCVrAPm6DF/wAPhC0gDuHMkPVWwn2QeEpAEWu9pJ/KcLweqihArcjQ2r
+        cwU3DhIqIPcH+G84QtaAFGr7f/655mdBQaixifSO5J+mFMUDymCurcKFtBcAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="&gt;&gt;materialTextBoxBinaryMaxTime.Name" xml:space="preserve">
     <value>materialTextBoxBinaryMaxTime</value>
@@ -2833,8 +2858,8 @@
   <data name="&gt;&gt;materialTabControlDev.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;materialCheckboxGenerated.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;materialCheckboxRefresh.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="materialButtonHandleSearch.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -2888,17 +2913,14 @@
   <data name="&gt;&gt;materialCheckboxUppers.Name" xml:space="preserve">
     <value>materialCheckboxUppers</value>
   </data>
-  <data name="materialButtonImportSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 36</value>
-  </data>
-  <data name="&gt;&gt;materialTabControlMainWindow.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;materialButtonLinealRefresh.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tabPageCharts.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;materialButtonHandAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;materialLabelSubject.Parent" xml:space="preserve">
     <value>tabPageInfo</value>
@@ -2924,11 +2946,17 @@
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="chartLineal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 347</value>
+  </data>
   <data name="materialButtonBinaryRefresh.Text" xml:space="preserve">
     <value>Подсчитать</value>
   </data>
   <data name="&gt;&gt;materialProgressBarStat.Name" xml:space="preserve">
     <value>materialProgressBarStat</value>
+  </data>
+  <data name="&gt;&gt;materialCard1.Parent" xml:space="preserve">
+    <value>tabPageSpec</value>
   </data>
   <data name="&gt;&gt;materialCardBinarySearch.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2942,8 +2970,8 @@
   <data name="materialCardImport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="&gt;&gt;materialTextBoxHandAdd.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="materialComboBoxSelectChart.Hint" xml:space="preserve">
+    <value>Выберите график</value>
   </data>
   <data name="materialCardLinealSearch.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2963,14 +2991,11 @@
   <data name="materialTextBoxLinealTotalTime.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16px</value>
   </data>
-  <data name="&gt;&gt;materialComboBoxSaveDataType.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
   <data name="materialCardSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="&gt;&gt;materialComboBoxHandleSeach.Parent" xml:space="preserve">
-    <value>materialCardHandleSearch</value>
+  <data name="materialSliderLenght.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 40</value>
   </data>
   <data name="materialLabelHandAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 40</value>
@@ -2981,14 +3006,17 @@
   <data name="materialComboBoxSelectChartToXlsx.Items1" xml:space="preserve">
     <value>Бинарный</value>
   </data>
-  <data name="tabPageAuto.Size" type="System.Drawing.Size, System.Drawing">
-    <value>477, 349</value>
+  <data name="materialTextBoxHandleIterCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialSwitchSaveDataAsync.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="materialLabelImportError.Text" xml:space="preserve">
     <value>Ошибка импорта</value>
   </data>
-  <data name="chartLineal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="materialLabelSaveXlsx.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;materialCheckboxLinealTime.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -3001,6 +3029,9 @@
   </data>
   <data name="materialTextBoxBinaryMaxTime.Hint" xml:space="preserve">
     <value>Максимальное время</value>
+  </data>
+  <data name="materialListBoxData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 6</value>
   </data>
   <data name="&gt;&gt;materialCheckboxRefresh.Name" xml:space="preserve">
     <value>materialCheckboxRefresh</value>
@@ -3038,6 +3069,9 @@
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
   </data>
+  <data name="&gt;&gt;materialTextBoxHandAdd.Parent" xml:space="preserve">
+    <value>materialCardHandle</value>
+  </data>
   <data name="materialListBoxData.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 373</value>
   </data>
@@ -3059,8 +3093,8 @@
   <data name="&gt;&gt;materialCheckboxUppers.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialSwitchWrapChartAsync.Parent" xml:space="preserve">
-    <value>materialCard3</value>
+  <data name="&gt;&gt;materialLabelInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="materialTextBoxLinealIterCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -3080,8 +3114,11 @@
   <data name="materialCheckboxBinaryTime.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="materialCheckboxLinealTime.Text" xml:space="preserve">
-    <value>Время</value>
+  <data name="&gt;&gt;materialTextBoxLinealIterCount.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxHandleFindWord.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="chartBinary.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -3107,8 +3144,13 @@
   <data name="materialTextBoxLinealMinTime.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 64, 3, 3</value>
+  <data name="materialButtonClear.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAXElEQVRIS+3OMQ6AMAxD0ZyEgdOU+88M
+        wEGKGViqqHEiBgZ/6Y2Na+qLFtihDw5YodR4jEXnPWb8K++HM+m8IzPp2IcaCNNAmAbCygMXvI8jJ6Tb
+        gBl5jjdQlcxuP8d3qGUY+Q4AAAAASUVORK5CYII=
+</value>
   </data>
   <data name="materialProgressBarDev.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 310</value>
@@ -3170,8 +3212,11 @@
   <data name="&gt;&gt;materialCheckboxBinaryTime.Parent" xml:space="preserve">
     <value>materialCardBinarySearch</value>
   </data>
-  <data name="&gt;&gt;materialCheckBoxDop.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;materialCheckboxGenerated.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialTextBoxHandleIterCount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="&gt;&gt;materialCheckBoxDop.Parent" xml:space="preserve">
     <value>materialCardImport</value>
@@ -3206,8 +3251,8 @@
   <data name="materialButtonDel.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
-  <data name="materialTextBoxHandAdd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
+  <data name="materialComboBoxSelectChartToXlsx.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="materialTextBoxBinaryTotalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3215,11 +3260,17 @@
   <data name="materialCard1.Size" type="System.Drawing.Size, System.Drawing">
     <value>510, 181</value>
   </data>
+  <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
+    <value>materialLabel2</value>
+  </data>
   <data name="materialSliderLenght.Text" xml:space="preserve">
     <value>Длина           </value>
   </data>
   <data name="&gt;&gt;materialButtonGenerate.Name" xml:space="preserve">
     <value>materialButtonGenerate</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 64, 3, 3</value>
   </data>
   <data name="&gt;&gt;materialCheckboxBinaryTime.Name" xml:space="preserve">
     <value>materialCheckboxBinaryTime</value>
@@ -3227,8 +3278,8 @@
   <data name="materialCardHandleSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="&gt;&gt;materialButtonHandAdd.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;materialLabelInfo.Parent" xml:space="preserve">
+    <value>tabPageInfo</value>
   </data>
   <data name="materialComboBoxSelectChart.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 49</value>
@@ -3254,14 +3305,20 @@
   <data name="&gt;&gt;materialCardLinealSearch.Name" xml:space="preserve">
     <value>materialCardLinealSearch</value>
   </data>
+  <data name="materialTextBoxHandAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
   <data name="materialCheckboxUppers.Text" xml:space="preserve">
     <value>Использовать верхний регистр</value>
   </data>
   <data name="tabPageAuto.Text" xml:space="preserve">
     <value>Генератор слов</value>
   </data>
-  <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 40</value>
+  <data name="materialTabSelector1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="&gt;&gt;materialLabelInfo.Name" xml:space="preserve">
+    <value>materialLabelInfo</value>
   </data>
   <data name="&gt;&gt;materialButtonClear.Name" xml:space="preserve">
     <value>materialButtonClear</value>
@@ -3284,20 +3341,33 @@
   <data name="materialTextBoxHandleFindWord.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16px</value>
   </data>
+  <data name="&gt;&gt;materialCheckBoxDop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="materialComboBoxHandleSeach.Items1" xml:space="preserve">
     <value>Бинарный поиск</value>
   </data>
   <data name="&gt;&gt;tabPageAuto.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="materialTextBoxBinaryTotalTime.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
+  <data name="&gt;&gt;materialTabControlMainWindow.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="materialLabelImportError.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
   <data name="materialCardSave.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="materialButtonGenerate.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA8UlEQVRIS9WVuwoCMRBF8w/iDwgW1iKC
+        WvqDFmpv7wt/TcVCce8lO7Csm8mETQoPHAjDMpNMHuv+iSVc+GEZLvDkh/mZwU/tlIEUtKUz2QG+4beW
+        RW5wDU2cYWjpWgFOLMoYytI5DjGH8h3bZWYPZWY7BhSSN3kIn1AKcMxYiKRjykTsrSQXGdOKRBnBDXzA
+        dnLxBVloAs10nYaYclpMx7FPAdNxFIq1qE2xTW4ygHcoybkqLfkKJr+mvFxSYMuAwhXyWUmi+FNBeP2P
+        fvhDlteUfQ31lnG2hUmbBTip5P3Q6PXDscKVhFqZheI//Q6cqwBb4XeS1//B/AAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="materialTabControlMainWindow.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3320,29 +3390,32 @@
   <data name="&gt;&gt;materialComboBoxSelectImportType.Parent" xml:space="preserve">
     <value>materialCardImport</value>
   </data>
-  <data name="materialSwitchWrapChartAsync.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="materialProgressBarStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 22</value>
   </data>
   <data name="&gt;&gt;tabPageInfo.Name" xml:space="preserve">
     <value>tabPageInfo</value>
   </data>
-  <data name="&gt;&gt;materialComboBoxSelectChartToXlsx.Name" xml:space="preserve">
-    <value>materialComboBoxSelectChartToXlsx</value>
+  <data name="&gt;&gt;materialTabControlMainWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;materialCard2.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="materialCheckboxLinealTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 238</value>
+  <data name="&gt;&gt;materialCardSave.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="materialButtonGenerate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 36</value>
+  <data name="materialComboBoxSaveDataType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 118</value>
   </data>
   <data name="materialTextBoxLinealMaxTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>463, 125</value>
   </data>
   <data name="materialTextBoxHandAdd.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="materialCheckboxLinealTime.Text" xml:space="preserve">
+    <value>Время</value>
   </data>
   <data name="materialButtonHandleSearch.Text" xml:space="preserve">
     <value>Найти</value>
@@ -3359,8 +3432,8 @@
   <data name="&gt;&gt;materialTabSelector1.Name" xml:space="preserve">
     <value>materialTabSelector1</value>
   </data>
-  <data name="materialButtonHandAdd.Text" xml:space="preserve">
-    <value>Добавить</value>
+  <data name="materialSwitchUseAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="materialComboBoxHandleSeach.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>4</value>
@@ -3368,11 +3441,17 @@
   <data name="materialSwitchSaveDataAsync.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
+  <data name="materialTextBoxLinealMaxTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 48</value>
+  </data>
   <data name="materialSwitchSaveDataAsync.Text" xml:space="preserve">
     <value> Данные</value>
   </data>
   <data name="materialCardSave.Size" type="System.Drawing.Size, System.Drawing">
     <value>510, 181</value>
+  </data>
+  <data name="materialCheckboxBinaryCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 37</value>
   </data>
   <data name="&gt;&gt;materialSwitchWrapChartAsync.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
@@ -3380,8 +3459,8 @@
   <data name="&gt;&gt;materialTextBoxHandleQuestion.Parent" xml:space="preserve">
     <value>materialCardHandleSearch</value>
   </data>
-  <data name="materialCardBinarySearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
+  <data name="materialCheckBoxDop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="tabPageInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>944, 483</value>
@@ -3407,11 +3486,11 @@
   <data name="materialSwitchTheme.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 68</value>
   </data>
+  <data name="materialCheckboxLinealCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="materialComboBoxSaveDataType.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14px, style=Bold</value>
-  </data>
-  <data name="materialLabelSubject.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 24px, style=Bold</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 256</value>
@@ -3537,9 +3616,6 @@
   <data name="materialCardLinealSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="&gt;&gt;materialCardLogo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="materialTextBoxHandleTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -3558,6 +3634,9 @@
   <data name="&gt;&gt;materialComboBoxSelectChart.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="materialCardBinarySearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
   <data name="materialCard3.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 226</value>
   </data>
@@ -3573,8 +3652,11 @@
   <data name="tabPageImport.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="materialComboBoxHandleSeach.Items3" xml:space="preserve">
-    <value>Бинарный поиск</value>
+  <data name="materialLabelSubject.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
+  </data>
+  <data name="materialButtonGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 36</value>
   </data>
   <data name="materialCardLinealSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>725, 330</value>
@@ -3588,8 +3670,8 @@
   <data name="materialLabelImport.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 34px, style=Bold</value>
   </data>
-  <data name="materialTextBoxImportSelectedFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 36</value>
+  <data name="&gt;&gt;materialTextBoxBinaryMinTime.Parent" xml:space="preserve">
+    <value>materialCardBinarySearch</value>
   </data>
   <data name="materialTextBoxDel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16px</value>
@@ -3600,11 +3682,14 @@
   <data name="materialCard1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
-  <data name="materialCheckboxRefresh.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 6</value>
+  <data name="materialCheckboxLinealCount.Text" xml:space="preserve">
+    <value>Количество</value>
   </data>
-  <data name="materialSliderLenght.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 40</value>
+  <data name="materialButtonImport.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;chartLineal.Name" xml:space="preserve">
+    <value>chartLineal</value>
   </data>
   <data name="&gt;&gt;materialButtonLinealRefresh.Parent" xml:space="preserve">
     <value>materialCardLinealSearch</value>
@@ -3621,8 +3706,11 @@
   <data name="&gt;&gt;materialCard2.Parent" xml:space="preserve">
     <value>tabPageSpec</value>
   </data>
-  <data name="tabPageCharts.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="materialComboBoxHandleSeach.Items3" xml:space="preserve">
+    <value>Бинарный поиск</value>
+  </data>
+  <data name="materialTextBoxDel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;materialCheckboxSymbols.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -3633,19 +3721,19 @@
   <data name="&gt;&gt;linkLabelGitHub.Name" xml:space="preserve">
     <value>linkLabelGitHub</value>
   </data>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="imageListGit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="imageListMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ru</value>
-  </metadata>
-  <metadata name="imageListGit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>145, 17</value>
   </metadata>
 </root>
